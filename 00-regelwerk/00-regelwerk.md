@@ -7,20 +7,14 @@
 - Klassen / Berufs-System 
 - Parrier-System
 - Pet-System / Reittier-System (nein kein Sex mit Tieren, Dani!)
-- Runen-System
 - Schadensarten
 - DnD Bücher + PDF Copy in Deutsch davon kaufen und Mechaniken übernehmen und anpassen
-reichweiten müssen definiert werden
-schadensarten; zustände
+* reichweiten müssen definiert werden
+* schadensarten; zustände
 
 
 Prio: 
-Technik
-Spezialisierungen (Fähigkeiten / Magie / Technik)
-Level System
-Rundenaktionen (angriff + trank) 
-Char-Bögen
-rettungswürfe
+
 
 ---
 
@@ -1689,3 +1683,617 @@ Das **Spezialisierungs-System** in Terranea folgt einer **dreistufigen Hierarchi
 | Sprengstoff         | Technik                     | Bomben, Granaten                |
 | Schiffbau           | Technik                     | Boote, Schiffe                  |
 | Konstruktion        | Technik                     | Gebäude, Brücken, Befestigungen |
+### **Überleben-Spezialisierungen**
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Fährtenlesen|Überleben|Spuren deuten|
+|Kräuterkunde|Überleben|Pflanzen identifizieren|
+|Nahrungssuche|Überleben|Essbare Ressourcen finden|
+|Orientierung|Überleben|Navigation ohne Karte|
+|Tierkunde|Überleben|Tiere verstehen, zähmen|
+
+### **Schleichen-Spezialisierungen**
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Verstecken|Schleichen|In Schatten/Deckung|
+|Leise Bewegung|Schleichen|Geräuschlos bewegen|
+|Schattentanz|Schleichen|Sylvaner-Technik|
+
+### **Diebeskunst-Spezialisierungen**
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Schlösser knacken|Diebeskunst|Mechanische Schlösser|
+|Taschendiebstahl|Diebeskunst|Unbemerkt stehlen|
+|Fallen entschärfen|Diebeskunst|Mechanische Fallen|
+
+---
+
+## Lernen von Fähigkeiten & Spezialisierungen
+
+### **Kosten & Methoden**
+
+#### **1. Fähigkeiten lernen**
+
+**Methoden:**
+
+- **Akademie/Schule**: 10-100 G + 1-10 Tage (je nach Fähigkeit)
+- **Privat-Lehrer**: 20-200 G + 1-14 Tage
+- **Durch Übung**: Kostenlos, aber langsam (siehe "Lernen durch Übung")
+
+**Beispiel-Kosten:**
+
+|**Fähigkeit**|**Akademie-Kosten**|**Lernzeit**|**Wo zu lernen**|
+|---|---|---|---|
+|Nahkampf|20 G|5 Tage|Kriegsakademie, Waffenmeister|
+|Fernkampf|20 G|5 Tage|Bogenschule, Jäger-Gilde|
+|Magie (Grundlagen)|100 G|10 Tage|Magierakademie|
+|Technik (Grundlagen)|50 G|7 Tage|Ingenieur-Gilde, Erfinder-Werkstatt|
+|Überleben|15 G|3 Tage|Waldläufer-Gilde, erfahrene Jäger|
+|Überzeugung|10 G|3 Tage|Händler-Gilde, Rhetoriker|
+|Diebeskunst|30 G|5 Tage|Diebes-Gilde (illegal!)|
+
+#### **2. Spezialisierungen lernen**
+
+**Voraussetzung:** Fähigkeit muss mindestens auf **Level 2** sein
+
+**Methoden:**
+
+- **Meister-Lehrer**: 50-500 G + 3-14 Tage (je nach Spezialisierung)
+- **Bücher/Schriftrollen**: 30-300 G + Selbststudium (3-10 Tage)
+- **Durch Übung**: Kostenlos, aber sehr langsam
+
+**Beispiel-Kosten:**
+
+|**Spezialisierung**|**Meister-Kosten**|**Lernzeit**|**Wo zu lernen**|
+|---|---|---|---|
+|Einhandschwert|50 G|5 Tage|Schwertmeister, Kriegsakademie|
+|Langbogen|60 G|7 Tage|Meister-Bogner, Jäger-Gilde|
+|Feuermagie|200 G|10 Tage|Feuermagier, Magierakademie|
+|Runenmagie|300 G|14 Tage|Runenmeister, sehr selten!|
+|Fallenbau|100 G|7 Tage|Ingenieur-Gilde, Militär-Architekten|
+|Schattentanz|250 G|10 Tage|Sylvaner-Clans (Mondschatten, Naturtänzer)|
+|Schlösser knacken|80 G|5 Tage|Diebes-Gilde (illegal!)|
+
+---
+
+### **Wo kann man lernen?**
+
+#### **Adventuria (Hauptstadt von Sunar):**
+
+**Akademie der Tapferkeit** (Abenteurer):
+
+- Nahkampf, Fernkampf, Verteidigung, Taktik
+- Kosten: 20-50 G pro Fähigkeit
+- Spezialisierungen: Alle Waffen-Spezialisierungen
+
+**Magierakademie**:
+
+- Magie (alle Schulen außer Shaper)
+- Kosten: 100-500 G pro Spezialisierung
+- Element-Magie, Evokation, Illusion, etc.
+
+**Händler-Akademie**:
+
+- Überzeugung, Täuschung, Handel, Etikette
+- Kosten: 10-30 G pro Fähigkeit
+
+**Ingenieur-Gilde**:
+
+- Technik, Handwerk
+- Kosten: 50-200 G pro Spezialisierung
+- Waffenbau, Fallenbau, Feinmechanik
+
+**Tempel (Lumina, Teronis, etc.)**:
+
+- Heilige Magie, Naturmagie
+- Kosten: Oft kostenlos für Gläubige, sonst 50-200 G
+- Meditation, Heilung, Schutzzauber
+
+**Untergrund (Schwarzmarkt)**:
+
+- Diebeskunst, Giftherstellung, verbotene Magie
+- Kosten: 50-300 G (+ Risiko!)
+- Schlösser knacken, Shaper-Magie (illegal!)
+
+#### **Andere Orte:**
+
+**Sylvaner-Wälder (Valoria, Elandor, Skyclaw)**:
+
+- Naturmagie, Überleben, Schattentanz
+- Kosten: Oft Gefälligkeiten statt Geld
+
+**Khazad-Festungen (Kyrion/Zornheim)**:
+
+- Schmiedekunst, Rüstungsbau, Bergbau
+- Kosten: 30-150 G
+
+**Tiermenschen-Clans (Skyclaw)**:
+
+- Überleben, Tierkunde, Naturmagie
+- Kosten: Oft durch Prüfungen/Quests
+
+---
+
+**Zusammenfassung:**  
+Das System bietet vollständige Item-Listen für Magie (Tränke, Schriftrollen, Bücher, Foki, verzauberte Gegenstände) und Technik (Bomben, Gadgets, Fahrzeuge). Das Spezialisierungs-System folgt der Hierarchie Attribut → Fähigkeit → Spezialisierung mit klaren Lernkosten und Orten zum Erlernen.
+
+# Level-System für Terranea
+
+---
+
+## Level-Progression
+
+### **Erfahrungs-System**
+
+Charaktere steigen durch **Erfahrungspunkte (EP)** auf, die durch:
+
+- Abgeschlossene Quests
+- Besiegte Gegner
+- Gelöste Rätsel
+- Gutes Rollenspiel
+- Erreichte Meilensteine
+
+vergeben werden.
+
+### **EP-Tabelle**
+
+|**Level**|**Benötigte EP (Gesamt)**|**EP für nächstes Level**|
+|---|---|---|
+|1|0|300|
+|2|300|600|
+|3|900|900|
+|4|1.800|1.200|
+|5|3.000|1.500|
+|6|4.500|2.000|
+|7|6.500|2.500|
+|8|9.000|3.000|
+|9|12.000|4.000|
+|10|16.000|5.000|
+
+**Hinweis:** Das Spiel ist für Level 1-10 ausgelegt, kann aber erweitert werden.
+
+---
+
+## Belohnungen pro Level
+
+### **Bei jedem Level-Aufstieg:**
+
+1. **+1W6 Lebenspunkte** (+ Stärke/2 + Konstitution/2)
+2. **+1W6 Mana-Punkte** (nur für Magier, + Intelligenz/2 + Weisheit/2)
+3. **Fähigkeiten-Punkte**:
+    - Level 2-4: **3 Punkte**
+    - Level 5-7: **4 Punkte**
+    - Level 8-10: **5 Punkte**
+4. **Neue Spezialisierung lernen** (1 kostenlos pro Level ab Level 3)
+5. **+1 auf ein Attribut** (ab Level 5, dann alle 2 Level)
+
+### **Fähigkeiten-Punkte ausgeben:**
+
+- **1 Punkt** = +1 auf eine bestehende Fähigkeit (max. = Attributwert)
+- **2 Punkte** = Neue Fähigkeit auf Level 1 lernen
+- **1 Punkt** = +1 auf eine Spezialisierung (max. 6)
+- **3 Punkte** = Neue Spezialisierung auf Level 1 lernen
+
+**Beispiel Level-Aufstieg (Level 2 → 3):**
+
+- Würfle 1W6 für LP (Ergebnis: 4) + Stärke 10/2 + Konsti 8/2 = +9 LP
+- Erhalte 3 Fähigkeiten-Punkte
+- Spieler entscheidet: +1 Nahkampf, +1 Fernkampf, +1 Ausweichen
+- Erhalte 1 kostenlose Spezialisierung: Lernt "Einhandschwert"
+
+---
+
+# Kampf-System & Aktionen
+
+---
+
+## Kampfrunden-Struktur
+
+### **Initiative**
+
+Zu Beginn des Kampfes würfeln alle Beteiligten Initiative:
+
+**Initiative**: 2W6 + (Geschicklichkeit / 2)
+
+Die Reihenfolge wird von höchster zu niedrigster Initiative abgehandelt.
+
+**Gleichstand**: Bei gleichem Wert entscheidet höhere Geschicklichkeit, dann Würfelwurf.
+
+---
+
+## Aktionen pro Runde
+
+Jeder Charakter hat **1 Runde** mit folgenden Aktionen:
+
+### **Standard-Aktion** (1 pro Runde):
+
+- **Angriff** (Nahkampf oder Fernkampf)
+- **Zauber wirken** (die meisten Zauber)
+- **Gegenstand benutzen** (Trank trinken, Schriftrolle lesen)
+- **Sprinten** (doppelte Bewegung statt normale)
+- **Volle Verteidigung** (+4 auf Verteidigungswert bis nächste Runde)
+
+### **Bewegungs-Aktion** (1 pro Runde):
+
+- **Bewegen** (bis zu 10m / 30 Fuß)
+- **Aufstehen** (wenn am Boden liegend)
+- **Waffe wechseln**
+- **Tür öffnen/schließen**
+- **Gegenstand aufheben**
+
+### **Freie Aktion** (beliebig viele, innerhalb des gesunden Menschenverstands):
+
+- **Sprechen** (kurze Sätze)
+- **Gegenstand fallen lassen**
+- **Waffe ziehen** (wenn bereits in Scheide/am Gürtel)
+
+### **Reaktion** (1 pro Runde, außerhalb der eigenen Runde):
+
+- **Gelegenheitsangriff** (Opportunity Attack)
+- **Parieren/Blocken** (mit Waffe/Schild)
+
+---
+
+## Detaillierte Kampf-Aktionen
+
+### **1. Angriff (Nahkampf)**
+
+**Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf + Spezialisierung
+
+**Gegen**: Verteidigungswert des Ziels
+
+**Verteidigungswert** = 10 + (Geschicklichkeit / 2) + Ausweichen + Rüstung
+
+**Bei Treffer**: Würfle Schaden mit Waffe
+
+**Schaden**: Waffenschaden + (Stärke / 2 bei Nahkampf)
+
+**Beispiel:**
+
+- Angreifer: 2W6 (Ergebnis: 8) + Stärke 10/2 (5) + Nahkampf 4 + Einhandschwert 2 = **19**
+- Verteidiger: Verteidigungswert 10 + Geschick 8/2 (4) + Ausweichen 2 + Lederrüstung 2 = **18**
+- **Treffer!** Würfle Schaden: Langschwert 1W6+3 (Ergebnis: 5) + Stärke 10/2 (5) = **13 Schaden**
+
+---
+
+### **2. Angriff (Fernkampf)**
+
+**Probe**: 2W6 + (Geschicklichkeit / 2) + Fernkampf + Spezialisierung
+
+**Gegen**: Verteidigungswert des Ziels
+
+**Modifikatoren:**
+
+- **Kurze Reichweite** (0-10m): Normal
+- **Mittlere Reichweite** (10-30m): Normal
+- **Weite Reichweite** (30-60m): -2 auf Angriff
+- **Extreme Reichweite** (60m+): -4 auf Angriff
+- **Deckung**: -2 (halbe Deckung) bis -4 (volle Deckung)
+- **Bewegtes Ziel**: -2
+
+**Schaden**: Waffenschaden + (Geschicklichkeit / 2)
+
+**Munition**: Wird bei jedem Schuss verbraucht (außer Wurfwaffen, die wiederverwendbar sind)
+
+---
+
+### **3. Zauber wirken**
+
+**Probe**: 2W6 + (Intelligenz oder Weisheit / 2) + Magie + Spezialisierung
+
+**Gegen**: Schwierigkeit des Zaubers (siehe Magie-System)
+
+**Mana-Kosten**: Werden verbraucht, auch bei Misserfolg (außer bei kritischem Patzer: halbe Kosten)
+
+**Gegner mit Rettungswurf:** Manche Zauber erlauben dem Ziel einen **Rettungswurf** (siehe unten).
+
+---
+
+### **4. Verteidigung**
+
+#### **Passive Verteidigung:**
+
+Wird automatisch gegen alle Angriffe verwendet:
+
+**Verteidigungswert** = 10 + (Geschicklichkeit / 2) + Ausweichen + Rüstung
+
+#### **Aktive Verteidigung (Reaktion):**
+
+**Parieren** (mit Waffe):
+
+- **Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf + Parieren-Spezialisierung
+- **Gegen**: Angriffswurf des Gegners
+- **Erfolg**: Angriff abgewehrt, kein Schaden
+- **Kostet**: Reaktion (1 pro Runde)
+
+**Blocken** (mit Schild):
+
+- **Probe**: 2W6 + (Stärke / 2) + Verteidigung + Schildkampf-Spezialisierung
+- **Gegen**: Angriffswurf des Gegners
+- **Erfolg**: Angriff abgewehrt, kein Schaden
+- **Kostet**: Reaktion (1 pro Runde)
+
+**Ausweichen** (ohne Waffe/Schild):
+
+- **Probe**: 2W6 + (Geschicklichkeit / 2) + Verteidigung + Ausweichen-Spezialisierung
+- **Gegen**: Angriffswurf des Gegners
+- **Erfolg**: Angriff komplett ausgewichen, kein Schaden
+- **Kostet**: Reaktion (1 pro Runde)
+
+---
+
+### **5. Trank trinken**
+
+**Kosten**: Standard-Aktion
+
+**Effekt**: Sofort (z.B. Heiltrank heilt sofort LP)
+
+**Hinweis**: Ein Trank kann **nicht** gleichzeitig mit einem Angriff in derselben Runde getrunken werden, außer mit speziellen Fähigkeiten.
+
+**Trank einem anderen geben**: Standard-Aktion + Bewegung (zum Verbündeten bewegen, dann Trank geben)
+
+---
+
+### **6. Bewegung**
+
+**Standard-Bewegung**: 10m (30 Fuß) pro Runde
+
+**Schwieriges Gelände**: Halbierte Bewegung (5m)
+
+**Sprinten** (Standard-Aktion): 20m (60 Fuß), aber **kein Angriff** in dieser Runde
+
+**Klettern/Schwimmen**: 5m pro Runde, erfordert Geschicklichkeits-Probe (Schwierigkeit 12-18)
+
+---
+
+### **7. Waffen wechseln**
+
+**Waffe ziehen** (vom Gürtel/Scheide): Freie Aktion
+
+**Waffe wegstecken**: Bewegungs-Aktion
+
+**Waffe fallen lassen**: Freie Aktion
+
+**Andere Waffe aufheben**: Bewegungs-Aktion
+
+**Waffe tauschen** (wegstecken + neue ziehen): Bewegungs-Aktion
+
+---
+
+## Waffen-Eigenschaften & Vor-/Nachteile
+
+### **Einhandwaffen**
+
+**Vorteile:**
+
+- Kann mit **Schild** kombiniert werden (+2 bis +3 Rüstung)
+- Kann **Zweiwaffenkampf** nutzen (siehe unten)
+- Schneller zu ziehen
+- Freie Hand für andere Aktionen (Trank, Zauber, Klettern)
+
+**Nachteile:**
+
+- Geringerer Schaden als Zweihandwaffen
+
+**Beispiele:** Langschwert (1W6+3), Streitaxt (1W6+4), Rapier (1W6+2)
+
+---
+
+### **Zweihandwaffen**
+
+**Vorteile:**
+
+- **+2 Schaden** zusätzlich
+- Höherer Basis-Schaden (2W6+4 statt 1W6+3)
+- **Reichweite** (manche Zweihandwaffen wie Speere/Hellebarden)
+
+**Nachteile:**
+
+- **Kein Schild** möglich
+- **Langsamer** (Initiative -2 in erster Kampfrunde)
+- Braucht **beide Hände** (keine Tränke/Zauber ohne Waffe wegzulegen)
+- **Schwieriger in engen Räumen** (-2 auf Angriff in Korridoren/kleinen Räumen)
+
+**Beispiele:** Zweihandschwert (2W6+4), Großaxt (2W6+5), Kriegshammer 2H (2W6+4)
+
+---
+
+### **Stangenwaffen**
+
+**Vorteile:**
+
+- **Reichweite** (kann Gegner auf 2-3m Distanz angreifen)
+- **Gelegenheitsangriff** wenn Gegner sich nähert (bevor er angreifen kann)
+- **+2 gegen Kavallerie**
+
+**Nachteile:**
+
+- **Unhandlich in Nahkampf** (-4 auf Angriff wenn Gegner direkt vor einem steht)
+- **Langsam** (Initiative -2)
+- Braucht **beide Hände**
+
+**Beispiele:** Speer (1W6+2), Hellebarde (2W6+3), Pike (2W6+2)
+
+---
+
+### **Fernkampfwaffen - Bögen**
+
+**Vorteile:**
+
+- **Schnelles Nachladen** (kein Nachteil, kann jede Runde schießen)
+- **Hohe Reichweite** (30-60m effektiv)
+- **Leise** (perfekt für Hinterhalte)
+
+**Nachteile:**
+
+- **Braucht beide Hände**
+- **Ineffektiv im Nahkampf** (-4 auf Angriff wenn Gegner in 3m Nähe)
+- **Munition** erforderlich (Pfeile)
+- **Wetter**: Bei Regen/Sturm -2 auf Angriff
+
+**Beispiele:** Langbogen (1W6+4), Kurzbogen (1W6+2)
+
+---
+
+### **Fernkampfwaffen - Armbrüste**
+
+**Vorteile:**
+
+- **Hoher Schaden** (durchschlagender als Bögen)
+- **Präzise** (+2 auf Angriff bei gezieltem Schuss)
+- **Durchdringt Rüstung** (ignoriert 2 Punkte Rüstung)
+
+**Nachteile:**
+
+- **Langsames Nachladen**:
+    - **Leichte Armbrust**: 1 Runde nachladen (kann schießen, dann 1 Runde Pause)
+    - **Schwere Armbrust**: 2 Runden nachladen (schießen, dann 2 Runden Pause)
+- **Braucht beide Hände**
+- **Ineffektiv im Nahkampf** (-4 auf Angriff wenn Gegner in 3m Nähe)
+- **Schwer** (Bewegung -2m wenn schwere Armbrust)
+
+**Beispiele:** Leichte Armbrust (1W6+3), Schwere Armbrust (2W6+2)
+
+---
+
+### **Zweiwaffenkampf**
+
+**Voraussetzung**: Zwei Einhandwaffen, Spezialisierung "Zweiwaffenkampf"
+
+**Vorteile:**
+
+- **Zusätzlicher Angriff** mit zweiter Waffe (als Bonus-Aktion)
+- **+1 Verteidigung** (Parieren mit beiden Waffen)
+
+**Nachteile:**
+
+- **-2 auf beide Angriffe** (außer mit Spezialisierung "Zweiwaffenkampf" Level 4+)
+- **Kein Schild**
+- **Braucht hohe Geschicklichkeit** (min. 10)
+
+**Mechanik:**
+
+- **Haupthand-Angriff**: Normal (Standard-Aktion)
+- **Nebenhand-Angriff**: 2W6 + (Geschicklichkeit / 2) + Nahkampf + Spezialisierung - 2
+- **Nebenhand-Schaden**: Waffenschaden **ohne** Stärke-Bonus
+
+---
+
+## Gelegenheitsangriffe (Opportunity Attacks)
+
+**Auslöser:**
+
+- Gegner **bewegt sich aus Nahkampf-Reichweite** (3m) heraus
+- Gegner **wendet den Rücken zu** (um zu fliehen)
+- Gegner **nutzt Fernkampf** im Nahkampf
+
+**Mechanik:**
+
+- **Freier Angriff** (Reaktion, 1 pro Runde)
+- **Normale Angriffsprobe**
+- **Bei Treffer**: Voller Schaden
+
+**Vermeiden:**
+
+- **"Vorsichtiger Rückzug"**: Bewegungs-Aktion + keine Standard-Aktion (kann nicht angreifen)
+- **Ausweichen-Probe** (Schwierigkeit 14): Bei Erfolg kein Gelegenheitsangriff
+
+---
+
+## Besondere Kampf-Aktionen
+
+### **Gezielter Angriff**
+
+**Kosten**: Standard-Aktion
+
+**Effekt**: -2 auf Angriffswurf, aber **+1W6 Schaden** bei Treffer
+
+---
+
+### **Entwaffnen**
+
+**Kosten**: Standard-Aktion
+
+**Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf
+
+**Gegen**: Gegner würfelt 2W6 + (Stärke / 2) + Nahkampf
+
+**Erfolg**: Gegner lässt Waffe fallen (3m entfernt)
+
+---
+
+### **Zu Boden werfen**
+
+**Kosten**: Standard-Aktion
+
+**Probe**: 2W6 + (Stärke / 2) + Waffenloser Kampf
+
+**Gegen**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Verteidigung
+
+**Erfolg**: Gegner liegt am Boden (Aufstehen kostet Bewegungs-Aktion, -2 auf Angriffe vom Boden)
+
+---
+
+### **Volle Verteidigung**
+
+**Kosten**: Standard-Aktion (kein Angriff möglich)
+
+**Effekt**: +4 auf Verteidigungswert bis zur nächsten Runde
+
+---
+
+### **Unterstützung**
+
+**Kosten**: Standard-Aktion
+
+**Effekt**: Verbündeter erhält +2 auf seinen nächsten Angriff oder Verteidigung
+
+**Probe**: 2W6 + (Intelligenz / 2) + Taktik (Schwierigkeit 12)
+
+---
+
+## Rettungswürfe
+
+Rettungswürfe werden verwendet, um **schädlichen Effekten** zu widerstehen (Gifte, Zauber, Fallen, etc.).
+
+### **Drei Arten von Rettungswürfen:**
+
+#### **1. Robustheit** (Körperliche Widerstandskraft)
+
+**Gegen**: Gifte, Krankheiten, Erschöpfung, körperliche Zauber
+
+**Probe**: 2W6 + (Konstitution / 2) + Bonus (falls vorhanden)
+
+**Beispiel:** Giftiger Pfeil: Rettungswurf gegen Schwierigkeit 14. Bei Misserfolg 1W6 Giftschaden pro Runde für 3 Runden.
+
+---
+
+#### **2. Reflexe** (Schnelle Reaktion)
+
+**Gegen**: Explosionen, Fallen, Flächenzauber, Stürze
+
+**Probe**: 2W6 + (Geschicklichkeit / 2) + Bonus (falls vorhanden)
+
+**Beispiel:** Feuerball-Zauber: Rettungswurf gegen Schwierigkeit 16. Bei Erfolg halber Schaden, bei Misserfolg voller Schaden.
+
+---
+
+#### **3. Willenskraft** (Geistige Widerstandskraft)
+
+**Gegen**: Gedankenkontrolle, Illusionen, Furcht, mentale Zauber
+
+**Probe**: 2W6 + (Weisheit / 2) + Bonus (falls vorhanden)
+
+**Beispiel:** Furcht-Zauber: Rettungswurf gegen Schwierigkeit 16. Bei Misserfolg: Geflohen für 1W6 Runden.
+
+---
+
+### **Erfolg bei Rettungswürfen:**
+
+- **Erfolg**: Effekt vollständig abgewehrt oder halbiert (je nach Effekt)
+- **Misserfolg**: Voller Effekt tritt ein
+- **Kritischer Erfolg** (12 auf Würfel): Kein Effekt + Bonus (z.B. Immun für 1 Runde)
+- **Kritischer Patzer** (2 auf Würfel): Doppelter Effekt
