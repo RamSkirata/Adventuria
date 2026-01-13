@@ -8,6 +8,179 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f44e339de34e2378",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Adventuria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Adventuria.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Adventuria\"}",
+                  "eState": "{\"scroll\":0.06956522015557773}"
+                },
+                {
+                  "title": "Ram-von-Adventuria",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/Ram-von-Adventuria.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Ram-von-Adventuria\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Alexandria von Adventuria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Alexandria von Adventuria\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":22},\"to\":{\"line\":0,\"ch\":22}},\"scroll\":0}"
+                },
+                {
+                  "title": "SRD_CC_v5.1_DE",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/SRD_CC_v5.1_DE.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"SRD_CC_v5.1_DE\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "RiseTiamatSupplementv0.2_Printer",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/RiseTiamatSupplementv0.2_Printer.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"RiseTiamatSupplementv0.2_Printer\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Player's Handbook-2014",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/Player's Handbook-2014.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Player's Handbook-2014\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Midgard - Bestiarium",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/Midgard - Bestiarium.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Midgard - Bestiarium\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "HoardDragonQueen_Supplement_PF_v0.3",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/HoardDragonQueen_Supplement_PF_v0.3.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"HoardDragonQueen_Supplement_PF_v0.3\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "EE_PlayersCompanion",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/EE_PlayersCompanion.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"EE_PlayersCompanion\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "DMBasicRulesv.0.3_PrinterFriendly",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/DMBasicRulesv.0.3_PrinterFriendly.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"DMBasicRulesv.0.3_PrinterFriendly\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "DDALPG_EEv1Print",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/DDALPG_EEv1Print.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"DDALPG_EEv1Print\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "CHAR-BOGEN",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"z_PDF/CHAR-BOGEN.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"CHAR-BOGEN\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "LINKSAMMLUNG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"0-EXTERNELINK/LINKSAMMLUNG.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LINKSAMMLUNG\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "00-regelwerk",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/00-regelwerk.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"00-regelwerk\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Glaube",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Glaube.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Glaube\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":208,\"ch\":148},\"to\":{\"line\":208,\"ch\":148}},\"scroll\":1.7390623092651367}"
+                },
+                {
+                  "title": "Götter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Götter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Götter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":16},\"to\":{\"line\":8,\"ch\":16}},\"scroll\":1.5660854007828604}"
+                },
+                {
+                  "title": "Glaube",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Glaube.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Glaube\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":186,\"ch\":148}}}"
+                },
+                {
+                  "title": "Champions der Götter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Champions der Götter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                },
+                {
+                  "title": "Halbgötter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Halbgötter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Alexandria von Adventuria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Alexandria von Adventuria\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":29.026658006601323}"
+                },
+                {
+                  "title": "05-Gegnerliste",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"04-Kampagnen/One-Shot-2025-sylvester/05-Gegnerliste.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"05-Gegnerliste\"}",
+                  "eState": "{\"scroll\":276.48889612268516}"
+                },
+                {
+                  "title": "testing zone",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"000-DM-Home/testing zone.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"testing zone\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Halbgötter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Halbgötter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":134,\"ch\":4}},\"scroll\":0}"
+                },
+                {
+                  "title": "Alexandria von Adventuria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Alexandria von Adventuria\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":34,\"ch\":0}},\"scroll\":29.291346268776135}"
+                },
+                {
+                  "title": "04-NPC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"04-Kampagnen/One-Shot-2025-sylvester/04-NPC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"04-NPC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":416.49620657973156}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-regelwerk/00-regelwerk.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00-regelwerk"
+            }
+          },
+          {
             "id": "e9e1dc9d26587651",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -273,8 +446,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-ghost",
+              "title": "DICE_ROLLER_VIEW"
             }
           },
           {
@@ -320,6 +493,35 @@
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
+          },
+          {
+            "id": "faff2515b8d27254",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
+            "id": "7c05881738be6e95",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
           }
         ],
         "currentTab": 6
@@ -343,8 +545,8 @@
             "state": {
               "type": "initiative-tracker-view",
               "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
+              "icon": "lucide-ghost",
+              "title": "initiative-tracker-view"
             }
           }
         ]
@@ -366,21 +568,21 @@
       "daily-notes:Heutige Notiz öffnen": false,
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
+      "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "obsidian-kanban:Erstelle ein neues Board": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "fantasy-content-generator:Fantasy Generators": false,
-      "github-sync:Sync with Remote": false,
-      "random-note:Zufällige Notiz öffnen": false
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "e9e1dc9d26587651",
   "lastOpenFiles": [
-    "00-regelwerk/03-Charackterbogen.md",
     "00-regelwerk/02-Schnellreferenzen für Spielleiter.md",
     "00-regelwerk/00-regelwerk.md",
+    "00-regelwerk/03-Charackterbogen.md",
     "02-Worldbuilding/06-welt/geschichte/Adventuria.md",
     "z_PDF/Ram-von-Adventuria.pdf",
     "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
@@ -412,7 +614,6 @@
     "04-Kampagnen/tutorial/Kosina.md",
     "04-Kampagnen/tutorial/der Einstieg/Das Erwachen in einem fremden Haus.md",
     "04-Kampagnen/tutorial/der Einstieg/Oneshot Sylvester 2024.md",
-    "04-Kampagnen/tutorial/der Einstieg/combat log.md",
-    "04-Kampagnen/tutorial/01-Spieler/Alaric Löwenherz.md"
+    "04-Kampagnen/tutorial/der Einstieg/combat log.md"
   ]
 }
