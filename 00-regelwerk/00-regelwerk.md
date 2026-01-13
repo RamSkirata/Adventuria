@@ -1149,3 +1149,543 @@ Runenmagie ist eine **alte, neu entdeckte Form** der Magie, die erst seit kurzem
 **Wichtig**: Runen können durch **Dispel Magic** (Bannmagie) entfernt werden, aber dauerhafte Runen kehren nach 24 Stunden zurück, sofern die physische Gravur intakt ist und sie immer noch Mana/Energie haben.
 
 
+# Technik-System
+
+## Grundprinzip:
+
+Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Material und Werkzeuge** verbraucht.
+
+### **Philosophie**:
+
+> "Je krasser die Erfindung, desto höher die Kosten."
+
+---
+
+## Mechanik - Technik
+
+### **Technik-Probe**:
+
+**Formel**: 2W6 + (Intelligenz / 2) + Technik + Spezialisierung (falls vorhanden)
+
+### **Schwierigkeitsgrade**:
+
+|**Komplexität**|**Schwierigkeit**|**Beispiel**|
+|---|---|---|
+|Einfach|10|Pfeil reparieren, Fackel bauen|
+|Standard|14|Bogen bauen, einfache Falle|
+|Komplex|18|Armbrust bauen, mechanische Falle|
+|Sehr komplex|22|Belagerungswaffe, komplexes Uhrwerk|
+|Meisterwerk|26|Selbstschießende Armbrust, Automatismen|
+|Legendär|30+|Flugmaschine, dampfbetriebene Rüstung|
+
+---
+
+## Technik-Kategorien
+
+### **1. Waffenbau**
+
+#### **Einfache Waffen**:
+
+|**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
+|---|---|---|---|---|
+|Pfeil (10x)|1 Stunde|5 K|10|10 Pfeile|
+|Bogen (einfach)|4 Stunden|1 G|14|Kurzbogen (1W6+2)|
+|Armbrust (einfach)|8 Stunden|3 G|18|Leichte Armbrust (1W6+3)|
+
+#### **Fortgeschrittene Waffen**:
+
+|**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
+|---|---|---|---|---|
+|Kompositbogen|2 Tage|6 G|20|Kompositbogen (1W6+5)|
+|Repetierarmbrust|4 Tage|20 G|24|Schießt 3x schneller, 1W6+3|
+|Explosive Bolzen (5x)|1 Tag|10 G|22|+1W6 Explosionsschaden|
+|Flammenwerfer (primitiv)|5 Tage|50 G|26|Kegel 10m, 2W6 Feuerschaden|
+
+---
+
+### **2. Rüstungsbau / Modifikationen**
+
+|**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
+|---|---|---|---|---|
+|Rüstung reparieren|2 Stunden|10% Original|||
+```
+| 12                | Volle Funktion wiederhergestellt    |
+```
+
+| Stachelrüstung | 3 Tage | +20 G | 18 | 1W6 Schaden bei Umklammerung | | Versteckte Klingen | 2 Tage | +15 G | 20 | Versteckte Waffen in Rüstung | | Dampfbetriebene Rüstung | 30 Tage | 500 G | 30 | +4 Stärke, +3 Rüstung, schwerfällig |
+
+---
+
+### **3. Fallen & Verteidigung**
+
+|**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
+|---|---|---|---|---|
+|Fallgrube|4 Stunden|2 G|12|1W6 Schaden, Gegner gefangen|
+|Netz-Falle|2 Stunden|5 G|14|Gegner gefesselt, Stärke-Probe 16|
+|Bolzenfalle|6 Stunden|10 G|18|2W6 Schaden bei Auslösung|
+|Explosionsfalle|1 Tag|25 G|22|3W6 Schaden, 5m Radius|
+|Automatische Armbrust-Türme|10 Tage|200 G|26|Schießt automatisch auf Feinde|
+
+---
+
+### **4. Belagerungswaffen**
+
+|**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
+|---|---|---|---|---|
+|Rammbock|3 Tage|20 G|16|Durchbricht Türen/Tore|
+|Katapult|10 Tage|100 G|22|4W6 Schaden, 100m Reichweite|
+|Balliste|7 Tage|75 G|20|3W6 Schaden, durchschlagend|
+|Trebuchet (Blide)|20 Tage|250 G|26|6W6 Schaden, 200m Reichweite|
+
+---
+
+### **5. Werkzeuge & Geräte**
+
+|**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
+|---|---|---|---|---|
+|Dietrich-Set|3 Stunden|5 G|14|+2 auf Schlösser knacken|
+|Seilwinde|1 Tag|10 G|16|Hebt 500 kg|
+|Flaschenzug|2 Tage|15 G|18|Hebt 1000 kg|
+|Uhrwerk|5 Tage|50 G|22|Präzise Zeitmessung|
+|Fernrohr (verbessert)|3 Tage|30 G|20|Doppelte Reichweite|
+|Mechanischer Greifarm|10 Tage|100 G|24|Greift/manipuliert aus Distanz|
+
+---
+
+### **6. Fortbewegung & Transport**
+
+|**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
+|---|---|---|---|---|
+|Karren|3 Tage|15 G|14|Transportiert 500 kg|
+|Verstärkter Wagen|7 Tage|50 G|18|Transportiert 1000 kg, gepanzert|
+|Segelboot|30 Tage|200 G|22|4 Personen, Fluss/Küste|
+|Handelsschiff|180 Tage|5.000 G|28|20 Personen, Hochsee|
+|Gleitschirm|10 Tage|100 G|26|Gleitflug, max 10 Minuten|
+|Dampfwagen (Prototyp)|60 Tage|2.000 G|30|Bewegt sich ohne Pferde, experimentell|
+
+---
+
+### **7. Alchemie-ähnliche Technik (Bomben, Gifte - OHNE Alchemie-System)**
+
+|**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
+|---|---|---|---|---|
+|Rauchbombe|2 Stunden|5 G|14|Erzeugt dichten Rauch, 5m Radius|
+|Blendgranate|3 Stunden|8 G|16|Blendet Gegner für 1W6 Runden|
+|Sprenggranate|6 Stunden|20 G|20|2W6 Schaden, 3m Radius|
+|Giftfläschchen|4 Stunden|15 G|18|1W6 Giftschaden/Runde für 3 Runden|
+|Säureflasche|5 Stunden|25 G|20|2W6 Säureschaden, zerstört Material|
+
+---
+
+## Spezialisierungen für Technik:
+
+Charaktere können Spezialisierungen in Technik-Bereichen erlernen (0-6):
+
+- **Waffenbau** (Bögen, Armbrüste, Klingen)
+- **Rüstungsschmied** (Rüstungen, Modifikationen)
+- **Fallenbau** (Fallen, Verteidigungen)
+- **Belagerungstechnik** (Katapulte, Ballisten)
+- **Feinmechanik** (Uhren, Schlösser, Präzisionsgeräte)
+- **Sprengstoff** (Bomben, Granaten)
+- **Schiffbau** (Boote, Schiffe)
+- **Konstruktion** (Gebäude, Brücken, Befestigungen)
+
+---
+
+## Kritische Erfolge & Patzer
+
+### **Kritischer Erfolg (12 auf Würfel)**:
+
+- **Magie**: Halbe Mana-Kosten, doppelter Effekt oder zusätzlicher Bonus
+- **Technik**: Halbe Zeit/Material, bessere Qualität (+1 Schaden/Rüstung)
+
+### **Kritischer Patzer (2 auf Würfel)**:
+
+- **Magie**: Zauber misslingt, volle Mana-Kosten, möglicher Rückstoß (1W6 Schaden)
+- **Technik**: Projekt scheitert, Material verloren, mögliche Verletzung (1W6 Schaden)
+
+---
+
+**Zusammenfassung:**  
+Terranea bietet ein **flexibles Magie-System** mit drei Schulen (Heilig, Natur, Shaper), freier Element-Magie im Avatar-Stil, festen Akademie-Zaubern und innovativer Runenmagie. Das **Technik-System** ermöglicht kreative Lösungen durch Waffenbau, Fallen, Belagerungswaffen und komplexe Mechanismen. Beide Systeme balancieren Macht durch Ressourcen-Kosten (Mana vs. Zeit/Material).
+
+---
+
+# Item-Listen für Magie und Technik
+
+---
+
+## Magie-Items beim Alchemisten/Magier-Händler
+
+**Spezialisierung:** Tränke, Schriftrollen, magische Komponenten  
+**Standorte:** Größere Städte, Magiertürme, Akademien
+
+### **Manatränke & Heiltränke**
+
+|**Trank**|**Preis**|**Effekt**|
+|---|---|---|
+|Kleiner Manatrank|5 G|Stellt 1W6 MP wieder her|
+|Manatrank|15 G|Stellt 2W6 MP wieder her|
+|Großer Manatrank|40 G|Stellt 3W6 MP wieder her|
+|Überragender Manatrank|100 G|Stellt 4W6 MP wieder her|
+|Kleiner Heiltrank|10 G|Heilt 1W6 LP|
+|Heiltrank|30 G|Heilt 2W6 LP|
+|Großer Heiltrank|80 G|Heilt 3W6 LP|
+|Überragender Heiltrank|200 G|Heilt 4W6 LP|
+|Trank der Regeneration|150 G|+2 LP pro Runde für 5 Runden|
+|Trank des klaren Geistes|50 G|+4 auf alle Intelligenz-Proben für 1 Stunde|
+|Trank der Bärenstärke|50 G|+4 auf alle Stärke-Proben für 1 Stunde|
+|Trank der Katzengnade|50 G|+4 auf alle Geschicklichkeits-Proben für 1 Stunde|
+|Unsichtbarkeitstrank|200 G|Unsichtbar für 10 Minuten|
+|Gegengift|30 G|Neutralisiert die meisten Gifte|
+|Antidot (universal)|100 G|Neutralisiert alle Gifte|
+
+---
+
+### **Schriftrollen (Einmalgebrauch)**
+
+Schriftrollen enthalten einen vorbereiteten Zauber, der **ohne Mana-Kosten** gewirkt werden kann. Die Schriftrolle wird beim Wirken **verbraucht**.
+
+**Nutzung:** 2W6 + (Intelligenz / 2) + Magie, Schwierigkeit variiert je nach Zauber
+
+|**Schriftrolle**|**Preis**|**Effekt**|
+|---|---|---|
+|Schriftrolle: Kleine Heilung|20 G|Heilt 1W6 LP|
+|Schriftrolle: Mittlere Heilung|50 G|Heilt 2W6 LP|
+|Schriftrolle: Große Heilung|120 G|Heilt 3W6 LP|
+|Schriftrolle: Feuerball|60 G|1W6+2 Feuerschaden|
+|Schriftrolle: Blitzschlag|100 G|2W6 Blitzschaden, betäubt|
+|Schriftrolle: Eissturm|150 G|2W6+2 Kälteschaden, verlangsamt|
+|Schriftrolle: Unsichtbarkeit|100 G|10 Minuten unsichtbar|
+|Schriftrolle: Levitation|50 G|Schweben für 10 Minuten|
+|Schriftrolle: Teleportation|500 G|Teleport bis zu 100 km|
+|Schriftrolle: Schutzkreis|80 G|Magische Barriere, 5m Radius, 10 Minuten|
+|Schriftrolle: Wiederbelebung|1.000 G|Bringt Toten zurück (bis 1 Stunde tot)|
+|Schriftrolle: Identifizieren|30 G|Identifiziert magische Gegenstände|
+|Schriftrolle: Bannzauber|100 G|Entfernt Fluch oder Verzauberung|
+
+---
+
+### **Zauberbücher (zum Lernen)**
+
+Zauberbücher enthalten Zauber, die **dauerhaft gelernt** werden können. Beim Lernen wird das Buch **NICHT** verbraucht.
+
+**Lernen:** 2W6 + (Intelligenz / 2) + Magie, Schwierigkeit je nach Zauber-Level, benötigt **1-7 Tage Studium**
+
+|**Zauberbuch**|**Preis**|**Enthaltene Zauber**|**Lernzeit**|
+|---|---|---|---|
+|Grundlagen der Evokation|100 G|Magisches Geschoss, Flammenstoß|3 Tage|
+|Fortgeschrittene Evokation|300 G|Blitzschlag, Feuersturm|5 Tage|
+|Meister der Zerstörung|1.000 G|Meteor, Kettenblitz|7 Tage|
+|Grundlagen der Illusion|80 G|Geräusch erzeugen, Kleines Trugbild|2 Tage|
+|Fortgeschrittene Illusion|250 G|Unsichtbarkeit, Bewegtes Trugbild|4 Tage|
+|Grundlagen der Beschwörung|150 G|Diener beschwören, Elementar (klein)|3 Tage|
+|Fortgeschrittene Beschwörung|500 G|Elementar beschwören, Monster beschwören|6 Tage|
+|Grundlagen der Veränderung|120 G|Levitation, Vergrößern/Verkleinern|3 Tage|
+|Fortgeschrittene Veränderung|400 G|Verwandlung (Tier), Zeitverlangsamung|5 Tage|
+|Grundlagen der Heiligen Magie|100 G|Kleine Heilung, Licht erschaffen|2 Tage|
+|Fortgeschrittene Heilige Magie|350 G|Große Heilung, Heiliger Schutzkreis|5 Tage|
+|Grundlagen der Naturmagie|100 G|Mit Tieren sprechen, Pflanzen wachsen lassen|2 Tage|
+|Fortgeschrittene Naturmagie|350 G|Tiergestalt (groß), Wetter beeinflussen|5 Tage|
+|Grundlagen der Shaper-Magie|200 G|Kreatur schwächen, Fleischwunde schließen|4 Tage|
+|Fortgeschrittene Shaper-Magie|600 G|Diener erschaffen (groß), Mutation hervorrufen|7 Tage|
+|Verbotene Nekromantie|1.500 G|Untote erwecken, Fleischgolem|7 Tage|
+
+---
+
+### **Magische Komponenten**
+
+Diese Materialien werden für komplexe Zauber oder Rituale benötigt.
+
+|**Komponente**|**Preis**|**Verwendung**|
+|---|---|---|
+|Drachenschuppe|50 G|Verstärkt Feuerzauber|
+|Phönixfeder|100 G|Wiederbelebungs-Rituale|
+|Einhornhorn (Splitter)|200 G|Heilzauber, Reinigung|
+|Mondstaub|30 G|Illusions-Zauber|
+|Sternenessenz|150 G|Mächtige Evokations-Zauber|
+|Dämonenblut|80 G|Beschwörungs-Zauber (gefährlich!)|
+|Feenstaub|40 G|Verwandlungs-Zauber|
+|Trollblut|20 G|Regenerations-Zauber|
+|Basiliskenauge|300 G|Versteinerungs-Zauber|
+|Manakristall (klein)|50 G|Speichert 10 MP|
+|Manakristall (groß)|200 G|Speichert 50 MP|
+
+---
+
+### **Fokus-Gegenstände**
+
+Magische Foki erleichtern das Zaubern und geben Boni auf Zauberproben.
+
+|**Fokus**|**Preis**|**Effekt**|
+|---|---|---|
+|Zauberstab (einfach)|50 G|+1 auf alle Zauberproben|
+|Zauberstab (hochwertig)|200 G|+2 auf alle Zauberproben|
+|Zauberstab (Meisterwerk)|1.000 G|+3 auf alle Zauberproben|
+|Zauberbuch (leer)|30 G|Zum Notieren eigener Zauber|
+|Kristallkugel|100 G|+2 auf Erkenntniszauber|
+|Runen-Meißel-Set|50 G|Notwendig für Runenmagie|
+|Beschwörer-Pentagramm|150 G|+2 auf Beschwörungs-Zauber|
+|Elementar-Amulett (Feuer)|300 G|+3 auf Feuerzauber, -1 MP Kosten bei Feuerzaubern|
+|Elementar-Amulett (Wasser)|300 G|+3 auf Wasserzauber, -1 MP Kosten bei Wasserzaubern|
+|Elementar-Amulett (Erde)|300 G|+3 auf Erdzauber, -1 MP Kosten bei Erdzaubern|
+|Elementar-Amulett (Luft)|300 G|+3 auf Luftzauber, -1 MP Kosten bei Luftzaubern|
+
+---
+
+### **Verzauberte Waffen & Rüstungen**
+
+Diese Items sind bereits dauerhaft verzaubert.
+
+#### **Verzauberte Waffen:**
+
+|**Waffe**|**Preis**|**Basis-Waffe**|**Verzauberung**|
+|---|---|---|---|
+|Flammenschwert +1|500 G|Langschwert|+1 Schaden, +1W6 Feuerschaden|
+|Frostklinge +1|500 G|Langschwert|+1 Schaden, +1W6 Kälteschaden, verlangsamt|
+|Blitzaxt +2|1.000 G|Streitaxt|+2 Schaden, +1W6 Blitzschaden|
+|Vampirklinge|1.500 G|Rapier|Heilt 1W6 LP bei jedem Treffer|
+|Bannklinge|2.000 G|Zweihandschwert|Durchdringt magische Rüstung, +2 Schaden|
+|Heiliger Streithammer|1.200 G|Kriegshammer|+2 gegen Untote/Dämonen, +2W6 Schaden|
+|Bogen der Präzision +2|800 G|Langbogen|+2 auf Trefferwürfe|
+|Endloser Köcher|600 G|Köcher|Erzeugt 1 Pfeil pro Runde|
+
+#### **Verzauberte Rüstungen:**
+
+|**Rüstung**|**Preis**|**Basis-Rüstung**|**Verzauberung**|
+|---|---|---|---|
+|Lederrüstung +1|300 G|Lederrüstung|+1 Rüstung zusätzlich|
+|Kettenhemd der Reflexe +2|800 G|Kettenhemd|+2 Rüstung, +2 Ausweichen|
+|Plattenpanzer des Schutzes +3|3.000 G|Plattenpanzer|+3 Rüstung, +10 LP|
+|Feuerresistenz-Robe|500 G|Robe|Halbierter Feuerschaden|
+|Eisresistenz-Mantel|500 G|Mantel|Halbierter Kälteschaden|
+|Schattenschleier|1.000 G|Umhang|+4 auf Schleichen|
+|Regenerations-Amulett|1.500 G|Amulett|+1 LP pro Stunde|
+|Ring des Schutzes +2|800 G|Ring|+2 Rüstung (stapelt mit anderer Rüstung)|
+
+---
+
+### **Magische Artefakte (sehr selten)**
+
+Diese Gegenstände sind extrem selten und meist nur bei Spezial-Händlern, in Ruinen oder als Quest-Belohnungen zu finden.
+
+|**Artefakt**|**Preis**|**Effekt**|
+|---|---|---|
+|Stab der Macht|10 P|+4 auf alle Zauberproben, speichert 30 MP|
+|Krone der Gedanken|15 P|Kann Gedanken lesen, immun gegen Gedankenkontrolle|
+|Robe des Erzmagiers|20 P|+5 Rüstung, -2 MP Kosten für alle Zauber|
+|Schwert der Drachentöter|25 P|+3 Schaden, +4W6 gegen Drachen|
+|Ring der Regeneration|12 P|+3 LP pro Runde|
+|Amulett der Unsterblichkeit|50 P|Bei Tod: 1x pro Woche Wiederbelebung mit 1 LP|
+|Dimensionstasche|5 P|Unendlicher Stauraum (nur bis 100 kg pro Gegenstand)|
+|Flügel des Greifen|30 P|Ermöglicht Flug, 1 Stunde pro Tag|
+|Spiegel der Wahrheit|8 P|Zeigt Wahrheit, durchschaut Illusionen|
+|Stein der Weisen|100 P|Verwandelt Material in Gold (1x pro Monat)|
+
+---
+
+## Technik-Items beim Erfinder/Ingenieur
+
+**Spezialisierung:** Mechanische Geräte, Gadgets, Bomben  
+**Standorte:** Techniker-Viertel, größere Städte, Werkstätten
+
+### **Bomben & Granaten**
+
+|**Item**|**Preis**|**Effekt**|
+|---|---|---|
+|Rauchbombe|10 G|Dichte Rauchwolke, 5m Radius, 3 Runden|
+|Blendgranate|15 G|Blendet Gegner für 1W6 Runden|
+|Sprenggranate|30 G|2W6 Schaden, 3m Radius|
+|Feuergranate|35 G|2W6 Feuerschaden, 3m Radius, brennt weiter|
+|Eisbombe|40 G|2W6 Kälteschaden, verlangsamt, 3m Radius|
+|Säureflasche|50 G|2W6 Säureschaden, zerstört Material|
+|Giftgas-Granate|60 G|1W6 Giftschaden/Runde für 3 Runden, 5m Radius|
+|Schrapnell-Bombe|50 G|3W6 Schaden, trifft alle in 5m Radius|
+
+---
+
+### **Mechanische Waffen**
+
+|**Waffe**|**Preis**|**Effekt**|
+|---|---|---|
+|Versteckte Klinge (Armband)|50 G|+2 auf Überraschungsangriffe, 1W6 Schaden|
+|Giftdolch-Mechanismus|80 G|Injects Gift beim Angriff, 1W6 Giftschaden|
+|Federschnapp-Falle (tragbar)|30 G|1W6 Schaden, hält Gegner fest|
+|Wurfmesser-Automat|150 G|Wirft 3 Messer automatisch, 1W6 je Treffer|
+|Repetierarmbrust|200 G|Schießt 3x pro Runde, 1W6+3 Schaden|
+|Hakenschuss-Mechanismus|100 G|Schießt Haken mit Seil, 20m Reichweite|
+
+---
+
+### **Schutzausrüstung & Gadgets**
+
+|**Item**|**Preis**|**Effekt**|
+|---|---|---|
+|Kletterhandschuhe (Haken)|40 G|+4 auf Klettern|
+|Gleiter-Apparat|300 G|Gleitflug für 10 Minuten|
+|Mechanische Flügel|2.000 G|Ermöglicht kurzen Flug (5 Minuten)|
+|Unterwasser-Atemgerät|150 G|Atmen unter Wasser für 30 Minuten|
+|Nachtsichtbrille|200 G|Sicht in Dunkelheit|
+|Verstärkte Stiefel|80 G|+2 auf Springen/Laufen|
+|Mechanischer Greifarm|250 G|Greift Objekte aus 3m Entfernung|
+|Schallverstärker|100 G|+4 auf Lauschen|
+|Lockpick-Automat|120 G|+3 auf Schlösser knacken|
+
+---
+
+### **Fahrzeuge & Konstruktionen**
+
+|**Fahrzeug**|**Preis**|**Beschreibung**|
+|---|---|---|
+|Mechanisches Pferd|500 G|Bewegt sich wie Pferd, braucht kein Futter|
+|Panzer-Wagen|3.000 G|Gepanzertes Fahrzeug, 4 Personen|
+|Dampfboot|5.000 G|Schneller als Segelboot, kein Wind nötig|
+|Flugmaschine (Prototyp)|20.000 G|Experimentell, fliegt 1 Stunde|
+|Taucherglocke|1.000 G|Ermöglicht Unterwasser-Erkundung|
+
+---
+
+# Spezialisierungs-System
+
+---
+
+## Konzept
+
+Das **Spezialisierungs-System** in Terranea folgt einer **dreistufigen Hierarchie**:
+
+1. **Attribut** (ungelernt)
+2. **Fähigkeit** (erlernt, breit)
+3. **Spezialisierung** (erlernt, spezifisch)
+
+### **Beispiel-Hierarchie:**
+
+**Fernkampf-Angriff mit Langbogen:**
+
+- **Attribut**: Geschicklichkeit (z.B. 10)
+- **Fähigkeit**: Fernkampf (z.B. 4)
+- **Spezialisierung**: Langbogen (z.B. 2)
+
+**Würfelwurf**: 2W6 (z.B. 7) + (Geschicklichkeit 10 / 2 = 5) + Fernkampf 4 + Langbogen 2 = **18**
+
+---
+
+## Fähigkeiten-Kategorien (Übergeordnet)
+
+### **Kampf-Fähigkeiten**
+
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
+|---|---|---|
+|**Nahkampf**|Stärke|Alle Nahkampfwaffen|
+|**Fernkampf**|Geschicklichkeit|Alle Fernkampfwaffen|
+|**Waffenloser Kampf**|Stärke/Geschicklichkeit|Fäuste, Griffe, Würfe|
+|**Verteidigung**|Geschicklichkeit/Konstitution|Ausweichen, Parieren, Blocken|
+|**Taktik**|Intelligenz|Kampfplanung, Strategie|
+
+### **Soziale Fähigkeiten**
+
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
+|---|---|---|
+|**Überzeugung**|Charisma|Überreden, Verhandeln, Diplomatie|
+|**Täuschung**|Charisma|Lügen, Bluffen, Verkleiden|
+|**Einschüchterung**|Stärke/Charisma|Drohen, Angst verbreiten|
+|**Auftreten**|Charisma|Führung, Performance, Etikette|
+
+### **Wissens-Fähigkeiten**
+
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
+|---|---|---|
+|**Gelehrsamkeit**|Intelligenz|Geschichte, Arkanes, Religionen|
+|**Naturkunde**|Weisheit|Tiere, Pflanzen, Wetter|
+|**Medizin**|Intelligenz/Weisheit|Heilung, Krankheiten, Anatomie|
+
+### **Handwerks-Fähigkeiten**
+
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
+|---|---|---|
+|**Handwerk**|Geschicklichkeit|Allgemeines Handwerk, Reparaturen|
+|**Technik**|Intelligenz|Mechanismen, Fallen, Erfindungen|
+|**Magie**|Intelligenz/Weisheit|Zaubern, Rituale|
+
+### **Überleben-Fähigkeiten**
+
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
+|---|---|---|
+|**Überleben**|Weisheit|Fährtenlesen, Nahrungssuche, Orientierung|
+|**Schleichen**|Geschicklichkeit|Verstecken, Leise bewegen, Schatten nutzen|
+|**Diebeskunst**|Geschicklichkeit|Schlösser knacken, Taschendiebstahl, Fallen|
+
+---
+
+## Spezialisierungen (Beispiele)
+
+### **Nahkampf-Spezialisierungen**
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Einhandschwert|Nahkampf|Lange und Kurzschwerter|
+|Einhandaxt|Nahkampf|Streitäxte, Wurfäxte|
+|Zweihandschwert|Nahkampf|Große Schwerter|
+|Zweihandaxt|Nahkampf|Große Äxte|
+|Hammer & Kolben|Nahkampf|Kriegshämmer, Streitkolben|
+|Stangenwaffen|Nahkampf|Speere, Hellebarden, Piken|
+|Dolche|Nahkampf|Kurze Klingen, Versteckte Waffen|
+|Rapier & Degen|Nahkampf|Fechtwaffen|
+|Schildkampf|Verteidigung|Einsatz von Schilden im Kampf|
+
+### **Fernkampf-Spezialisierungen**
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Langbogen|Fernkampf|Große Bögen|
+|Kurzbogen|Fernkampf|Kleine, mobile Bögen|
+|Armbrust|Fernkampf|Alle Arten von Armbrüsten|
+|Wurfwaffen|Fernkampf|Messer, Äxte, Speere|
+|Schleuder|Fernkampf|Schleudern, Steinschleudern|
+
+### **Waffenloser Kampf-Spezialisierungen**
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Faustkampf|Waffenloser Kampf|Schläge, Tritte|
+|Ringen|Waffenloser Kampf|Griffe, Würfe, Hebel|
+|Mönchskampf|Waffenloser Kampf|Disziplinierter Kampfstil|
+
+### **Verteidigungs-Spezialisierungen**
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Ausweichen|Verteidigung|Geschickte Bewegungen|
+|Parieren|Verteidigung|Abwehr mit Waffen|
+|Blocken|Verteidigung|Abwehr mit Schild|
+
+### **Magie-Spezialisierungen**
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Heilige Magie|Magie|Lumina-Tradition|
+|Naturmagie|Magie|Teronis-Tradition|
+|Shaper-Magie|Magie|Formermagie|
+|Feuermagie|Magie|Element-Magie: Feuer|
+|Wassermagie|Magie|Element-Magie: Wasser|
+|Erdmagie|Magie|Element-Magie: Erde|
+|Luftmagie|Magie|Element-Magie: Luft|
+|Evokation|Magie|Schadenszauber|
+|Illusion|Magie|Täuschungen, Unsichtbarkeit|
+|Veränderung|Magie|Verwandlung, Modifikation|
+|Beschwörung|Magie|Kreaturen rufen|
+|Erkenntnis|Magie|Wissen, Wahrsagen|
+|Schutz|Magie|Barrieren, Abwehr|
+|Runenmagie|Magie|Permanente Verzauberungen|
+
+### **Technik-Spezialisierungen**
+
+| **Spezialisierung** | **Übergeordnete Fähigkeit** | **Beschreibung**                |
+| ------------------- | --------------------------- | ------------------------------- |
+| Waffenbau           | Technik                     | Bögen, Armbrüste, Klingen       |
+| Rüstungsschmied     | Technik                     | Rüstungen, Modifikationen       |
+| Fallenbau           | Technik                     | Fallen, Verteidigungen          |
+| Belagerungstechnik  | Technik                     | Katapulte, Ballisten            |
+| Feinmechanik        | Technik                     | Uhren, Schlösser, Präzision     |
+| Sprengstoff         | Technik                     | Bomben, Granaten                |
+| Schiffbau           | Technik                     | Boote, Schiffe                  |
+| Konstruktion        | Technik                     | Gebäude, Brücken, Befestigungen |

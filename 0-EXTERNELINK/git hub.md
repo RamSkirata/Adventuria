@@ -16,3 +16,10 @@ git remote add origin https://github.com/RamSkirata/Adventuria.git
 git push -u origin main
 
 ```
+
+git init
+git branch -M main
+git remote add origin https://github.com/RamSkirata/Adventuria.git
+git add .
+git commit -m "Initialer Commit ohne PDFs"
+git push -u origin main
