@@ -1,0 +1,1 @@
+Erlaubt es Charakteren in einer Kampfhandlung auszuweichen.

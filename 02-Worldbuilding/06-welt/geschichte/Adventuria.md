@@ -1,0 +1,9 @@
+## Adventuria (Hauptstadt von Sunar)
+
+Adventuria ist die Hauptstadt des Heiligen Königreichs [[Sunar]] und wurde vor über 250 Jahren von [[Alexandria von Adventuria]] und den anderen vier Helden der [[Runeklingen]] aufgebaut.
+
+Einst war es lediglich ein kleines Dorf, verwaltet durch Lord Gabrial, mit einer kleinen Burg, das kurz vor der Auslöschung durch die Orks stand. Bis dann fünf Helden kamen und es vor der kompletten Vernichtung retteten. Bis heute feiert man diesen Tag einmal im Jahr im Sommer mit einem großen Fest. Auch genannt [[das Fest der Gründung]], ist es der beliebteste Feiertag der Bewohner von Adventuria, bei dem sich jedes Jahr aufs Neue die ganze Stadt in ein riesiges Festival verwandelt. Unter anderem gibt es ein Theaterstück, das die Geschichte Adventurias aufführt, ein Kampfturnier, bei dem die stärkste Gruppe (max. 5) und der stärkste Solokämpfer gekürt werden. Außerdem findet gleichzeitig ein riesiger Markt statt, bei dem sich Händler aus aller Welt in Adventuria treffen.
+
+Die Sicherheit in Adventuria wird durch die [[Queensguard]] gewährleistet. Diese besteht aus den Besten der Besten der [[Royalarmee]].
+
+In Adventuria befinden sich auch die drei Akademien für Magier, Händler und Abenteurer. Diese ziehen jedes Jahr aufs Neue hunderte neue Schüler an und haben schon das ein oder andere besondere Talent gefördert. Unter den drei Akademien herrscht ein reger Konkurrenzkampf. Jede der Akademien verwaltet sich selbst und wird zu einem großen Teil von Steuern finanziert (Anordnung von Alexandria persönlich, damit Wissen nicht nur von den Reichen erlangt werden kann).

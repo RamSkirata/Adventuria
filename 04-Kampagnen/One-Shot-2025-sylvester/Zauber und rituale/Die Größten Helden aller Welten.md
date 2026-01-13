@@ -1,0 +1,1 @@
+Ein Ritual um helden aus anderen Welten zu beschwören

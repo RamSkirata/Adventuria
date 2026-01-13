@@ -1,0 +1,1 @@
+bestimmt wie begabt ein Charakter bei der Anwendung von Magie ist 

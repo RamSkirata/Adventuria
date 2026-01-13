@@ -1,0 +1,1 @@
+bestimmt wie intelligent der charakter ist 

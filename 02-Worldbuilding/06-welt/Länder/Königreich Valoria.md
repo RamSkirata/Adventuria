@@ -1,0 +1,10 @@
+**Valoria** ist ein malerisches Land, das von sanften Hügeln, weiten Graslandschaften und dichten Wäldern geprägt ist. Die Hauptstadt **Valoria City** ist ein lebendiges Handelszentrum, das für seinen florierenden Handel bekannt ist. Das Land hat eine tief verwurzelte **Affinität zur Naturmagie**, die in allen Aspekten des Lebens genutzt wird. Die **Göttin der Natur** ist die zentrale Gottheit des Reiches, und die Gesellschaft verehrt die Natur in all ihren Formen.
+
+**Politisch** wird Valoria von einer Monarchie regiert, unterstützt durch einen **Adelsstand** und einen **Beraterrat**. In der Gesellschaft spielen **Magie** und **Handel** eine zentrale Rolle. Der Einfluss von **Sylvanern** und **Khazad** ist hier ebenfalls spürbar. Die Sylvaner übernehmen in Valoria die Führung in der **Naturmagie**, während die Khazad als **Handwerker** und **Schmiede** in den Städten vertreten sind.
+
+**Im Krieg gegen die Orks** unterstützt Valoria Sunar durch die Bereitstellung von **Magiern** und **Heilern**, die das militärische Engagement und die Verteidigung stärken. Besonders die **Sylvaner** Valorias sind mit ihrer **Magie** in der Lage, schützende Zauber und Barrieren zu erschaffen, die die Verteidigungslinien gegen die Orks stabilisieren. Zudem stellt Valoria wertvolle **Ressourcen** wie Lebensmittel und Heilkräuter zur Verfügung, um die kriegerischen Anstrengungen von Sunar zu unterstützen.
+
+**Entstehungsgeschichte**:  
+Valoria wurde vor vielen Jahrhunderten als eine Nation gegründet, die dem **Handel** und der **Verehrung der Natur** gewidmet war. Die Gründung des Reiches ist eng mit der **Legende der Göttin der Natur** verbunden, die den ersten Herrscher Valorias, einen **Magierkönig**, mit der Aufgabe betraute, das Land zu schützen und das Gleichgewicht zwischen den Elementen zu wahren. Dies führte zu einer Gesellschaft, in der die **Naturmagie** immer mehr an Bedeutung gewann.
+
+---

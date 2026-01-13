@@ -1,0 +1,1 @@
+bestimmt wie (physikalisch) stark ein Charakter ist

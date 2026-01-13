@@ -1,0 +1,32 @@
+- **Rasse**: Terranier (Mensch)
+- **Klasse**: Heeresführer
+- **Herkunft**: Sunar 
+- **Attribute**:
+    - Stärke: 11
+    - Geschicklichkeit: 6
+    - Konstitution: 10
+    - Intelligenz: 8
+    - Weisheit: 8
+    - Charisma: 7
+      magie : 2
+    HP = 21
+- **Fähigkeiten**:
+    - Taktik: Meisterhaft (5/6)
+    - Führung: Fortgeschritten (4/6)
+    - Waffenkenntnis (Schwerter und Lanzen): Fortgeschritten (5/6)
+    - Umgang mit Tieren (2/6) 
+    - Wahnehmung 4/6
+    - reitkunst 3/6
+    - soziale Interaktion 5/6
+- **Ausrüstung**:
+    - Langschwert "Sternenschneider", geschmiedet von den Khazad 1d6+4+5
+    - Ritterrüstung mit Wappen des Hauses Eisenfels 1d6 +3 +5
+    - Pet Hund (Bubbles) doberman kampfhund (bei fuß fass und hole )
+ - **Aussehen**:
+    - **Größe**: 1,90 m
+    - **Statur**: Muskulös und imposant, mit einer aufrechten Haltung.
+    - **Haarfarbe**: Dunkelblond, kurz geschnitten.
+    - **Augenfarbe**: Stahlgrau.
+    - **Besonderheiten**: Darius trägt einen Umhang mit seinem Familienwappen. Sein Gesicht zeigt eine Narbe über der linken Augenbraue, die er in einem Turnier erhielt.
+- **Hintergrund**:  
+    Darius ist ein charismatischer Anführer, der für seine militärischen Strategien geschätzt wird. Er träumt davon, die zerstrittenen Königreiche zu vereinen und Frieden in die Welt zu bringen.

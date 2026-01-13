@@ -1,0 +1,1 @@
+Wie nehmen andere Personen den Charakter war, wird durch charisma bestimmt.

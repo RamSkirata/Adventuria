@@ -1,0 +1,8 @@
+**Kyrion** ist ein Gebirgsland, das durch tiefe Täler und dichte Wälder geprägt ist. Die Hauptstadt **Kyrion City** ist bekannt für ihren florierenden Bergbau und ihre hervorragende **Schmiedekunst**. Die Gesellschaft wird von einer **Demokratie** regiert, die durch gewählte Beamte und ein starkes **Gildensystem** unterstützt wird. Kyrion ist besonders durch die **Khazad** geprägt, die das Land dominieren, aber auch **Terraner** und **Sylvaner** sind Teil der Gesellschaft.
+
+In Kyrion spielt **Magie** eine untergeordnete Rolle, während **Technologie**, besonders im Bereich des Bergbaus und der Metallverarbeitung, eine Schlüsselrolle spielt. Das Land verehrt den **Schmiedegott** und die **Kriegsgöttin**, was sich in der militärischen Disziplin und den metallurgischen Fähigkeiten der Bevölkerung widerspiegelt.
+
+**Im Krieg gegen die Orks** unterstützt Kyrion **Sunar** durch die Bereitstellung von **Metallwaren** wie Waffen und Rüstungen. Die **Khazad** von Kyrion sind außerdem bekannt für ihre **Bergbaukunst**, durch die sie wichtige Rohstoffe für die Kriegsanstrengungen liefern. Die militärische Disziplin und **Kriegsführung** werden ebenfalls durch kyrionische Berater und Soldaten gestärkt, die eine wertvolle Unterstützung für Sunar bieten.
+
+**Entstehungsgeschichte**:  
+Kyrion wurde von den **Khazad** gegründet, die das Land nach dem **Untergang ihrer ursprünglichen Heimat** im Osten suchten. Als das Land von den **Sylvanern** bedroht wurde, schmiedeten sie eine **Republik**, die als Bollwerk gegen die äußeren Feinde und als Zentrum für **Bergbau** und **Handwerk** dienen sollte. Die **Demokratie** wurde durch ein **Gildensystem** etabliert, das den Einfluss der Khazad und der Terraner ausbalancierte.

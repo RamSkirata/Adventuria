@@ -1,0 +1,8 @@
+**Arvendor** ist ein Land, das durch **hohe Berge**, dichte **Wälder** und weite **Hochebenen** geprägt ist. Das Reich hat eine lange Tradition im **Handel** und der **Kultur**, und seine Städte sind für ihre **Kunst** und **Wissenschaft** bekannt. Arvendor ist eines der ältesten Reiche auf dem Kontinent und hat sich über die Jahrhunderte hinweg als Zentrum der **kulturellen Vielfalt** und des **guten Handels** etabliert.
+
+Die Gesellschaft von Arvendor wird von einer **Aristokratie** regiert, die durch **Familienbünde** und ein **Zunftsystem** für Kunst und Handel gestützt wird. Arvendor ist besonders bekannt für seine **Architekten**, **Künstler** und **Wissenschaftler**, die sowohl magische als auch technologische Innovationen hervorbringen.
+
+**Im Krieg gegen die Orks** bietet Arvendor **strategische Beratung**, **Magier** und **Ressourcen** an, um **Sunar** zu unterstützen. Besonders die **Magier** Arvendors sind für ihre Fähigkeit bekannt, **Schutzzauber** zu wirken und die **Weisheit** der alten **magischen Artefakte** zu nutzen, um den Krieg zu beeinflussen.
+
+**Entstehungsgeschichte**:  
+Arvendor wurde als ein **Vereinigungsreich** von **kleineren Stammesgebieten** gegründet, die ihre **Kunst** und **Magie** vereinten, um ein **starkes Reich** zu schaffen. Über die Jahrhunderte hinweg hat Arvendor nicht nur seine Grenzen erweitert, sondern auch seine **kulturelle Bedeutung** bewahrt. Die erste Herrscherfamilie stammte von einem legendären **Magierkönig**, der das Reich unter der Schirmherrschaft der **Göttin der Weisheit** vereinte.

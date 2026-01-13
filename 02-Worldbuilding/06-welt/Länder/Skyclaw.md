@@ -1,0 +1,8 @@
+**Skyclaw**ist ein Land, das sich durch schroffe Gebirgsmassive, tiefe Täler und weite, offene Ebenen auszeichnet. Die Gesellschaft von Skyclaw ist stark von **Clans** geprägt, die miteinander um Einfluss kämpfen und ihre Traditionen tief in der Natur und dem **Jagen** verankert haben. Die **Himmelsklauenzitadelle**, die Hauptstadt, dient als Treffpunkt der Clanführer und **Ältesten**, die das Land regieren.
+
+Die **Tiermenschen**, die in Skyclaw leben, sind besonders für ihre außergewöhnlichen **Jagdfähigkeiten** und ihre tiefgreifende **Verbindung zur Natur** bekannt. Sie dominieren das Land und verehren den **Jagdgott** sowie die **Mondgöttin**. Es gibt auch eine bedeutende **Khazad**-Gemeinschaft in den Bergen, die eng in den **Handel** und das **Bergbaugeschäft** eingebunden ist.
+
+**Im Krieg gegen die Orks** unterstützt Skyclaw **Sunar** vor allem durch **Krieger**, da die **Tiermenschen** hervorragende **Kämpfer** sind, die den Feind mit außergewöhnlichen Jagdtechniken und Fähigkeiten in der Wildnis bekämpfen. Zudem stellt Skyclaw **Bergbauprodukte** und **Waffen** zur Verfügung, die von den **Khazad** in ihren Bergwerken hergestellt werden.
+
+**Entstehungsgeschichte**:  
+Skyclaw entstand vor Jahrhunderten als ein Land, das von verschiedenen **Clans** und **Stämmen** der Tiermenschen bevölkert wurde. Diese jagenden Völker verehrten die Natur und ihre Götter, was dazu führte, dass sie ein System der **Clanregierung** etablierten, das bis heute Bestand hat. Als das Land von Feinden bedroht wurde, suchten die **Khazad** Zuflucht und schlossen sich den **Tiermenschen** an, um gemeinsam gegen Bedrohungen von außen zu kämpfen.

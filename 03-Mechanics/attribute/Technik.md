@@ -1,0 +1,1 @@
+gibt an wie Technisch begabt ein Charakter ist
