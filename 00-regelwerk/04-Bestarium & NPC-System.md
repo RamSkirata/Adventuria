@@ -126,8 +126,6 @@ Monster und NPCs werden in **Schwierigkeitsgrade** eingeteilt:
 ---
 
 ## 🐺 Beispiel-Monster: Waldwolf
-
-```markdown
 # Waldwolf
 
 **Typ**: Bestie
@@ -217,13 +215,9 @@ Monster und NPCs werden in **Schwierigkeitsgrade** eingeteilt:
 
 Waldwölfe sind die häufigsten Raubtiere in den Wäldern von Terranea. Mit grauem bis braunem Fell, scharfen Zähnen und gelben Augen sind sie perfekte Jäger. Sie leben in Rudeln von 4-8 Tieren und jagen koordiniert. Obwohl sie Menschen normalerweise meiden, werden hungrige Wölfe im Winter aggressiv.
 
-```
-
 ---
 
 ## 👹 Beispiel-Monster: Ork-Krieger
-
-```markdown
 # Ork-Krieger
 
 **Typ**: Humanoid
@@ -322,9 +316,6 @@ Ork-Krieger sind die Frontkämpfer der Ork-Armeen. Mit grüner, narbiger Haut, m
 
 **Lebensraum**: Ork-Lager, Grenzgebiete von Sunar, Schlachtfelder
 **Häufigkeit**: Sehr häufig an der Front
-
-```
-
 ---
 
 ## 🧙 NPC-Template (Blank)
@@ -424,8 +415,6 @@ Ork-Krieger sind die Frontkämpfer der Ork-Armeen. Mit grüner, narbiger Haut, m
 ---
 
 ## 👨‍💼 Beispiel-NPC: Händler Boran
-
-```markdown
 # Boran der Reisende
 
 **Rasse**: Terraner
@@ -527,8 +516,6 @@ Vor 5 Jahren wurde er von Räubern überfallen und fast getötet. Seitdem ist er
 **Bei Ablehnung**: "Kein Problem, kein Problem! Schaut euch um, vielleicht findet ihr doch noch etwas."
 
 **Bei Freundschaft**: "Ihr seid gute Leute. Wenn ihr je in Schwierigkeiten seid, kommt zu Boran. Ich schulde euch was!"
-
-```
 
 ---
 
@@ -665,12 +652,3 @@ Nutze diese Tabelle, um Monster schnell für verschiedene Level anzupassen:
 
 ---
 
-**Zusammenfassung:** Ich habe ein vollständiges Template-System für Bestarium und NPCs erstellt mit:
-
-- Blank-Templates zum Ausfüllen
-- Beispiel-Monster (Waldwolf, Ork-Krieger, Ork-Häuptling)
-- Beispiel-NPC (Händler Boran)
-- Schwierigkeitsgrade-System
-- Schnell-Skalierungs-Tabelle für verschiedene Level
-
-Möchtest du weitere Beispiel-Monster/NPCs oder soll ich spezifische Kreaturen-Typen ausarbeiten (z.B. Untote, Dämonen, Drachen)?
