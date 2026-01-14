@@ -326,12 +326,12 @@
     
 
         <!-- Attribute -->
-        <h2>⚡ ATTRIBUTE</h2>
+        <h2> ATTRIBUTE</h2>
         <div class="section stat-box">
                             <div class="stat-row">
                 <span class="stat-name">Stärke (STR)</span>
                 <div class="stat-value">
-                    <input type="number" id="str" onchange="calculateBonus('str')">
+                    <input type="number" id="str" min="0" max="12" onchange="calculateBonus('str')">
                     <span>Bonus: <input type="text" id="str-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
@@ -373,20 +373,22 @@
             <div class="stat-row">
                 <span class="stat-name">Magie (MAG)</span>
                 <div class="stat-value">
-                    <input type="number" id="mag" min="0" max="12">
+                    <input type="number" id="mag" min="0" max="12" onchange="calculateBonus('mag')">
+                    <span>Bonus: <input type="text" id="mag-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
             <div class="stat-row">
                 <span class="stat-name">Technik (TEC)</span>
                 <div class="stat-value">
-                    <input type="number" id="tec" min="0" max="12">
+                    <input type="number" id="tec" min="0" max="12" onchange="calculateBonus('tec')">
+                    <span>Bonus: <input type="text" id="tec-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
             <div class="stat-row" ; padding: 8px; margin-top: 5px;"></div>
         </div>
 
         <!-- Kampfwerte -->
-        <h2>⚔️ KAMPFWERTE</h2>
+        <h2> KAMPFWERTE</h2>
         <div class="section">
             <div class="grid-2">
                 <div class="stat-box">
@@ -425,7 +427,7 @@
         </div>
 
         <!-- Währung -->
-        <h2>💰 WÄHRUNG</h2>
+        <h2> WÄHRUNG</h2>
         <div class="section">
             <div class="currency-box">
                 <div class="currency-item" style="border-color: #cd7f32;">
@@ -456,7 +458,7 @@
         <!-- Seite 2: Fähigkeiten -->
         <h1>FÄHIGKEITEN & SPEZIALISIERUNGEN</h1>
 
-        <h2>⚔️ KAMPF-FÄHIGKEITEN</h2>
+        <h2> KAMPF-FÄHIGKEITEN</h2>
         <div class="section">
             <div class="ability-section">
                 <div class="field-inline">
@@ -520,7 +522,7 @@
             </div>
         </div>
 
-        <h2>🗣️ SOZIALE FÄHIGKEITEN</h2>
+        <h2> SOZIALE FÄHIGKEITEN</h2>
         <div class="section">
             <div class="ability-section">
                 <div class="field-inline">
@@ -571,7 +573,7 @@
         <!-- Seite 3: Weitere Fähigkeiten -->
         <h1>FÄHIGKEITEN (FORTSETZUNG)</h1>
 
-        <h2>📚 WISSENS-FÄHIGKEITEN</h2>
+        <h2> WISSENS-FÄHIGKEITEN</h2>
         <div class="section">
             <div class="ability-section">
                 <div class="field-inline">
@@ -610,7 +612,7 @@
             </div>
         </div>
 
-        <h2>🔧 HANDWERKS-FÄHIGKEITEN</h2>
+        <h2> HANDWERKS-FÄHIGKEITEN</h2>
         <div class="section">
             <div class="ability-section">
                 <div class="field-inline">
@@ -660,7 +662,7 @@
             </div>
         </div>
 
-        <h2>🌲 ÜBERLEBEN-FÄHIGKEITEN</h2>
+        <h2> ÜBERLEBEN-FÄHIGKEITEN</h2>
         <div class="section">
             <div class="ability-section">
                 <div class="field-inline">
@@ -705,7 +707,7 @@
         <!-- Seite 4: Magie, Inventar & Charakterbeschreibung -->
         <h1>MAGIE & INVENTAR</h1>
 
-        <h2>✨ GELERNTE ZAUBER</h2>
+        <h2> GELERNTE ZAUBER</h2>
         <div class="section">
             <h3>Heilige Magie</h3>
             <textarea placeholder=""></textarea>
@@ -726,7 +728,7 @@
             <textarea placeholder=""></textarea>
         </div>
 
-        <h2>⚔️ AUSRÜSTUNG & INVENTAR</h2>
+        <h2> AUSRÜSTUNG & INVENTAR</h2>
         <div class="section">
             <h3>Waffen</h3>
             <table>
@@ -816,7 +818,7 @@
         <!-- Seite 5: Charakterbeschreibung & Notizen -->
         <h1>CHARAKTER & NOTIZEN</h1>
 
-        <h2>👤 CHARAKTERBESCHREIBUNG</h2>
+        <h2> CHARAKTERBESCHREIBUNG</h2>
         <div class="section">
             <h3>Aussehen</h3>
             <textarea placeholder=""></textarea>
@@ -831,7 +833,7 @@
             <textarea placeholder=""></textarea>
         </div>
 
-        <h2>👥 VERBÜNDETE & FEINDE</h2>
+        <h2> VERBÜNDETE & FEINDE</h2>
         <div class="section">
             <h3>Verbündete & Kontakte</h3>
             <textarea placeholder=""></textarea>
@@ -840,7 +842,7 @@
             <textarea placeholder=""></textarea>
         </div>
 
-        <h2>📝 KAMPAGNEN-NOTIZEN</h2>
+        <h2> KAMPAGNEN-NOTIZEN</h2>
         <div class="section">
             <h3>Aktuelle Quest(s)</h3>
             <textarea placeholder=""></textarea>
