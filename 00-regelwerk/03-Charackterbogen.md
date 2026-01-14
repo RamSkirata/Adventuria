@@ -1,602 +1,311 @@
-# Charakterbogen - Terranea (Vollständig)
+---
+
+## characterName: "" rasse: "" klasse: "" level: 1 staerke: 0 geschicklichkeit: 0 konstitution: 0 intelligenz: 0 weisheit: 0 charisma: 0 magie: 0 technik: 0 lebenspunkte: 0 maxLebenspunkte: 0 manapunkte: 0 maxManapunkte: 0 ruestungswert: 0 kupfer: 0 silber: 0 gold: 0 platin: 0 stern: 0
+
+# `=this.characterName`
+
+> [!info] Charakterinformationen **Rasse**: `=this.rasse` **Klasse**: `=this.klasse` **Level**: `=this.level`
 
 ---
 
-## Seite 1: Charakter-Profil
+## 📊 Attribute
 
-### **Grundinformationen**
+| Attribut             | Wert                      | Bonus (Wert/2)                      |
+| -------------------- | ------------------------- | ----------------------------------- |
+| **Stärke**           | `12=this.staerke`         | `=round(this.staerke / 2)`          |
+| **Geschicklichkeit** | `8=this.geschicklichkeit` | `=round(this.geschicklichkeit / 2)` |
+| **Konstitution**     | `10=this.konstitution`    | `=round(this.konstitution / 2)`     |
+| **Intelligenz**      | `5=this.intelligenz`      | `=round(this.intelligenz / 2)`      |
+| **Weisheit**         | `3=this.weisheit`         | `=round(this.weisheit / 2)`         |
+| **Charisma**         | `7=this.charisma`         | `=round(this.charisma / 2)`         |
+| **Magie**            | `=this.magie`             | -                                   |
+| **Technik**          | `=this.technik`           | -                                   |
 
-**Name:** ___________________________  
-**Spitzname:** ___________________________  
-**Rasse:** ☐ Terraner  ☐ Sylvaner  ☐ Khazad  ☐ Tiermensch  ☐ Shaper  
-**Geschlecht:** ___________________________  
-**Alter:** ______  
-**Größe:** ______  
-**Gewicht:** ______  
-**Augenfarbe:** ___________________________  
-**Haarfarbe:** ___________________________
-
-**Level:** ___________________________  
-**Erfahrungspunkte:** ________ / ________  
-**Spieler:** ___________________________
+> [!tip] Attribut-Summe **Gesamt**: `=this.staerke + this.geschicklichkeit + this.konstitution + this.intelligenz + this.weisheit + this.charisma + this.magie + this.technik` _(Sollte zwischen 35 und 70 liegen)_
 
 ---
 
-### **Attribute**
+## ⚔️ Kampfwerte
 
-| **Attribut**     | **Basis** | **Rassenboni** | **Boni** | **Gesamt** | **Bonus (Gesamt/2)** |
-| ---------------- | --------- | -------------- | -------- | ---------- | -------------------- |
-| Stärke           |           |                |          |            |                      |
-| Geschicklichkeit |           |                |          |            |                      |
-| Konstitution     |           |                |          |            |                      |
-| Intelligenz      |           |                |          |            |                      |
-| Weisheit         |           |                |          |            |                      |
-| Charisma         |           |                |          |            |                      |
-| **Magie**        |           |                |          |            |                      |
-| **Technik**      |           |                |          |            |                      |
+> [!danger] Lebenspunkte **Aktuell**: `=this.lebenspunkte` / **Maximum**: `=this.maxLebenspunkte`
+> 
+> **Berechnung LP**: 2W6 + (Stärke/2) + (Konstitution/2)
 
+> [!info] Manapunkte **Aktuell**: `=this.manapunkte` / **Maximum**: `=this.maxManapunkte`
+> 
+> **Berechnung MP**: 2W6 + (Intelligenz/2) + (Weisheit/2) + Magie
+
+> [!note] Rüstung **Rüstungswert**: `=this.ruestungswert`
 
 ---
 
-### **Ressourcen**
+## 🎯 Fähigkeiten
 
-**Lebenspunkte (LP):**
-- **Aktuell:** ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐
-- **Maximum:** ______
-- **Berechnung:** 2W6 + (Stärke/2) + (Konsti/2) = ______
-- **Temporäre LP:** ______
+### Kampf-Fähigkeiten
 
-**Mana-Punkte (MP):**
-- **Aktuell:** ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐
-- **Maximum:** ______
-- **Berechnung:** 2W6 + (Int/2) + (Weisheit/2) + Magie = ______
+#### Nahkampf (Stärke)
 
-**Ausdauer (optional):** ☐☐☐☐☐ ☐☐☐☐☐
+- [ ] **Nahkampf** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Einhandschwert** - Stufe: ___/6
+    - [ ] **Spezialisierung: Zweihandschwert** - Stufe: ___/6
+    - [ ] **Spezialisierung: Einhandaxt** - Stufe: ___/6
+    - [ ] **Spezialisierung: Zweihandaxt** - Stufe: ___/6
+    - [ ] **Spezialisierung: Hammer & Kolben** - Stufe: ___/6
+    - [ ] **Spezialisierung: Stangenwaffen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Dolche** - Stufe: ___/6
+    - [ ] **Spezialisierung: Rapier & Degen** - Stufe: ___/6
 
----
+#### Fernkampf (Geschicklichkeit)
 
-### **Kampfwerte**
+- [ ] **Fernkampf** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Langbogen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Kurzbogen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Armbrust** - Stufe: ___/6
+    - [ ] **Spezialisierung: Wurfwaffen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Schleuder** - Stufe: ___/6
 
-**Initiative:** 2W6 + (Geschicklichkeit/2) = 2W6 + ______
+#### Waffenloser Kampf (Stärke/Geschicklichkeit)
 
-**Verteidigungswert:**
-- **Berechnung:** 10 + (Geschick/2) + Ausweichen + Rüstung
-- **10** + ______ + ______ + ______ = **______**
+- [ ] **Waffenloser Kampf** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Faustkampf** - Stufe: ___/6
+    - [ ] **Spezialisierung: Ringen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Mönchskampf** - Stufe: ___/6
 
-**Rüstungswert:** ______
-**Rüstungsteile:** ______
+#### Verteidigung (Geschicklichkeit/Konstitution)
 
-**Bewegungsrate:**
-- **Standard:** ______m
-- **Mit Modifikatoren:** ______m
-- **Sprint (Aktion):** ______m
+- [ ] **Verteidigung** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Ausweichen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Parieren** - Stufe: ___/6
+    - [ ] **Spezialisierung: Blocken (Schild)** - Stufe: ___/6
 
----
+#### Taktik (Intelligenz)
 
-### **Rettungswürfe**
-
-| **Typ**         | **Formel**              | **Bonus** | **Gesamt**        |
-|-----------------|-------------------------|-----------|-------------------|
-| **Robustheit**  | 2W6 + (Konsti/2)        | + ______  | 2W6 + ______      |
-| **Reflexe**     | 2W6 + (Geschick/2)      | + ______  | 2W6 + ______      |
-| **Willenskraft**| 2W6 + (Weisheit/2)      | + ______  | 2W6 + ______      |
-
----
-
-### **Aktionen im Kampf**
-
-**Pro Runde verfügbar:**
-- ☐ **Standard-Aktion** (Angriff, Zauber, Trank, etc.)
-- ☐ **Bewegungs-Aktion** (10m bewegen, Waffe wechseln, etc.)
-- ☐ **Reaktion** (Gelegenheitsangriff, Parieren, 1x pro Runde)
-- **Freie Aktionen** (Sprechen, Gegenstand fallen lassen, unbegrenzt)
+- [ ] **Taktik** - Stufe: ___/12 | Bonus: ___
 
 ---
 
-## Seite 2: Fähigkeiten & Spezialisierungen
+### Soziale Fähigkeiten
 
-### **Kampf-Fähigkeiten**
+#### Überzeugung (Charisma)
 
-| **Fähigkeit**       | **Attribut** | **Level (max=Attr)** | **Bonus** | **Probe: 2W6 +** |
-|---------------------|--------------|----------------------|-----------|------------------|
-| Nahkampf            | Stärke       |                      |           | (Attr/2) + Fähig |
-| Fernkampf           | Geschick     |                      |           | (Attr/2) + Fähig |
-| Waffenloser Kampf   | Stärke/Gesch |                      |           | (Attr/2) + Fähig |
-| Verteidigung        | Geschick     |                      |           | (Attr/2) + Fähig |
-| Taktik              | Intelligenz  |                      |           | (Attr/2) + Fähig |
+- [ ] **Überzeugung** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Überreden** - Stufe: ___/6
+    - [ ] **Spezialisierung: Verhandeln** - Stufe: ___/6
+    - [ ] **Spezialisierung: Diplomatie** - Stufe: ___/6
 
-**Spezialisierungen (max Level 6):**
+#### Täuschung (Charisma)
 
-| **Spezialisierung** | **Übergeordnet** | **Level** | **Bonus** | **Probe: + obiges +** |
-|---------------------|------------------|-----------|-----------|----------------------|
-|                     |                  |           |           | Spezialisierung      |
-|                     |                  |           |           |                      |
-|                     |                  |           |           |                      |
-|                     |                  |           |           |                      |
+- [ ] **Täuschung** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Lügen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Bluffen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Verkleiden** - Stufe: ___/6
 
----
+#### Einschüchterung (Stärke/Charisma)
 
-### **Soziale Fähigkeiten**
+- [ ] **Einschüchterung** - Stufe: ___/12 | Bonus: ___
 
-| **Fähigkeit**       | **Attribut** | **Level (max=Attr)** | **Bonus** | **Probe: 2W6 +** |
-|---------------------|--------------|----------------------|-----------|------------------|
-| Überzeugung         | Charisma     |                      |           | (Attr/2) + Fähig |
-| Täuschung           | Charisma     |                      |           | (Attr/2) + Fähig |
-| Einschüchterung     | Stärke/Char  |                      |           | (Attr/2) + Fähig |
-| Auftreten           | Charisma     |                      |           | (Attr/2) + Fähig |
+#### Auftreten (Charisma)
 
-**Spezialisierungen:**
-
-| **Spezialisierung** | **Übergeordnet** | **Level** | **Bonus** |
-|---------------------|------------------|-----------|-----------|
-|                     |                  |           |           |
-|                     |                  |           |           |
+- [ ] **Auftreten** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Führung** - Stufe: ___/6
+    - [ ] **Spezialisierung: Performance** - Stufe: ___/6
+    - [ ] **Spezialisierung: Etikette** - Stufe: ___/6
 
 ---
 
-### **Wissens-Fähigkeiten**
+### Wissens-Fähigkeiten
 
-| **Fähigkeit**       | **Attribut** | **Level (max=Attr)** | **Bonus** | **Probe: 2W6 +** |
-|---------------------|--------------|----------------------|-----------|------------------|
-| Gelehrsamkeit       | Intelligenz  |                      |           | (Attr/2) + Fähig |
-| Naturkunde          | Weisheit     |                      |           | (Attr/2) + Fähig |
-| Medizin             | Int/Weisheit |                      |           | (Attr/2) + Fähig |
+#### Gelehrsamkeit (Intelligenz)
 
-**Spezialisierungen:**
+- [ ] **Gelehrsamkeit** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Geschichte** - Stufe: ___/6
+    - [ ] **Spezialisierung: Arkanes Wissen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Religionen** - Stufe: ___/6
 
-| **Spezialisierung** | **Übergeordnet** | **Level** | **Bonus** |
-|---------------------|------------------|-----------|-----------|
-|                     |                  |           |           |
-|                     |                  |           |           |
+#### Naturkunde (Weisheit)
 
----
+- [ ] **Naturkunde** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Tierkunde** - Stufe: ___/6
+    - [ ] **Spezialisierung: Pflanzenkunde** - Stufe: ___/6
+    - [ ] **Spezialisierung: Wetterkunde** - Stufe: ___/6
 
-### **Handwerks-Fähigkeiten**
+#### Medizin (Intelligenz/Weisheit)
 
-| **Fähigkeit**       | **Attribut** | **Level (max=Attr)** | **Bonus** | **Probe: 2W6 +** |
-|---------------------|--------------|----------------------|-----------|------------------|
-| Handwerk            | Geschick     |                      |           | (Attr/2) + Fähig |
-| Technik             | Intelligenz  |                      |           | (Attr/2) + Fähig |
-| Magie               | Int/Weisheit |                      |           | (Attr/2) + Fähig |
-
-**Spezialisierungen:**
-
-| **Spezialisierung** | **Übergeordnet** | **Level** | **Bonus** |
-|---------------------|------------------|-----------|-----------|
-|                     |                  |           |           |
-|                     |                  |           |           |
-|                     |                  |           |           |
+- [ ] **Medizin** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Erste Hilfe** - Stufe: ___/6
+    - [ ] **Spezialisierung: Chirurgie** - Stufe: ___/6
+    - [ ] **Spezialisierung: Kräuterheilkunde** - Stufe: ___/6
 
 ---
 
-### **Überleben-Fähigkeiten**
+### Handwerks-Fähigkeiten
 
-| **Fähigkeit**       | **Attribut** | **Level (max=Attr)** | **Bonus** | **Probe: 2W6 +** |
-|---------------------|--------------|----------------------|-----------|------------------|
-| Überleben           | Weisheit     |                      |           | (Attr/2) + Fähig |
-| Schleichen          | Geschick     |                      |           | (Attr/2) + Fähig |
-| Diebeskunst         | Geschick     |                      |           | (Attr/2) + Fähig |
+#### Handwerk (Geschicklichkeit)
 
-**Spezialisierungen:**
+- [ ] **Handwerk** - Stufe: ___/12 | Bonus: ___
 
-| **Spezialisierung** | **Übergeordnet** | **Level** | **Bonus** |
-|---------------------|------------------|-----------|-----------|
-|                     |                  |           |           |
-|                     |                  |           |           |
+#### Technik (Intelligenz)
 
----
+- [ ] **Technik** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Waffenbau** - Stufe: ___/6
+    - [ ] **Spezialisierung: Rüstungsschmied** - Stufe: ___/6
+    - [ ] **Spezialisierung: Fallenbau** - Stufe: ___/6
+    - [ ] **Spezialisierung: Belagerungstechnik** - Stufe: ___/6
+    - [ ] **Spezialisierung: Feinmechanik** - Stufe: ___/6
+    - [ ] **Spezialisierung: Sprengstoff** - Stufe: ___/6
+    - [ ] **Spezialisierung: Schiffbau** - Stufe: ___/6
+    - [ ] **Spezialisierung: Konstruktion** - Stufe: ___/6
 
-## Seite 3: Ausrüstung & Inventar
+#### Magie (Intelligenz/Weisheit)
 
-### **Waffen**
-
-| **Waffe** | **Typ** | **Schaden** | **Attribut** | **Reichweite** | **Eigenschaften** | **Wert** |
-|-----------|---------|-------------|--------------|----------------|-------------------|----------|
-|           |         |             |              |                |                   |          |
-|           |         |             |              |                |                   |          |
-|           |         |             |              |                |                   |          |
-
-**Munition:**
-- Pfeile: ______ / ______
-- Bolzen: ______ / ______
-- Andere: ______________________
-
----
-
-### **Rüstung & Schutz**
-
-| **Rüstung/Schild** | **Typ** | **Rüstwert** | **Eigenschaften** | **Wert** |
-|--------------------|---------|--------------|-------------------|----------|
-|                    |         |              |                   |          |
-|                    |         |              |                   |          |
-
-**Gesamter Rüstungswert:** ______
+- [ ] **Magie** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Heilige Magie** - Stufe: ___/6
+    - [ ] **Spezialisierung: Naturmagie** - Stufe: ___/6
+    - [ ] **Spezialisierung: Shaper-Magie** - Stufe: ___/6
+    - [ ] **Spezialisierung: Feuermagie** - Stufe: ___/6
+    - [ ] **Spezialisierung: Wassermagie** - Stufe: ___/6
+    - [ ] **Spezialisierung: Erdmagie** - Stufe: ___/6
+    - [ ] **Spezialisierung: Luftmagie** - Stufe: ___/6
+    - [ ] **Spezialisierung: Evokation** - Stufe: ___/6
+    - [ ] **Spezialisierung: Illusion** - Stufe: ___/6
+    - [ ] **Spezialisierung: Veränderung** - Stufe: ___/6
+    - [ ] **Spezialisierung: Beschwörung** - Stufe: ___/6
+    - [ ] **Spezialisierung: Erkenntnis** - Stufe: ___/6
+    - [ ] **Spezialisierung: Schutz** - Stufe: ___/6
+    - [ ] **Spezialisierung: Runenmagie** - Stufe: ___/6
 
 ---
 
-### **Magische Gegenstände & Verzauberungen**
+### Überleben-Fähigkeiten
 
-| **Gegenstand** | **Typ** | **Effekt** | **Ladungen/Nutzungen** | **Wert** |
-|----------------|---------|------------|------------------------|----------|
-|                |         |            |                        |          |
-|                |         |            |                        |          |
-|                |         |            |                        |          |
+#### Überleben (Weisheit)
 
----
+- [ ] **Überleben** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Fährtenlesen** - Stufe: ___/6
+    - [ ] **Spezialisierung: Kräuterkunde** - Stufe: ___/6
+    - [ ] **Spezialisierung: Nahrungssuche** - Stufe: ___/6
+    - [ ] **Spezialisierung: Orientierung** - Stufe: ___/6
 
-### **Rucksack & Ausrüstung**
+#### Schleichen (Geschicklichkeit)
 
-**Tragfähigkeit:** ______ kg (Stärke x 5)
+- [ ] **Schleichen** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Verstecken** - Stufe: ___/6
+    - [ ] **Spezialisierung: Leise Bewegung** - Stufe: ___/6
+    - [ ] **Spezialisierung: Schattentanz** - Stufe: ___/6
 
-| **Gegenstand** | **Gewicht** | **Anzahl** | **Wert** |
-|----------------|-------------|------------|----------|
-|                |             |            |          |
-|                |             |            |          |
-|                |             |            |          |
-|                |             |            |          |
-|                |             |            |          |
-|                |             |            |          |
-|                |             |            |          |
-|                |             |            |          |
+#### Diebeskunst (Geschicklichkeit)
 
-**Aktuelles Gewicht:** ______ / ______ kg
+- [ ] **Diebeskunst** - Stufe: ___/12 | Bonus: ___
+    - [ ] **Spezialisierung: Schlösser knacken** - Stufe: ___/6
+    - [ ] **Spezialisierung: Taschendiebstahl** - Stufe: ___/6
+    - [ ] **Spezialisierung: Fallen entschärfen** - Stufe: ___/6
 
 ---
 
-### **Tränke & Verbrauchsgüter**
+## 🎒 Inventar
 
-| **Trank/Item** | **Effekt** | **Anzahl** | **Wert** |
-|----------------|------------|------------|----------|
-|                |            |            |          |
-|                |            |            |          |
-|                |            |            |          |
-|                |            |            |          |
+### Waffen
 
----
+|Waffe|Schaden|Attribut|Besonderheiten|
+|---|---|---|---|
+|||||
+|||||
+|||||
 
-### **Währung**
+### Rüstung
 
-**Kupfermünzen (K):** ______  
-**Silbermünzen (S):** ______  
-**Goldmünzen (G):** ______  
-**Platinmünzen (P):** ______  
-**Sternmünzen (St):** ______
+|Rüstungsteil|Rüstwert|Besonderheiten|
+|---|---|---|
+||||
+||||
 
-**Gesamtwert in Gold:** ______ G
+### Ausrüstung
 
----
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 
-## Seite 4: Magie & Zauber
+### Magische Gegenstände
 
-### **Magische Schulen (ankreuzen falls gelernt):**
-
-- ☐ **Heilige Magie** (Lumina-Tradition)
-- ☐ **Naturmagie** (Teronis-Tradition)
-- ☐ **Shaper-Magie** (Formermagie)
-- ☐ **Feuermagie** (Element)
-- ☐ **Wassermagie** (Element)
-- ☐ **Erdmagie** (Element)
-- ☐ **Luftmagie** (Element)
-- ☐ **Evokation** (Akademie)
-- ☐ **Illusion** (Akademie)
-- ☐ **Veränderung** (Akademie)
-- ☐ **Beschwörung** (Akademie)
-- ☐ **Erkenntnis** (Akademie)
-- ☐ **Schutz** (Akademie)
-- ☐ **Runenmagie**
+- [ ]
+- [ ]
+- [ ]
 
 ---
 
-### **Bekannte Zauber**
+## 💰 Währung
 
-| **Zauber** | **Schule** | **MP** | **Schwierigkeit** | **Reichweite** | **Dauer** | **Effekt (Kurzfassung)** |
-|------------|------------|--------|-------------------|----------------|-----------|--------------------------|
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
-|            |            |        |                   |                |           |                          |
+|Münze|Anzahl|
+|---|---|
+|**Kupfer**|`=this.kupfer`|
+|**Silber**|`=this.silber`|
+|**Gold**|`=this.gold`|
+|**Platin**|`=this.platin`|
+|**Stern**|`=this.stern`|
+
+**Gesamtwert in Kupfer**: `=this.kupfer + (this.silber * 10) + (this.gold * 100) + (this.platin * 1000) + (this.stern * 10000)`
 
 ---
 
-### **Heute vorbereitete Zauber:**
+## 📜 Gelernte Zauber
 
-- ☐ _______________________________
-- ☐ _______________________________
-- ☐ _______________________________
-- ☐ _______________________________
-- ☐ _______________________________
-- ☐ _______________________________
-- ☐ _______________________________
-- ☐ _______________________________
+### Heilige Magie
 
----
+- [ ]
+- [ ]
 
-### **Schriftrollen & Einmal-Zauber**
+### Naturmagie
 
-| **Schriftrolle** | **Zauber** | **Effekt** | **Verwendet** |
-|------------------|------------|------------|---------------|
-|                  |            |            | ☐             |
-|                  |            |            | ☐             |
-|                  |            |            | ☐             |
-|                  |            |            | ☐             |
+- [ ]
+- [ ]
 
----
+### Shaper-Magie
 
-### **Element-Magie (Freies Wirken)**
+- [ ]
+- [ ]
 
-**Feuermagie:**
-- **Spezialisierung:** ______ (Bonus: +______)
-- **Notizen:** _____________________________________________
+### Element-Magie
 
-**Wassermagie:**
-- **Spezialisierung:** ______ (Bonus: +______)
-- **Notizen:** _____________________________________________
+- [ ]
+- [ ]
 
-**Erdmagie:**
-- **Spezialisierung:** ______ (Bonus: +______)
-- **Notizen:** _____________________________________________
+### Akademie-Zauber
 
-**Luftmagie:**
-- **Spezialisierung:** ______ (Bonus: +______)
-- **Notizen:** _____________________________________________
-
-**Häufig verwendete Effekte:**
-_________________________________________________________________
-_________________________________________________________________
+- [ ]
+- [ ]
 
 ---
 
-### **Runen (erstellt & platziert)**
+## 🔧 Technische Erfindungen
 
-| **Rune** | **Ort/Objekt** | **Effekt** | **Aktivierungen** | **Material-Kosten** |
-|----------|----------------|------------|-------------------|---------------------|
-|          |                |            | ☐☐☐☐☐             |                     |
-|          |                |            | ☐☐☐☐☐             |                     |
-|          |                |            | ☐☐☐☐☐             |                     |
+- [ ]
+- [ ]
+- [ ]
 
 ---
 
-## Seite 5: Hintergrund & Persönlichkeit
+## 📝 Notizen
 
-### **Charakterbeschreibung**
+### Hintergrundgeschichte
 
-**Aussehen:**  
-_________________________________________________________________
-_________________________________________________________________
+### Ziele
 
-**Persönlichkeit:**  
-_________________________________________________________________
-_________________________________________________________________
+### Verbündete & Kontakte
 
-**Ideale:**  
-_________________________________________________________________
-
-**Bindungen:**  
-_________________________________________________________________
-
-**Schwächen/Ängste:**  
-_________________________________________________________________
+### Feinde
 
 ---
 
-### **Hintergrundgeschichte**
-
-_________________________________________________________________
-
-_________________________________________________________________
-
-_________________________________________________________________
-
-_________________________________________________________________
-
-_________________________________________________________________
-
-_________________________________________________________________
-
-_________________________________________________________________
-
-_________________________________________________________________
-
-
----
-
-### **Ziele (kurz- und langfristig)**
-
-**Kurzfristig:**
-- 
-- 
-- 
-
-**Langfristig:**
-- 
-- 
-- 
-
----
-
-### **Verbündete & Kontakte**
-
-| **Name** | **Beziehung** | **Ort** | **Notizen** |
-|----------|---------------|---------|-------------|
-|          |               |         |             |
-|          |               |         |             |
-|          |               |         |             |
-
----
-
-### **Feinde & Rivalen**
-
-| **Name** | **Grund** | **Gefährlichkeit** | **Notizen** |
-|----------|-----------|-------------------|-------------|
-|          |           |                   |             |
-|          |           |                   |             |
-
----
-
-## Seite 6: Quest-Log & Notizen
-
-### **Aktive Quests**
-
-| **Quest-Name** | **Auftraggeber** | **Ziel** | **Belohnung** | **Status** |
-|----------------|------------------|----------|---------------|------------|
-|                |                  |          |               | ☐ Offen    |
-|                |                  |          |               | ☐ Offen    |
-|                |                  |          |               | ☐ Offen    |
-
----
-
-### **Abgeschlossene Quests**
-
-| **Quest-Name** | **Belohnung erhalten** | **EP erhalten** |
-|----------------|------------------------|-----------------|
-|                |                        |                 |
-|                |                        |                 |
-|                |                        |                 |
-
----
-
-### **Wichtige Orte**
-
-| **Ort** | **Beschreibung** | **Wichtige NPCs** |
-|---------|------------------|-------------------|
-|         |                  |                   |
-|         |                  |                   |
-|         |                  |                   |
-
----
-
-### **Kampagnen-Notizen**
-
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-
----
-
-### **Sitzungs-Log**
-
-**Sitzung 1 (Datum: ________)**  
-_________________________________________________________________
-_________________________________________________________________
-
-**Sitzung 2 (Datum: ________)**  
-_________________________________________________________________
-_________________________________________________________________
-
-**Sitzung 3 (Datum: ________)**  
-_________________________________________________________________
-_________________________________________________________________
-
----
-
-## Seite 7: Technik & Konstruktionen (optional)
-
-### **Technik-Spezialisierungen**
-
-| **Spezialisierung** | **Level** | **Bonus** | **Notizen** |
-|---------------------|-----------|-----------|-------------|
-|                     |           |           |             |
-|                     |           |           |             |
-|                     |           |           |             |
-
----
-
-### **Eigene Konstruktionen**
-
-| **Konstruktion** | **Typ** | **Funktion** | **Material-Kosten** | **Bauzeit** | **Status** |
-|------------------|---------|--------------|---------------------|-------------|------------|
-|                  |         |              |                     |             | ☐ Fertig   |
-|                  |         |              |                     |             | ☐ In Arbeit|
-|                  |         |              |                     |             | ☐ Geplant  |
-
----
-
-### **Technik-Projekte (geplant)**
-
-| **Projekt** | **Benötigte Materialien** | **Geschätzte Kosten** | **Schwierigkeit** |
-|-------------|---------------------------|-----------------------|-------------------|
-|             |                           |                       |                   |
-|             |                           |                       |                   |
-
----
-
-### **Bomben & Granaten (Vorrat)**
-
-| **Typ** | **Anzahl** | **Schaden/Effekt** | **Wert** |
-|---------|------------|-------------------|----------|
-|         |            |                   |          |
-|         |            |                   |          |
-|         |            |                   |          |
-
----
-
-## Seite 8: Zusätzliche Notizen & Referenzen
-
-### **Wichtige Regeln (Schnellreferenz)**
-
-**Proben-System:**
-- **Basis:** 2W6 + (Attribut/2) + Fähigkeit + Spezialisierung
-- **Standard-Schwierigkeit:** 14
-- **Kritischer Erfolg:** 12 auf Würfel (6+6)
-- **Kritischer Patzer:** 2 auf Würfel (1+1)
-
-**Kampf-Aktionen pro Runde:**
-- 1x Standard-Aktion
-- 1x Bewegungs-Aktion (10m)
-- 1x Reaktion (außerhalb eigener Runde)
-- Unbegrenzt Freie Aktionen
-
-**Rettungswürfe:**
-- **Robustheit:** 2W6 + (Konsti/2)
-- **Reflexe:** 2W6 + (Geschick/2)
-- **Willenskraft:** 2W6 + (Weisheit/2)
-
----
-
-### **Häufig verwendete Aktionen**
-
-**Im Kampf:**
-- Angriff (Nahkampf): 2W6 + (Stärke/2) + Nahkampf + Spezialisierung
-- Angriff (Fernkampf): 2W6 + (Geschick/2) + Fernkampf + Spezialisierung
-- Verteidigung: 10 + (Geschick/2) + Ausweichen + Rüstung
-- Trank trinken: Standard-Aktion
-
-**Außerhalb des Kampfes:**
-- Schleichen: 2W6 + (Geschick/2) + Schleichen + Spezialisierung
-- Schloss knacken: 2W6 + (Geschick/2) + Diebeskunst + Schlösser knacken
-- Überreden: 2W6 + (Charisma/2) + Überzeugung + Spezialisierung
-
----
-
-### **Level-Aufstieg Checkliste**
-
-Beim Level-Aufstieg:
-- ☐ +1W6 LP (+ Stärke/2 + Konsti/2)
-- ☐ +1W6 MP (nur Magier, + Int/2 + Weisheit/2)
-- ☐ Fähigkeiten-Punkte erhalten (Level 2-4: 3, Level 5-7: 4, Level 8-10: 5)
-- ☐ 1 kostenlose Spezialisierung (ab Level 3)
-- ☐ +1 Attribut (ab Level 5, dann alle 2 Level)
-
----
-
-### **Freie Notizen**
-
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
+## 📊 Dataview-Übersicht
+
+```dataview
+TABLE
+  level as "Level",
+  rasse as "Rasse",
+  klasse as "Klasse",
+  lebenspunkte as "LP",
+  manapunkte as "MP"
+WHERE file.name = this.file.name
+```
