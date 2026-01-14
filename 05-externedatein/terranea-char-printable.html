@@ -297,29 +297,29 @@
             <div class="grid-3">
                 <div class="field">
                     <label>Charaktername:</label>
-                    <input type="text" id="name" placeholder="">
+                    <input type="text" id="name" placeholder="Name des Charakters">
                 </div>
                 <div class="field">
                     <label>Rasse:</label>
-                    <input type="text" id="rasse" placeholder="">
+                    <input type="text" id="rasse" placeholder="Terraner, Sylvaner, Khazad...">
                 </div>
                 <div class="field">
                     <label>Klasse/Beruf:</label>
-                    <input type="text" id="klasse" placeholder="">
+                    <input type="text" id="klasse" placeholder="Krieger, Magier...">
                 </div>
             </div>
             <div class="grid-3">
                 <div class="field">
                     <label>Level:</label>
-                    <input type="number" id="level">
+                    <input type="number" id="level" min="1">
                 </div>
                 <div class="field">
                     <label>Erfahrung:</label>
-                    <input type="text" id="erfahrung" placeholder="">
+                    <input type="text" id="erfahrung" placeholder="XP">
                 </div>
                 <div class="field">
                     <label>Spielername:</label>
-                    <input type="text" id="spieler" placeholder="">
+                    <input type="text" id="spieler" placeholder="Dein Name">
                 </div>
             </div>
         </div>
@@ -327,67 +327,61 @@
         <!-- Attribute -->
         <h2>⚡ ATTRIBUTE</h2>
         <div class="section stat-box">
-            <div class="stat-row">
+                            <div class="stat-row">
                 <span class="stat-name">Stärke (STR)</span>
                 <div class="stat-value">
-                    <input type="number" id="str" value="" min="0" max="12" onchange="calculateBonus('str')">
+                    <input type="number" id="str" onchange="calculateBonus('str')">
                     <span>Bonus: <input type="text" id="str-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
             <div class="stat-row">
                 <span class="stat-name">Geschicklichkeit (GES)</span>
                 <div class="stat-value">
-                    <input type="number" id="ges" value="" min="0" max="12" onchange="calculateBonus('ges')">
+                    <input type="number" id="ges" min="0" max="12" onchange="calculateBonus('ges')">
                     <span>Bonus: <input type="text" id="ges-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
             <div class="stat-row">
                 <span class="stat-name">Konstitution (KON)</span>
                 <div class="stat-value">
-                    <input type="number" id="kon" value="" min="0" max="12" onchange="calculateBonus('kon')">
+                    <input type="number" id="kon" min="0" max="12" onchange="calculateBonus('kon')">
                     <span>Bonus: <input type="text" id="kon-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
             <div class="stat-row">
                 <span class="stat-name">Intelligenz (INT)</span>
                 <div class="stat-value">
-                    <input type="number" id="int" value="" min="0" max="12" onchange="calculateBonus('int')">
+                    <input type="number" id="int" min="0" max="12" onchange="calculateBonus('int')">
                     <span>Bonus: <input type="text" id="int-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
             <div class="stat-row">
                 <span class="stat-name">Weisheit (WEI)</span>
                 <div class="stat-value">
-                    <input type="number" id="wei" value="" min="0" max="12" onchange="calculateBonus('wei')">
+                    <input type="number" id="wei" min="0" max="12" onchange="calculateBonus('wei')">
                     <span>Bonus: <input type="text" id="wei-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
             <div class="stat-row">
                 <span class="stat-name">Charisma (CHA)</span>
                 <div class="stat-value">
-                    <input type="number" id="cha" value="" min="0" max="12" onchange="calculateBonus('cha')">
+                    <input type="number" id="cha" min="0" max="12" onchange="calculateBonus('cha')">
                     <span>Bonus: <input type="text" id="cha-bonus" readonly style="width: 40px; background: #ddd;"></span>
                 </div>
             </div>
             <div class="stat-row">
                 <span class="stat-name">Magie (MAG)</span>
                 <div class="stat-value">
-                    <input type="number" id="mag" value="" min="0" max="12">
+                    <input type="number" id="mag" min="0" max="12">
                 </div>
             </div>
             <div class="stat-row">
                 <span class="stat-name">Technik (TEC)</span>
                 <div class="stat-value">
-                    <input type="number" id="tec" value="" min="0" max="12">
+                    <input type="number" id="tec" min="0" max="12">
                 </div>
             </div>
-            <div class="stat-row" style="background: #fff3cd; padding: 8px; margin-top: 5px;">
-                <span class="stat-name">Attribut-Summe:</span>
-                <div class="stat-value">
-                    <input type="text" id="attr-sum" readonly style="width: 60px; background: #fff; font-weight: bold; border: 2px solid #856404;">
-                    <span style="font-size: 8pt; color: #856404;">(35-70)</span>
-                </div>
-            </div>
+            <div class="stat-row" ; padding: 8px; margin-top: 5px;"></div>
         </div>
 
         <!-- Kampfwerte -->
@@ -397,18 +391,18 @@
                 <div class="stat-box">
                     <div class="field-inline">
                         <label>Lebenspunkte (LP):</label>
-                        <input type="number" id="lp-current" value="" style="width: 50px;">
+                        <input type="number" id="lp-current" style="width: 50px;">
                         <span>/</span>
-                        <input type="number" id="lp-max" value="" style="width: 50px;">
+                        <input type="number" id="lp-max" style="width: 50px;">
                     </div>
                     <small style="font-size: 7pt; color: #666;">Berechnung: 2W6 + (STR/2) + (KON/2)</small>
                 </div>
                 <div class="stat-box">
                     <div class="field-inline">
                         <label>Manapunkte (MP):</label>
-                        <input type="number" id="mp-current" value="" style="width: 50px;">
+                        <input type="number" id="mp-current" style="width: 50px;">
                         <span>/</span>
-                        <input type="number" id="mp-max" value="" style="width: 50px;">
+                        <input type="number" id="mp-max" style="width: 50px;">
                     </div>
                     <small style="font-size: 7pt; color: #666;">Berechnung: 2W6 + (INT/2) + (WEI/2) + MAG</small>
                 </div>
@@ -417,13 +411,13 @@
                 <div class="stat-box">
                     <div class="field-inline">
                         <label>Rüstungswert:</label>
-                        <input type="number" id="armor" value="">
+                        <input type="number" id="armor">
                     </div>
                 </div>
                 <div class="stat-box">
                     <div class="field-inline">
                         <label>Initiative:</label>
-                        <input type="number" id="initiative" value="">
+                        <input type="number" id="initiative">
                     </div>
                 </div>
             </div>
@@ -435,23 +429,23 @@
             <div class="currency-box">
                 <div class="currency-item" style="border-color: #cd7f32;">
                     <label>Kupfer</label>
-                    <input type="number" id="kupfer" value="" min="0">
+                    <input type="number" id="kupfer" min="0">
                 </div>
                 <div class="currency-item" style="border-color: #c0c0c0;">
                     <label>Silber</label>
-                    <input type="number" id="silber" value="" min="0">
+                    <input type="number" id="silber" min="0">
                 </div>
                 <div class="currency-item" style="border-color: #ffd700;">
                     <label>Gold</label>
-                    <input type="number" id="gold" value="" min="0">
+                    <input type="number" id="gold" min="0">
                 </div>
                 <div class="currency-item" style="border-color: #e5e4e2;">
                     <label>Platin</label>
-                    <input type="number" id="platin" value="" min="0">
+                    <input type="number" id="platin" min="0">
                 </div>
                 <div class="currency-item" style="border-color: #4169e1;">
                     <label>Stern</label>
-                    <input type="number" id="stern" value="" min="0">
+                    <input type="number" id="stern" min="0">
                 </div>
             </div>
         </div>
@@ -466,7 +460,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Nahkampf (STR)</label>
-                    <input type="number" min="0" max="12" placeholder=" " class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Einhandschwert (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -483,7 +477,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Fernkampf (GES)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Langbogen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -496,7 +490,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Waffenloser Kampf (STR/GES)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Faustkampf (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -508,7 +502,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Verteidigung (GES/KON)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Ausweichen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -520,7 +514,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Taktik (INT)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
             </div>
         </div>
@@ -530,7 +524,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Überzeugung (CHA)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Überreden (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -542,7 +536,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Täuschung (CHA)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Lügen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -554,14 +548,14 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Einschüchterung (STR/CHA)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
             </div>
 
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Auftreten (CHA)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Führung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -581,7 +575,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Gelehrsamkeit (INT)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Geschichte (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -593,7 +587,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Naturkunde (WEI)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Tierkunde (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -605,7 +599,7 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Medizin (INT/WEI)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Erste Hilfe (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -620,14 +614,14 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Handwerk (GES)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
             </div>
 
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Technik (INT)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Waffenbau (0-6): <input type="number" min="0" max="6" class="small-input"></div>
@@ -644,8 +638,299 @@
             <div class="ability-section">
                 <div class="field-inline">
                     <label>☐ Magie (INT/WEI)</label>
-                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
                 </div>
                 <div class="specialization checkbox-list">
                     <div class="checkbox-item">☐ Heilige Magie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
-                    <div class="checkbox-item
+                    <div class="checkbox-item">☐ Naturmagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Shaper-Magie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Feuermagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Wassermagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Erdmagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Luftmagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Evokation (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Illusion (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Veränderung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Beschwörung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Erkenntnis (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Schutz (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Runenmagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <h2>🌲 ÜBERLEBEN-FÄHIGKEITEN</h2>
+        <div class="section">
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Überleben (WEI)</label>
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Fährtenlesen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Kräuterkunde (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Nahrungssuche (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Orientierung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Schleichen (GES)</label>
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Verstecken (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Leise Bewegung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Schattentanz (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Diebeskunst (GES)</label>
+                    <input type="number" min="0" max="12" placeholder="0-12" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Schlösser knacken (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Taschendiebstahl (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Fallen entschärfen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Seite 4: Magie, Inventar & Charakterbeschreibung -->
+        <h1>MAGIE & INVENTAR</h1>
+
+        <h2>✨ GELERNTE ZAUBER</h2>
+        <div class="section">
+            <h3>Heilige Magie</h3>
+            <textarea placeholder="Liste deiner gelernten Heilzauber..."></textarea>
+
+            <h3>Naturmagie</h3>
+            <textarea placeholder="Liste deiner gelernten Naturzauber..."></textarea>
+
+            <h3>Shaper-Magie</h3>
+            <textarea placeholder="Liste deiner gelernten Shaper-Zauber..."></textarea>
+
+            <h3>Element-Magie</h3>
+            <textarea placeholder="Feuer-, Wasser-, Erd-, Luftzauber..."></textarea>
+
+            <h3>Akademie-Zauber</h3>
+            <textarea placeholder="Evokation, Illusion, Beschwörung, etc..."></textarea>
+
+            <h3>Runenmagie</h3>
+            <textarea placeholder="Gelernte Runen und aktive Verzauberungen..."></textarea>
+        </div>
+
+        <h2>⚔️ AUSRÜSTUNG & INVENTAR</h2>
+        <div class="section">
+            <h3>Waffen</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 30%;">Waffe</th>
+                        <th style="width: 15%;">Schaden</th>
+                        <th style="width: 15%;">Attribut</th>
+                        <th style="width: 40%;">Besonderheiten</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Rüstung & Schutz</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 40%;">Rüstungsteil</th>
+                        <th style="width: 20%;">Rüstwert</th>
+                        <th style="width: 40%;">Besonderheiten</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="Helm" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Brustpanzer" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Handschuhe" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Stiefel" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Schild" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Magische Gegenstände</h3>
+            <textarea placeholder="Verzauberte Waffen, magische Ringe, Amulette, Tränke, Schriftrollen..."></textarea>
+
+            <h3>Allgemeine Ausrüstung</h3>
+            <textarea placeholder="Rucksack, Seil, Fackeln, Werkzeuge, Proviant..."></textarea>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Seite 5: Charakterbeschreibung & Notizen -->
+        <h1>CHARAKTER & NOTIZEN</h1>
+
+        <h2>👤 CHARAKTERBESCHREIBUNG</h2>
+        <div class="section">
+            <h3>Aussehen</h3>
+            <textarea placeholder="Größe, Haarfarbe, Augenfarbe, besondere Merkmale, Narben, Kleidungsstil..."></textarea>
+
+            <h3>Persönlichkeit</h3>
+            <textarea placeholder="Charakter-Eigenschaften, Verhalten, Gewohnheiten, Eigenarten..."></textarea>
+
+            <h3>Hintergrundgeschichte</h3>
+            <textarea placeholder="Herkunft, Familie, wichtige Ereignisse im Leben, wie wurde der Charakter zu dem, was er ist..."></textarea>
+
+            <h3>Ziele & Motivation</h3>
+            <textarea placeholder="Was treibt deinen Charakter an? Was sind seine Ziele? Welche Träume hat er?"></textarea>
+        </div>
+
+        <h2>👥 VERBÜNDETE & FEINDE</h2>
+        <div class="section">
+            <h3>Verbündete & Kontakte</h3>
+            <textarea placeholder="Freunde, Mentoren, Organisationen, Gilden..."></textarea>
+
+            <h3>Feinde & Rivalen</h3>
+            <textarea placeholder="Gegner, Rivalen, feindliche Organisationen..."></textarea>
+        </div>
+
+        <h2>📝 KAMPAGNEN-NOTIZEN</h2>
+        <div class="section">
+            <h3>Aktuelle Quest(s)</h3>
+            <textarea placeholder="Was ist gerade zu tun? Welche Aufträge habt ihr angenommen?"></textarea>
+
+            <h3>Wichtige NPCs</h3>
+            <textarea placeholder="Namen und Beschreibungen von wichtigen Nicht-Spieler-Charakteren..."></textarea>
+
+            <h3>Orte & Entdeckungen</h3>
+            <textarea placeholder="Besuchte Orte, Geheimnisse, Karten-Informationen..."></textarea>
+
+            <h3>Freie Notizen</h3>
+            <textarea placeholder="Alles weitere, was wichtig ist..."></textarea>
+        </div>
+
+    </div>
+
+    <script>
+        // Bonus-Berechnung
+        function calculateBonus(attr) {
+            const value = parseInt(document.getElementById(attr).value) || 0;
+            const bonus = Math.ceil(value / 2);
+            document.getElementById(attr + '-bonus').value = bonus;
+            calculateAttributeSum();
+        }
+
+        // Attribut-Summe berechnen
+        function calculateAttributeSum() {
+            const attrs = ['str', 'ges', 'kon', 'int', 'wei', 'cha', 'mag', 'tec'];
+            let sum = 0;
+            attrs.forEach(attr => {
+                sum += parseInt(document.getElementById(attr).value) || 0;
+            });
+            const sumField = document.getElementById('attr-sum');
+            sumField.value = sum;
+            
+            // Warnung bei falscher Summe
+            if (sum < 35 || sum > 70) {
+                sumField.style.borderColor = '#dc3545';
+                sumField.style.color = '#dc3545';
+            } else {
+                sumField.style.borderColor = '#28a745';
+                sumField.style.color = '#28a745';
+            }
+        }
+
+        // Alle Boni initial berechnen
+        ['str', 'ges', 'kon', 'int', 'wei', 'cha'].forEach(attr => calculateBonus(attr));
+
+        // Speichern in LocalStorage
+        function saveToLocalStorage() {
+            const formData = {};
+            document.querySelectorAll('input, textarea').forEach(input => {
+                if (input.id) {
+                    formData[input.id] = input.value;
+                }
+            });
+            localStorage.setItem('terranea_character', JSON.stringify(formData));
+            alert('Charakter gespeichert!');
+        }
+
+        // Laden aus LocalStorage
+        function loadFromLocalStorage() {
+            const saved = localStorage.getItem('terranea_character');
+            if (saved) {
+                const formData = JSON.parse(saved);
+                Object.keys(formData).forEach(id => {
+                    const element = document.getElementById(id);
+                    if (element) {
+                        element.value = formData[id];
+                    }
+                });
+                ['str', 'ges', 'kon', 'int', 'wei', 'cha'].forEach(attr => calculateBonus(attr));
+                alert('Charakter geladen!');
+            } else {
+                alert('Kein gespeicherter Charakter gefunden!');
+            }
+        }
+
+        // Formular zurücksetzen
+        function clearForm() {
+            if (confirm('Wirklich alle Daten löschen?')) {
+                document.querySelectorAll('input, textarea').forEach(input => {
+                    if (input.type === 'number') {
+                        input.value = '';
+                    } else if (input.type === 'text' || input.tagName === 'TEXTAREA') {
+                        input.value = '';
+                    }
+                });
+                calculateAttributeSum();
+            }
+        }
+    </script>
+</body>
+</html>
