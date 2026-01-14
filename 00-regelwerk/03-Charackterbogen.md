@@ -1,4 +1,5 @@
----
+
+```
 
 ## characterName: "" rasse: "" klasse: "" level: 1 staerke: 0 geschicklichkeit: 0 konstitution: 0 intelligenz: 0 weisheit: 0 charisma: 0 magie: 0 technik: 0 lebenspunkte: 0 maxLebenspunkte: 0 manapunkte: 0 maxManapunkte: 0 ruestungswert: 0 kupfer: 0 silber: 0 gold: 0 platin: 0 stern: 0
 
@@ -6,7 +7,9 @@
 
 > [!info] Charakterinformationen **Rasse**: `=this.rasse` **Klasse**: `=this.klasse` **Level**: `=this.level`
 
----
+```
+
+
 
 ## 📊 Attribute
 

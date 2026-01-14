@@ -237,7 +237,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-regelwerk/03-Charackterbogen.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -585,7 +585,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "f2e97b9c1f81f68d",
+  "active": "c2245fdd63d58b4b",
   "lastOpenFiles": [
     "05-externedatein/terranea-char-printable 1.html",
     "05-externedatein/terranea-char-printable.html",
