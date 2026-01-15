@@ -598,5 +598,467 @@ Den Spion identifizieren und unschädlich machen
 
 ### Folge-Quests
 
-- "Die Rettung der Familie" (wenn Familie noch lebt)
-- "Das
+
+
+# Terranea Quest-Templates
+
+---
+
+## 📜 HAUPT-QUEST TEMPLATE
+
+**Quest-Name**: ___________
+
+**Quest-Geber**: ___________ **Ort**: ___________ **Empfohlenes Level**: ___
+
+---
+
+### Kontext & Hintergrund
+
+**Situation**: ___________ **Warum ist das wichtig?**: ___________ **Bedrohung/Konflikt**: ___________
+
+---
+
+### Hauptziel
+
+**Primäres Ziel**: ___________ **Sekundäre Ziele** (optional):
+
+- [ ] ___________
+- [ ] ___________
+- [ ] ___________
+
+---
+
+### Etappen/Akte
+
+#### Akt 1: Einführung
+
+**Ziel**: ___________ **Ort(e)**: ___________ **Gegner/Hindernisse**: ___________ **Wichtige NPCs**: ___________ **Belohnung bei Abschluss**: ___________
+
+#### Akt 2: Eskalation
+
+**Ziel**: ___________ **Ort(e)**: ___________ **Gegner/Hindernisse**: ___________ **Wichtige NPCs**: ___________ **Wendepunkt/Enthüllung**: ___________ **Belohnung bei Abschluss**: ___________
+
+#### Akt 3: Höhepunkt
+
+**Ziel**: ___________ **Ort(e)**: ___________ **Boss-Kampf/Finale**: ___________ **Wichtige NPCs**: ___________ **Auflösung**: ___________
+
+---
+
+### Verzweigungen & Entscheidungen
+
+**Kritische Entscheidung 1**: ___________
+
+- **Konsequenz A**: ___________
+- **Konsequenz B**: ___________
+
+**Kritische Entscheidung 2**: ___________
+
+- **Konsequenz A**: ___________
+- **Konsequenz B**: ___________
+
+---
+
+### Belohnungen
+
+**Bei Erfolg**:
+
+- Erfahrung: ___ XP
+- Geld: ___ G
+- Gegenstände: ___________
+- Ruf/Titel: ___________
+- Story-Fortschritt: ___________
+
+**Bei Teilerfolg**:
+
+- ---
+    
+
+**Bei Misserfolg**:
+
+- ---
+    
+
+---
+
+### Notizen für den Spielleiter
+
+**Wichtige Plot-Punkte**: ___________ **Mögliche Probleme**: ___________ **Improvisations-Tipps**: ___________
+
+---
+
+## 🗺️ KAMPAGNEN-TEMPLATE
+
+**Kampagnen-Name**: ___________
+
+**Thema/Genre**: ___________ **Dauer**: ___ Sitzungen (geschätzt) **Level-Bereich**: ___ bis ___
+
+---
+
+### Prämisse
+
+**Zentrale Bedrohung**: ___________ **Hauptkonflikt**: ___________ **Was steht auf dem Spiel?**: ___________
+
+---
+
+### Haupt-Antagonist
+
+**Name**: ___________ **Motivation**: ___________ **Ressourcen/Macht**: ___________ **Schwächen**: ___________ **Endziel**: ___________
+
+---
+
+### Kampagnen-Struktur
+
+#### Akt 1: Einstieg (Level _**-**_)
+
+**Haupt-Quests**:
+
+1. ---
+    
+2. ---
+    
+3. ---
+    
+
+**Höhepunkt**: ___________
+
+#### Akt 2: Mitte (Level _**-**_)
+
+**Haupt-Quests**:
+
+1. ---
+    
+2. ---
+    
+3. ---
+    
+
+**Wendepunkt**: ___________
+
+#### Akt 3: Finale (Level _**-**_)
+
+**Haupt-Quests**:
+
+1. ---
+    
+2. ---
+    
+3. ---
+    
+
+**Finale**: ___________
+
+---
+
+### Wichtige NPCs
+
+1. **Name**: ___ | **Rolle**: ___ | **Loyalität**: ___
+2. **Name**: ___ | **Rolle**: ___ | **Loyalität**: ___
+3. **Name**: ___ | **Rolle**: ___ | **Loyalität**: ___
+
+---
+
+### Wichtige Orte
+
+1. **Ort**: ___ | **Bedeutung**: ___
+2. **Ort**: ___ | **Bedeutung**: ___
+3. **Ort**: ___ | **Bedeutung**: ___
+
+---
+
+### Mysterien & Enthüllungen
+
+**Geheimnis 1**: ___ | **Wird enthüllt in**: ___ **Geheimnis 2**: ___ | **Wird enthüllt in**: ___ **Geheimnis 3**: ___ | **Wird enthüllt in**: ___
+
+---
+
+### Mögliche Enden
+
+**Gutes Ende**: ___________ **Neutrales Ende**: ___________ **Schlechtes Ende**: ___________ **Alternatives Ende**: ___________
+
+---
+
+## 🎭 NEBEN-QUEST TEMPLATE
+
+**Quest-Name**: ___________
+
+**Quest-Geber**: ___________ **Ort**: ___________ **Empfohlenes Level**: ___ **Geschätzte Dauer**: 1-3 Sitzungen
+
+---
+
+### Einführung
+
+**Hook/Aufhänger**: ___________ **Warum sollten die Spieler helfen?**: ___________
+
+---
+
+### Ziel
+
+**Hauptziel**: ___________ **Optionale Ziele**:
+
+- [ ] ___________
+- [ ] ___________
+
+---
+
+### Ablauf
+
+#### Phase 1: Informationen sammeln
+
+**Was müssen die Spieler herausfinden?**: ___________ **Wo finden sie Hinweise?**: ___________ **NPCs zum Befragen**: ___________
+
+#### Phase 2: Aktion
+
+**Was müssen die Spieler tun?**: ___________ **Herausforderungen**: ___________ **Gegner/Hindernisse**: ___________
+
+#### Phase 3: Auflösung
+
+**Wie wird die Quest abgeschlossen?**: ___________ **Mögliche Wendungen**: ___________
+
+---
+
+### Entscheidungen & Konsequenzen
+
+**Moralische Entscheidung**: ___________
+
+- **Wahl A**: ___ → **Konsequenz**: ___
+- **Wahl B**: ___ → **Konsequenz**: ___
+
+---
+
+### Belohnungen
+
+**Erfahrung**: ___ XP **Geld**: ___ G **Gegenstände**: ___________ **Ruf-Änderung**: ___________ **Verbindung zur Haupt-Story** (falls vorhanden): ___________
+
+---
+
+### Variationen
+
+**Wenn die Spieler früh kommen**: ___________ **Wenn die Spieler zu spät kommen**: ___________ **Wenn die Spieler die Quest ignorieren**: ___________
+
+---
+
+## 💼 AUFTRAGS-TEMPLATE
+
+**Auftrags-Name**: ___________
+
+**Auftraggeber**: ___________ **Ort**: ___________ **Empfohlenes Level**: ___ **Geschätzte Dauer**: 1 Sitzung
+
+---
+
+### Auftragsbeschreibung
+
+**Kurzbeschreibung**: ___________ **Detaillierte Beschreibung**: ___________
+
+---
+
+### Ziel
+
+**Was muss erledigt werden?**: ___________ **Erfolgs-Kriterien**: ___________ **Zeit-Limit** (falls vorhanden): ___________
+
+---
+
+### Ort & Reise
+
+**Zielort**: ___________ **Entfernung**: ___ km / ___ Stunden Reise **Gefahren auf dem Weg**: ___________
+
+---
+
+### Herausforderungen
+
+**Haupthindernis**: ___________ **Gegner** (falls vorhanden):
+
+- ___________ (Anzahl: ___, Typ: ___) **Rätsel/Fallen** (falls vorhanden): ___________
+
+---
+
+### Komplikationen (Optional)
+
+**Komplikation 1**: ___________ **Komplikation 2**: ___________
+
+---
+
+### Belohnungen
+
+**Erfahrung**: ___ XP **Bezahlung**: ___ G **Bonus** (bei besonders gutem Abschluss): ___________ **Gegenstände**: ___________
+
+---
+
+### Misserfolg
+
+**Was passiert bei Scheitern?**: ___________ **Konsequenzen**: ___________
+
+---
+
+## 🎲 ZUFALLSBEGEGNUNGS-TEMPLATE
+
+**Begegnungs-Name**: ___________
+
+**Typ**: [ ] Kampf [ ] Sozial [ ] Umwelt [ ] Entdeckung **Ort-Typ**: [ ] Straße [ ] Wald [ ] Dungeon [ ] Stadt [ ] Wildnis **Schwierigkeit**: [ ] Leicht [ ] Mittel [ ] Schwer
+
+---
+
+### Szenario
+
+**Was passiert?**: ___________ **Warum passiert es gerade jetzt?**: ___________
+
+---
+
+### Auslöser
+
+**Wie wird die Begegnung eingeleitet?**:
+
+- [ ] Die Spieler bemerken etwas
+- [ ] Sie werden bemerkt/angesprochen
+- [ ] Zufälliges Ereignis
+- [ ] Hinterhalt
+- [ ] Notfall
+
+---
+
+### Beteiligte
+
+#### NPCs/Kreaturen
+
+**Name/Typ**: ___________ **Anzahl**: ___ **Motivation**: ___________ **Verhalten**: ___________
+
+---
+
+### Mögliche Ausgänge
+
+#### Ausgang 1: Kampf
+
+**Gegner**: ___________ **Taktik**: ___________ **Belohnung**: ___ XP, ___ G, ___________
+
+#### Ausgang 2: Verhandlung
+
+**Was wollen sie?**: ___________ **Was bieten sie?**: ___________ **Schwierigkeit**: ___ (Probe)
+
+#### Ausgang 3: Flucht/Vermeidung
+
+**Wie können Spieler entkommen?**: ___________ **Konsequenzen**: ___________
+
+#### Ausgang 4: Unerwartete Wendung
+
+**Was könnte noch passieren?**: ___________
+
+---
+
+### Verbindungen
+
+**Kann zu Quest führen?**: [ ] Ja [ ] Nein **Quest-Hinweis**: ___________ **Wiederkehrende NPCs?**: [ ] Ja [ ] Nein
+
+---
+
+### Zeit & Dauer
+
+**Geschätzte Dauer**: ___ Minuten **Zeitdruck?**: [ ] Ja [ ] Nein
+
+---
+
+## 🏛️ FRAKTIONS-QUEST TEMPLATE
+
+**Quest-Name**: ___________
+
+**Fraktion**: ___________ **Quest-Geber (Name/Rang)**: ___________ **Ort**: ___________ **Empfohlenes Level**: ___ **Benötigter Ruf-Rang**: ___________
+
+---
+
+### Fraktions-Kontext
+
+**Warum gibt die Fraktion diese Quest?**: ___________ **Wie dient dies den Fraktions-Zielen?**: ___________ **Gegnerische Fraktion** (falls relevant): ___________
+
+---
+
+### Ziel
+
+**Hauptziel**: ___________ **Sekundäre Ziele**:
+
+- [ ] ___________
+- [ ] ___________
+
+---
+
+### Ablauf
+
+#### Phase 1: Briefing
+
+**Informationen von der Fraktion**: ___________ **Bereitgestellte Ressourcen**: ___________ **Erwartungen**: ___________
+
+#### Phase 2: Ausführung
+
+**Was müssen die Spieler tun?**: ___________ **Herausforderungen**: ___________ **Gegner**: ___________
+
+#### Phase 3: Bericht
+
+**Zu wem müssen die Spieler zurückkehren?**: ___________ **Was wollen sie hören?**: ___________
+
+---
+
+### Fraktions-Dynamiken
+
+#### Loyalitäts-Test
+
+**Wird die Loyalität der Spieler getestet?**: [ ] Ja [ ] Nein **Wie?**: ___________
+
+#### Konflikt mit anderen Fraktionen
+
+**Welche Fraktion könnte sich einmischen?**: ___________ **Wie reagiert sie?**: ___________
+
+#### Moralische Grauzonen
+
+**Muss etwas Fragwürdiges getan werden?**: ___________ **Konsequenz bei Weigerung**: ___________
+
+---
+
+### Belohnungen
+
+#### Bei Erfolg
+
+**Erfahrung**: ___ XP **Geld**: ___ G **Ruf-Gewinn**: +___ bei [Fraktion] **Ruf-Verlust**: -___ bei [Gegnerische Fraktion] **Fraktions-Belohnungen**:
+
+- Zugang zu: ___________
+- Rang-Aufstieg: ___________
+- Spezielle Ausrüstung: ___________
+
+#### Bei Teilerfolg
+
+**Ruf-Gewinn**: +___ (reduziert) **Belohnungen**: ___________ (reduziert)
+
+#### Bei Misserfolg
+
+**Ruf-Verlust**: -___ bei [Fraktion] **Konsequenzen**: ___________ **Zweite Chance?**: [ ] Ja [ ] Nein
+
+---
+
+### Langzeit-Auswirkungen
+
+**Wie beeinflusst dies die Fraktion?**: ___________ **Wie beeinflusst dies die Spieler?**: ___________ **Folge-Quests**: ___________
+
+---
+
+### Varianten
+
+#### Für niedrigen Rang
+
+**Alternative für Anfänger**: ___________
+
+#### Für hohen Rang
+
+**Erweiterte Version für Veteranen**: ___________
+
+---
+
+## 📋 SCHNELL-REFERENZ: QUEST-TYPEN
+
+|**Quest-Typ**|**Dauer**|**Komplexität**|**XP-Bereich**|**Verwendung**|
+|---|---|---|---|---|
+|**Haupt-Quest**|1-4 Sitzungen|Hoch|100-500|Kampagnen-Fortschritt|
+|**Kampagne**|10-50 Sitzungen|Sehr hoch|1.000+|Langzeit-Story|
+|**Neben-Quest**|1-3 Sitzungen|Mittel|50-200|Charakter-Entwicklung, Welt-Aufbau|
+|**Auftrag**|1 Sitzung|Niedrig-Mittel|20-100|Geld verdienen, Level füllen|
+|**Zufallsbegegnung**|10-60 Min|Sehr niedrig|5-50|Reise aufwerten, Spontan|
+|**Fraktions-Quest**|1-3 Sitzungen|Mittel-Hoch|50-300|Ruf aufbauen, Zugang zu Ressourcen|
+
+---
+
+**Zusammenfassung:** Vollständige Quest-Templates für alle Quest-Typen in Terranea, vom kurzen Auftrag bis zur epischen Kampagne.
