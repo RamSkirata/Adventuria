@@ -253,18 +253,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "04-Bestarium & NPC-System",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/04-Bestarium & NPC-System.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"04-Bestarium & NPC-System\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":0},\"to\":{\"line\":35,\"ch\":0}},\"scroll\":171.76953125}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-regelwerk/04-Bestarium & NPC-System.md",
+                "file": "testing git hub yay.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Bestarium & NPC-System"
+              "title": "testing git hub yay"
             }
           }
         ],
@@ -619,8 +625,8 @@
   },
   "active": "50e1f816abf6fe74",
   "lastOpenFiles": [
-    "00-regelwerk/03-Charackterbogen.md",
     "00-regelwerk/04-Bestarium & NPC-System.md",
+    "00-regelwerk/03-Charackterbogen.md",
     "05-externedatein/terranea-char-printable 1.html",
     "05-externedatein/terranea-char-printable.html",
     "05-externedatein",
