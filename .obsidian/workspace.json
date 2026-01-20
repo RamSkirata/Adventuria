@@ -255,6 +255,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "00-regelwerk",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/00-regelwerk.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"00-regelwerk\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1088,\"ch\":0},\"to\":{\"line\":1088,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "01-Einführung in die Welt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/01-Einführung in die Welt.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"01-Einführung in die Welt\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "00-regelwerk",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/00-regelwerk.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"00-regelwerk\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1983,\"ch\":103},\"to\":{\"line\":1983,\"ch\":103}},\"scroll\":1928.5958803334968}"
+                },
+                {
                   "title": "testing git hub yay",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"testing git hub yay.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"testing git hub yay\"}",
@@ -271,12 +289,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-regelwerk/00-regelwerk.md",
+                "file": "00-regelwerk/01-Einführung in die Welt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-regelwerk"
+              "title": "01-Einführung in die Welt"
             }
           }
         ],
@@ -631,13 +649,14 @@
   },
   "active": "50e1f816abf6fe74",
   "lastOpenFiles": [
+    "00-regelwerk/00-regelwerk.md",
+    "00-regelwerk/01-Einführung in die Welt.md",
     "testing git hub yay.md",
     "00-regelwerk/04-Bestarium & NPC-System.md",
     "00-regelwerk/03-Charackterbogen.md",
     "05-externedatein/terranea-char-printable 1.html",
     "05-externedatein/terranea-char-printable.html",
     "05-externedatein",
-    "00-regelwerk/00-regelwerk.md",
     "00-regelwerk/02-Schnellreferenzen für Spielleiter.md",
     "02-Worldbuilding/06-welt/geschichte/Adventuria.md",
     "z_PDF/Ram-von-Adventuria.pdf",
@@ -665,7 +684,6 @@
     "04-Kampagnen/tutorial/Rolf.md",
     "04-Kampagnen/tutorial/Olga.md",
     "04-Kampagnen/tutorial/Kosina.md",
-    "04-Kampagnen/tutorial/der Einstieg/Das Erwachen in einem fremden Haus.md",
-    "04-Kampagnen/tutorial/der Einstieg/Oneshot Sylvester 2024.md"
+    "04-Kampagnen/tutorial/der Einstieg/Das Erwachen in einem fremden Haus.md"
   ]
 }

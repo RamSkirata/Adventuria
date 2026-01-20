@@ -1,26 +1,39 @@
-## TO DO:
+|
+
+## TO DO
 
 - Stand hinzufügen (Adel, Volk etc. und Auswirkungen)
 - Ausweichen / Abwehr
 - Opportunity Attacks
 - Item-Liste / Händler (in teilen vorhanden)
-- Klassen / Berufs-System 
+- Klassen / Berufs-System
 - Parrier-System
 - Pet-System / Reittier-System (nein kein Sex mit Tieren, Dani!)
 - Schadensarten
 - DnD Bücher + PDF Copy in Deutsch davon kaufen und Mechaniken übernehmen und anpassen
-* reichweiten müssen definiert werden
-* schadensarten; zustände
-
-
-Prio: 
-
+- Reichweiten müssen definiert werden
+- Schadensarten; Zustände
 
 ---
 
-# Terranea - Regelwerk
+## Inhaltsverzeichnis
 
-## Das Spiel-System
+1. [[#Grundlagen]]
+2. [[#Charaktererstellung]]
+3. [[#Fähigkeiten-System]]
+4. [[#Spezialisierungs-System]]
+5. [[#Level-System]]
+6. [[#Kampf-System]]
+7. [[#Magie-System]]
+8. [[#Technik-System]]
+9. [[#Währung und Handel]]
+10. [[#Rassen]]
+
+---
+
+## Grundlagen
+
+### Das Spiel-System
 
 In unserem 2W6-System werden die Attribute Stärke, Geschicklichkeit, Konstitution, Intelligenz, Weisheit und Charisma durch Würfeln ermittelt. Du hast insgesamt **12 Würfe** mit 2W6 zur Verfügung und darfst die besten 10 Ergebnisse auf die Attribute verteilen.
 
@@ -34,9 +47,31 @@ Charaktere, die zaubern können und/oder schmieden und konstruieren, haben noch 
 - **Mit Magie ODER Technik**: 11 Würfe statt 12
 - **Mit Magie UND Technik**: 10 Würfe statt 12
 
+### Kritische Erfolge und Patzer
+
+#### Kritischer Erfolg
+
+Ein kritischer Erfolg tritt auf, wenn du auf den **Würfeln** eine **12** würfelst (6+6). In diesem Fall gelingt die Aktion besonders gut und bringt zusätzliche Vorteile.
+
+**Wichtig:** Nur das **Würfelergebnis** zählt, nicht das Gesamtergebnis nach Addition von Attributen und Fähigkeiten!
+
+#### Kritischer Patzer
+
+Ein kritischer Patzer tritt auf, wenn du auf den **Würfeln** eine **2** würfelst (1+1). Dies führt zu einer besonders misslungenen Aktion mit zusätzlichen Nachteilen.
+
+**Wichtig:** Nur das **Würfelergebnis** zählt, nicht das Gesamtergebnis nach Addition von Attributen und Fähigkeiten!
+
+### Maximale Attribute und Fertigkeiten
+
+- **Attribute:** Bewegen sich im Bereich von 1 bis 12.
+- **Fähigkeiten:** Können maximal so hoch sein wie der zugehörige Attributwert (max. 12).
+- **Spezialisierungen:** Können maximal 6 betragen.
+
 ---
 
-### Attribute:
+## Charaktererstellung
+
+### Attribute
 
 - **[[Stärke]]** (Physische Kraft): Wichtig für Lebenspunkte und Nahkampfschaden.
 - **[[Geschicklichkeit]]**: Körperliche Beweglichkeit und Präzision und Fernkampfschaden.
@@ -47,29 +82,31 @@ Charaktere, die zaubern können und/oder schmieden und konstruieren, haben noch 
 - **[[Technik]]**: Handwerkliche und technische Fähigkeiten.
 - **[[Magie]]**: Verständnis und Nutzung von magischen Energien. Unterteilt in (Heilig/Natur/Shaper).
 
----
-
-### Lebenspunkte:
+### Lebenspunkte
 
 **[[Lebenspunkte]]**: 2W6 + (Stärkewert / 2) + (Konstitution / 2)
 
 **Beispiel:** Ein Charakter mit Stärke 10 und Konstitution 8 würfelt 2W6 und erhält eine 8.  
 LP = 8 + (10 / 2) + (8 / 2) = 8 + 5 + 4 = **17 Lebenspunkte**
 
----
-
-### Rüstung:
+### Rüstung
 
 - **[[Rüstungswert]]** = Wert der Rüstung + Rassenboni (falls vorhanden).
 - Einige Rassen der Tiermenschen haben durch ihre robuste Haut eine Form natürlicher Rüstung, die beim Rüstwert draufgerechnet wird.
 
+### Rassen-spezifische Klassen
+
+- Terraner, Sylvaner, Tiermensch, Shaper, Khazad.
+
+_(In Arbeit)_
+
 ---
 
-# [[Fähigkeiten-System]]
+## Fähigkeiten-System
 
-## Das Proben-System (Hybrid-Balance)
+### Das Proben-System (Hybrid-Balance)
 
-### Wie funktionieren Proben?
+#### Wie funktionieren Proben?
 
 Das Proben-System in Terranea basiert auf einem **2W6-Würfelwurf**, zu dem verschiedene Werte addiert werden:
 
@@ -84,7 +121,7 @@ Ein Charakter will mit dem Bogen schießen:
 - Spezialisierung Bogen: **2**
 - **Gesamtergebnis**: 7 + 5 + 4 + 2 = **18**
 
-### Schwierigkeitsgrade
+#### Schwierigkeitsgrade
 
 |**Schwierigkeit**|**Zielwert**|**Beschreibung**|
 |---|---|---|
@@ -97,12 +134,9 @@ Ein Charakter will mit dem Bogen schießen:
 
 **Wichtig:** Die Schwierigkeit kann je nach Situation vom Spielleiter angepasst werden. Buffs, Debuffs, Umgebung und Level der Charaktere beeinflussen die Schwierigkeit.
 
+### Ungelernte Fähigkeiten
 
----
-
-## [[Ungelernte Fähigkeiten]]
-
-### Was sind ungelernte Fähigkeiten?
+#### Was sind ungelernte Fähigkeiten?
 
 Ungelernte Fähigkeiten sind Fertigkeiten, die der Charakter **noch nicht explizit trainiert** oder **erlernt** hat. Diese Fähigkeiten können trotzdem in der Praxis angewendet werden, jedoch mit Einschränkungen.
 
@@ -118,11 +152,9 @@ Ungelernte Fähigkeiten sind Fertigkeiten, die der Charakter **noch nicht expliz
     - **Flexibilität:** Auch ohne formelles Training können Spieler in einer Vielzahl von Situationen kreativ werden und neue Fähigkeiten ausprobieren.
     - **Geschichten und Roleplay:** Das Erlernen und Ausprobieren von Fähigkeiten ohne formelle Ausbildung kann zu interessanten Momenten und kreativen Lösungen führen, die das Rollenspiel bereichern.
 
----
+### Fähigkeiten
 
-## [[Fähigkeiten]]
-
-### Was sind [[Fähigkeiten]]?
+#### Was sind Fähigkeiten?
 
 [[Fähigkeiten]] sind die **trainierten Fertigkeiten** eines Charakters, die durch **[[Übung]]**, **[[Studium]]** oder spezielle **[[Lehren]]** erlangt wurden. Ein Charakter, der in einer [[Fähigkeit]] erfahren ist, hat **konkrete Vorteile**, die es ihm ermöglichen, diese Fähigkeit effektiv und effizient anzuwenden.
 
@@ -136,21 +168,7 @@ Ungelernte Fähigkeiten sind Fertigkeiten, die der Charakter **noch nicht expliz
     - **Spezialisierung:** Fähigkeiten können durch **Spezialisierungen** weiter verbessert werden.
     - **Kampfvorteile:** Im [[Kampf]] können trainierte Charaktere **strategisch klüger** agieren, mehr **[[Schaden]]** verursachen oder besser **verteidigen**.
 
----
-
-## Spezialisierungen
-
-Spezialisierungen sind noch spezifischere Fertigkeiten innerhalb einer Fähigkeit. Sie sind auf **maximal 6** begrenzt und bieten zusätzliche Boni.
-
-**Beispiel:**
-
-- **Fähigkeit**: Fernkampf (Wert: 8)
-- **Spezialisierung**: Bogen (Wert: 4)
-- Bei einem Bogenschuss würde der Charakter würfeln: 2W6 + Geschicklichkeit + Fernkampf + Bogen
-
----
-
-## Unterschied zwischen [[ungelernten Fähigkeiten]] und [[erlernten Fähigkeiten]]
+#### Unterschied zwischen ungelernten und erlernten Fähigkeiten
 
 |**Aspekt**|**[[Ungelernte Fähigkeiten]]**|**[[Erlernte Fähigkeiten]]**|
 |---|---|---|
@@ -159,162 +177,154 @@ Spezialisierungen sind noch spezifischere Fertigkeiten innerhalb einer Fähigkei
 |**Fortschritt**|Langsam, erfordert oft viele Misserfolge und Zeit|Schneller, durch kontinuierliches Üben|
 |**Beispiele**|Ein ungeschulter Charakter benutzt eine Armbrust|Ein erfahrener Schütze nutzt die Armbrust präzise|
 
----
+### Fähigkeiten-Kategorien
 
-## Kampf-Fähigkeiten
+#### Kampf-Fähigkeiten
 
-### [[Einhandwaffen]]
+##### [[Einhandwaffen]]
 
 **Fähigkeit:** Schwerter, Äxte, Dolche oder andere einhändige Waffen effektiv zu führen.  
 **Anwendung:** Angriffe und Verteidigung im Nahkampf.
 
-### [[Zweihandwaffen]]
+##### [[Zweihandwaffen]]
 
 **Fähigkeit:** Umgang mit großen Waffen wie Zweihandschwertern, Hämmern oder Speeren.  
 **Anwendung:** Hoher Schaden, aber langsame Angriffe.
 
-### [[Stangenwaffen]]
+##### [[Stangenwaffen]]
 
 **Fähigkeit:** Spezielle Fertigkeit im Umgang mit Stangenwaffen wie Hellebarden oder Speeren.  
 **Anwendung:** Kontrolle des Kampfraums und Reichweitenvorteile.
 
-### [[Bogen]]
+##### [[Bogen]]
 
 **Fähigkeit:** Mit Bögen präzise schießen.  
 **Anwendung:** Fernkampf und gezielte Schüsse.
 
-### [[Armbrust]]
+##### [[Armbrust]]
 
 **Fähigkeit:** Umgang mit Armbrüsten und das Nachladen unter Druck.  
 **Anwendung:** Präzise und durchdringende Fernangriffe.
 
-### [[Raufen]]
+##### [[Raufen]]
 
 **Fähigkeit:** Unbewaffnete Kampffertigkeiten wie Schläge, Griffe und Würfe.  
 **Anwendung:** Selbstverteidigung ohne Waffen.
 
-### [[Schildkampf]]
+##### [[Schildkampf]]
 
 **Fähigkeit:** Einsatz eines Schilds zur Abwehr und im Nahkampf.  
 **Anwendung:** Erhöhte Verteidigung und Kontrolle im Nahkampf.
 
-### [[Ausweichen]]
+##### [[Ausweichen]]
 
 **Fähigkeit:** Angriffen durch geschickte Bewegungen zu entgehen.  
 **Anwendung:** Reduktion oder Vermeidung von Schaden.
 
-### [[Rüstungskunde]]
+##### [[Rüstungskunde]]
 
 **Fähigkeit:** Wissen, wie man Rüstungen effektiv trägt und sich darin bewegt.  
 **Anwendung:** Erhöhung des Rüstungswerts, Verringerung von Einschränkungen.
 
-### [[Wurfwaffen]]
+##### [[Wurfwaffen]]
 
 **Fähigkeit:** Geschicklichkeit im Einsatz von Wurfmessern, Äxten oder Speeren.  
 **Anwendung:** Schnelle, mitteldistanzierte Angriffe.
 
----
+#### Soziale Fähigkeiten
 
-## Soziale Fähigkeiten
-
-### [[Überreden]]
+##### [[Überreden]]
 
 **Fähigkeit:** Durch Worte jemanden zu einer Handlung bewegen.  
 **Anwendung:** Verhandlungen und Konfliktlösungen.
 
-### [[Täuschen]]
+##### [[Täuschen]]
 
 **Fähigkeit:** Andere zu belügen oder in die Irre zu führen.  
 **Anwendung:** Bluffen und verdeckte Aktionen.
 
-### [[Einschüchtern]]
+##### [[Einschüchtern]]
 
 **Fähigkeit:** Durch Drohungen oder Auftreten Respekt oder Angst erzeugen.  
 **Anwendung:** Konfliktlösung durch Einschüchterung.
 
-### [[Diplomatie]]
+##### [[Diplomatie]]
 
 **Fähigkeit:** Spannungen zu entschärfen und Kompromisse zu erreichen.  
 **Anwendung:** Vermittlung zwischen Parteien.
 
-### [[Schmeicheln]]
+##### [[Schmeicheln]]
 
 **Fähigkeit:** Sich durch Lob und Charme beliebt zu machen.  
 **Anwendung:** Gewinnung von Unterstützern.
 
-### [[Handel]]
+##### [[Handel]]
 
 **Fähigkeit:** In Verhandlungen vorteilhafte Geschäfte zu erzielen.  
 **Anwendung:** Preisnachlässe oder bessere Konditionen.
 
-### [[Etikette]]
+##### [[Etikette]]
 
 **Fähigkeit:** Wissen über gesellschaftliche Normen und Verhaltensregeln.  
 **Anwendung:** Angemessenes Verhalten bei Adel oder Institutionen.
 
----
+#### Überlebensfähigkeiten
 
-## Überlebensfähigkeiten
-
-### [[Fährtenlesen]]
+##### [[Fährtenlesen]]
 
 **Fähigkeit:** Spuren in der Natur finden und deuten.  
 **Anwendung:** Verfolgung oder Jagd.
 
-### [[Kräuterkunde]]
+##### [[Kräuterkunde]]
 
 **Fähigkeit:** Wissen über Pflanzen und ihre Nutzung.  
 **Anwendung:** Heilmittel oder Gifte herstellen.
 
-### [[Nahrungssuche]]
+##### [[Nahrungssuche]]
 
 **Fähigkeit:** In der Wildnis essbare Ressourcen finden.  
 **Anwendung:** Überleben ohne Vorräte.
 
-### [[Orientierung]]
+##### [[Orientierung]]
 
 **Fähigkeit:** Sich mit oder ohne Karte zurechtfinden.  
 **Anwendung:** Vermeidung von Umwegen oder Gefahren.
 
-### [[Handwerk]]
+##### [[Handwerk]]
 
 **Fähigkeit:** Herstellung oder Reparatur von Ausrüstung und Werkzeugen.  
 **Anwendung:** Aufbau von Lagern oder Waffenreparaturen.
 
----
+#### Wissensfähigkeiten
 
-## Wissensfähigkeiten
-
-### [[Geschichtswissen]]
+##### [[Geschichtswissen]]
 
 **Fähigkeit:** Verständnis historischer Ereignisse, Persönlichkeiten und Artefakte.  
 **Anwendung:** Lösung von Rätseln oder kulturellen Konflikten.
 
-### [[Technisches Verständnis]]
+##### [[Technisches Verständnis]]
 
 **Fähigkeit:** Wissen über Maschinen und Konstruktionen.  
 **Anwendung:** Reparaturen oder Optimierungen von Geräten.
 
-### [[Medizinische Kenntnisse]]
+##### [[Medizinische Kenntnisse]]
 
 **Fähigkeit:** Erste Hilfe und Behandlung von Verletzungen oder Krankheiten.  
 **Anwendung:** Heilung von Gruppenmitgliedern.
 
-### [[Sprachkenntnisse]]
+##### [[Sprachkenntnisse]]
 
 **Fähigkeit:** Beherrschung zusätzlicher Sprachen.  
 **Anwendung:** Kommunikation mit anderen Kulturen.
 
-### [[Naturkunde]]
+##### [[Naturkunde]]
 
 **Fähigkeit:** Verständnis für Tiere, Pflanzen und ökologische Zusammenhänge.  
 **Anwendung:** Tierzähmung oder effektives Überleben.
 
----
+### Leveln von Fähigkeiten (0-6)
 
-## [[Leveln von Fähigkeiten (0-6)]]
-
-### 1. [[Training durch Lehrer]]
+#### 1. [[Training durch Lehrer]]
 
 - **Kosten:** Zeit, Geld oder andere Ressourcen (z.B. Gefälligkeiten).
 - **Prozess:**
@@ -322,7 +332,7 @@ Spezialisierungen sind noch spezifischere Fertigkeiten innerhalb einer Fähigkei
     - Lehrer können Fähigkeiten nur bis zu ihrer eigenen Stufe lehren.
     - Lernen bei Meistern dauert länger oder ist teurer, bietet aber Bonuswürfe beim Steigern.
 
-### 2. [[Lernen durch Übung]]
+#### 2. [[Lernen durch Übung]]
 
 - **Mechanik:**
     - Wiederholte Nutzung einer Fähigkeit trägt zu deren Verbesserung bei.
@@ -332,20 +342,20 @@ Spezialisierungen sind noch spezifischere Fertigkeiten innerhalb einer Fähigkei
         - Misserfolg: Der Zähler wird nicht zurückgesetzt.
     - Höhere Stufen erfordern mehr Erfolge (z.B. 5 für Level 1, 10 für Level 4).
 
-### 3. [[Bücher und Manuskripte]]
+#### 3. [[Bücher und Manuskripte]]
 
 - **Besondere Fundstücke:** Bücher oder Schriftrollen können Fähigkeiten erhöhen.
 - **Mechanik:**
     - Bücher enthalten spezifisches Wissen (z.B. „Grundlagen der Schwertkunst" erhöht Einhandwaffen um 1 bis Level 2).
     - Bücher für höhere Stufen sind selten und teuer.
 
-### 4. [[Ereignisse und Meilensteine]]
+#### 4. [[Ereignisse und Meilensteine]]
 
 - **Spezialfälle:**
     - Nach epischen Kämpfen oder intensiven Herausforderungen kann eine Fähigkeit um 1 steigen.
     - Spieler sollten begründen, wie die Fähigkeit eingesetzt wurde.
 
-### 5. [[Akademien und Spezialisierung]]
+#### 5. [[Akademien und Spezialisierung]]
 
 - **Mechanik:**
     - Spieler investieren Zeit und Ressourcen, um Fähigkeiten zu verbessern.
@@ -353,62 +363,16 @@ Spezialisierungen sind noch spezifischere Fertigkeiten innerhalb einer Fähigkei
         - „Fechtkunst" (Bonus auf Einhandwaffen).
         - „Taktisches Denken" (Bonus auf Taktiker).
 
-### [[Level-Up-Kosten nach Stufen]]
+#### [[Level-Up-Kosten nach Stufen]]
 
 - **0–1:** Geringer Aufwand (Grundlegendes Verständnis).
 - **1–3:** Moderater Aufwand (Fortgeschrittenes Training).
 - **4–5:** Hoher Aufwand (Meisterliches Können).
 - **6:** Extrem aufwändig (Meisterwerk, seltene Lehrer oder Artefakte).
 
----
+### Beispiele für Proben
 
-## Rassen-spezifische Klassen
-
-- Terraner, Sylvaner, Tiermensch, Shaper, Khazad.
-
-_(In Arbeit)_
-
----
-
-## Kritische Erfolge und Patzer
-
-### Kritischer Erfolg
-
-Ein kritischer Erfolg tritt auf, wenn du auf den **Würfeln** eine **12** würfelst (6+6). In diesem Fall gelingt die Aktion besonders gut und bringt zusätzliche Vorteile.
-
-**Wichtig:** Nur das **Würfelergebnis** zählt, nicht das Gesamtergebnis nach Addition von Attributen und Fähigkeiten!
-
-### Kritischer Patzer
-
-Ein kritischer Patzer tritt auf, wenn du auf den **Würfeln** eine **2** würfelst (1+1). Dies führt zu einer besonders misslungenen Aktion mit zusätzlichen Nachteilen.
-
-**Wichtig:** Nur das **Würfelergebnis** zählt, nicht das Gesamtergebnis nach Addition von Attributen und Fähigkeiten!
-
----
-
-## Maximale Attribute und Fertigkeiten
-
-- **Attribute:** Bewegen sich im Bereich von 1 bis 12.
-- **Fähigkeiten:** Können maximal so hoch sein wie der zugehörige Attributwert (max. 12).
-- **Spezialisierungen:** Können maximal 6 betragen.
-
----
-
-## Attribute-Neuwurf
-
-Wenn deine Summe der Attribute unter 35 oder über 70 liegt, darfst du alle Attribute neu würfeln.
-
----
-
-## Charakter-Level und Fertigkeitsstufen
-
-_(In Arbeit)_
-
----
-
-## Beispiele für Proben
-
-### Beispiel 1: Einschüchtern
+#### Beispiel 1: Einschüchtern
 
 Ein Spieler hat die Fähigkeit [[Einschüchtern]] 3 und einen Charisma-Wert von 6.  
 Er würfelt 2W6 und erhält eine **9**.  
@@ -416,7 +380,7 @@ Er würfelt 2W6 und erhält eine **9**.
 
 Bei einer Standard-Schwierigkeit von 12 ist die Probe erfolgreich gelungen.
 
-### Beispiel 2: Ungelernte Fähigkeit
+#### Beispiel 2: Ungelernte Fähigkeit
 
 Ein Charakter ohne die Fähigkeit **Bogenkunst** möchte einen Pfeil abschießen.  
 Er hat Geschicklichkeit 10.  
@@ -427,404 +391,747 @@ Die Probe gelingt, aber der Charakter hat nicht die Präzision und Effizienz ein
 
 ---
 
-# Währungs-System von Terranea
+## Spezialisierungs-System
 
-## **Die Fünf Münzen**
+### Konzept
 
-Terranea verwendet ein gestaffeltes Münzsystem:
+Das **Spezialisierungs-System** in Terranea folgt einer **dreistufigen Hierarchie**:
 
-### **Münzwerte**:
+1. **Attribut** (ungelernt)
+2. **Fähigkeit** (erlernt, breit)
+3. **Spezialisierung** (erlernt, spezifisch)
 
-1. **Kupfermünze (K)** - Basis-Währung für Alltägliches
-2. **Silbermünze (S)** - 10 Kupfer = 1 Silber
-3. **Goldmünze (G)** - 10 Silber = 1 Gold (= 100 Kupfer)
-4. **Platinmünze (P)** - 10 Gold = 1 Platin (= 1.000 Kupfer)
-5. **Sternmünze (St)** - 10 Platin = 1 Stern (= 10.000 Kupfer)
+#### Beispiel-Hierarchie
 
-### **Verwendung**:
+**Fernkampf-Angriff mit Langbogen:**
 
-- **Kupfer**: Alltägliche Einkäufe (Essen, Trinken, einfache Güter)
-- **Silber**: Ausrüstung, Übernachtungen, Handwerksarbeiten
-- **Gold**: Waffen, Rüstungen, Pferde, größere Investitionen
-- **Platin**: Magische Gegenstände, seltene Waren, Immobilien
-- **Sternmünzen**: Land, Adelstitel, Handelsschiffe, magische Artefakte
+- **Attribut**: Geschicklichkeit (z.B. 10)
+- **Fähigkeit**: Fernkampf (z.B. 4)
+- **Spezialisierung**: Langbogen (z.B. 2)
 
-**Hinweis:** Sternmünzen sind extrem selten und werden meist nur bei Großgeschäften zwischen Adeligen, Gilden oder Königshäusern verwendet.
+**Würfelwurf**: 2W6 (z.B. 7) + (Geschicklichkeit 10 / 2 = 5) + Fernkampf 4 + Langbogen 2 = **18**
 
----
+### Fähigkeiten-Kategorien (Übergeordnet)
 
-# Händler-Typen und Item-Listen
+#### Kampf-Fähigkeiten
 
-## 1. Waffenschmied
-
-**Spezialisierung:** Nahkampfwaffen, Schilde  
-**Standorte:** Größere Städte, Festungen
-
-### **Einhandwaffen**
-
-| **Waffe**    | **Preis** | **Schaden** | **Attribut**     | **Besonderheiten**           |
-| ------------ | --------- | ----------- | ---------------- | ---------------------------- |
-| Dolch        | 2 S       | 1W6         | Geschicklichkeit | Leicht, versteckbar          |
-| Kurzschwert  | 1 G       | 1W6+2       | Stärke           | Ausgewogen, vielseitig       |
-| Langschwert  | 2 G       | 1W6+3       | Stärke           | Standard-Kriegswaffe         |
-| Streitaxt    | 2 G       | 1W6+4       | Stärke           | Hoher Schaden, etwas langsam |
-| Kriegshammer | 2 G 5 S   | 1W6+3       | Stärke           | Effektiver gegen Rüstung     |
-| Rapier       | 3 G       | 1W6+2       | Geschicklichkeit | Schnell, präzise, elegant    |
-| Säbel        | 2 G 5 S   | 1W6+3       | Geschicklichkeit | für Reiterkampf gemacht      |
-| Streitkolben | 1 G 5 S   | 1W6+3       | Stärke           | Einfach, zuverlässig         |
-
-### **Zweihandwaffen**
-
-| **Waffe**         | **Preis** | **Schaden** | **Attribut**    | **Besonderheiten**                  |
-| ----------------- | --------- | ----------- | --------------- | ----------------------------------- |
-| Zweihandschwert   | 5 G       | 2W6+4       | Stärke          | Hoher Schaden, langsam, Reichweite  |
-| Großaxt           | 4 G       | 2W6+5       | Stärke          | Verheerender Schaden, sehr langsam  |
-| Kriegshammer (2H) | 4 G 5 S   | 2W6+4       | Stärke          | Durchdringt Rüstung                 |
-| Hellebarde        | 3 G       | 2W6+3       | Stärke          | Reichweite, vielseitig (Hieb/Stich) |
-| Glefe             | 2 G 5 S   | 2W6+2       | Stärke          | Lange Reichweite, Defensiv-Bonus    |
-| Kampfstab         | 1 G       | 2W6         | Stärke/Geschick | kann Nicht-tödlich sein, schnell    |
-
-### **Stangenwaffen**
-
-| **Waffe** | **Preis** | **Schaden** | **Attribut** | **Besonderheiten**                                 |
-| --------- | --------- | ----------- | ------------ | -------------------------------------------------- |
-| Speer     | 5 S       | 1W6+2       | Stärke       | Wurfwaffe, Reichweite, günstig                     |
-| Lanze     | 3 G       | 2W6+3       | Stärke       | Nur zu Pferd sinnvoll, Angriffs-Bonus beim Ansturm |
-| Pike      | 2 G       | 2W6+2       | Stärke       | Sehr lange Reichweite, Anti-Kavallerie             |
-
-### **Schilde**
-
-| **Schild**    | **Preis** | **Rüstung** | **Besonderheiten**               |
-| ------------- | --------- | ----------- | -------------------------------- |
-| Buckler       | 5 S       | +1          | Klein, leicht, behindert nicht   |
-| Rundschild    | 1 G       | +2          | Standard-Schild, ausgewogen      |
-| Turmschild    | 3 G       | +3          | Schwer, volle Deckung, langsam   |
-| Reiterschild  | 2 G       | +2          | Für Kavallerie optimiert         |
-| Dreieckschild | 2G5S      | +3          | Mittelschwer; Oberkörper Deckung |
-
----
-
-## 2. Bogner / Fernkampf-Händler
-
-**Spezialisierung:** Bögen, Armbrüste, Munition  
-**Standorte:** Städte, Jäger-Siedlungen
-
-### **Fernkampfwaffen**
-
-|**Waffe**|**Preis**|**Schaden**|**Attribut**|**Reichweite**|**Besonderheiten**|
-|---|---|---|---|---|---|
-|Kurzbogen|3 G|1W6+2|Geschicklichkeit|Mittel|Schnell, mobil|
-|Langbogen|5 G|1W6+4|Geschicklichkeit|Weit|Hohe Reichweite, präzise|
-|Kompositbogen|8 G|1W6+5|Geschicklichkeit|Weit|Sehr stark, teuer, exotisch|
-|Leichte Armbrust|4 G|1W6+3|Geschicklichkeit|Mittel|Einfach zu nutzen, langsames Nachladen|
-|Schwere Armbrust|7 G|2W6+2|Geschicklichkeit|Weit|Durchschlagskraft, sehr langsam|
-|Wurfmesser (3x)|1 G|1W6|Geschicklichkeit|Kurz|Schnell, versteckbar|
-|Wurfaxt|1 G 5 S|1W6+2|Stärke|Kurz|Kann auch im Nahkampf genutzt werden|
-|Wurfspeer|8 S|1W6+3|Stärke|Mittel|Vielseitig|
-
-### **Munition**
-
-| **Munition**            | **Preis** | **Menge**                  |
-| ----------------------- | --------- | -------------------------- |
-| Pfeile (Langbogen)      | 1 S       | 24 Stück                   |
-| Pfeile (Kurzbogen)      | 8 K       | 24 Stück                   |
-| Armbrustbolzen (leicht) | 1 S       | 24 Stück                   |
-| Armbrustbolzen (schwer) | 2 S       | 24 Stück                   |
-| Köcher                  | 5 S       | Platz für 24 Pfeile/Bolzen |
-
----
-
-## 3. Rüstungsschmied
-
-**Spezialisierung:** Rüstungen, Helme, Schutzausrüstung  
-**Standorte:** Größere Städte, Festungen
-
-### **Leichte Rüstungen**
-
-|**Rüstung**|**Preis**|**Rüstwert**|**Besonderheiten**|
-|---|---|---|---|
-|Gepolsterte Kleidung|1 G|+1|Leicht, unauffällig, kaum Bewegungseinschränkung|
-|Lederrüstung|5 G|+2|Leicht, flexibel, für Schurken und Jäger|
-|Verstärkte Lederrüstung|10 G|+3|Metallverstärkungen, guter Schutz|
-|Fellrüstung|3 G|+2|Wärmend, für Tiermenschen beliebt|
-
-### **Mittlere Rüstungen**
-
-|**Rüstung**|**Preis**|**Rüstwert**|**Besonderheiten**|
-|---|---|---|---|
-|Schuppenpanzer|25 G|+4|Flexibel, mittlerer Schutz|
-|Kettenhemd|50 G|+5|Standard-Militärrüstung, bewährt|
-|Brigantine|40 G|+4|Metallplatten in Stoff, flexibel|
-
-### **Schwere Rüstungen**
-
-|**Rüstung**|**Preis**|**Rüstwert**|**Besonderheiten**|
-|---|---|---|---|
-|Plattenpanzer|150 G|+7|Beste Rüstung, schwer, langsam, für Ritter|
-|Halbplatte|100 G|+6|Platte an kritischen Stellen, beweglicher|
-|Schienenpanzer|75 G|+5|Metallstreifen, guter Kompromiss|
-
-### **Helme**
-
-|**Helm**|**Preis**|**Rüstwert**|**Besonderheiten**|
-|---|---|---|---|
-|Lederkappe|5 S|+0,5|Minimal, kaum Schutz|
-|Kettenhaube|2 G|+1|Flexibel, schützt Kopf und Nacken|
-|Topfhelm|5 G|+2|Voller Schutz, eingeschränkte Sicht|
-|Visierhelm|8 G|+2|Visor kann geöffnet werden|
-
----
-
-## 4. Allgemeiner Händler
-
-**Spezialisierung:** Ausrüstung, Werkzeuge, Alltagsgegenstände  
-**Standorte:** Jede Siedlung
-
-### **Ausrüstung & Werkzeuge**
-
-|**Item**|**Preis**|**Besonderheiten**|
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
 |---|---|---|
-|Rucksack|2 S|Standard-Tragfähigkeit|
-|Großer Rucksack|5 S|Erhöhte Tragfähigkeit|
-|Seil (15m)|1 S|Robust, vielseitig|
-|Fackel (5x)|5 K|Brennt ca. 1 Stunde|
-|Laterne|1 S|Wiederverwendbar, braucht Öl|
-|Lampenöl (Flasche)|5 K|Reicht für 6 Stunden|
-|Zunderbüchse|5 K|Zum Feuermachen|
-|Wetzstein|2 K|Schärft Waffen|
-|Wasserschlauch|5 K|Hält 2 Liter|
-|Schlafsack|5 S|Warmhaltend|
-|Zelt (2 Personen)|1 G|Wetterfest|
-|Zelt (4 Personen)|2 G|Größeres Zelt|
-|Kletterausrüstung|2 G|Haken, Seil, Karabiner|
-|Dietrich-Set|1 G|Für Schlösser|
-|Schaufel|5 S|Zum Graben|
-|Axt (Werkzeug)|8 S|Holzfällen|
-|Hammer & Nägel|3 S|Handwerk|
-|Angelrute|2 S|Nahrungssuche|
-|Jagdfalle|1 S|Tierfang|
-|Fernrohr|10 G|Weitsicht|
-|Kompass|5 G|Navigation|
-|Karte (Region)|1 G|Orientierung|
-|Sanduhr|2 G|Zeitmessung|
+|**Nahkampf**|Stärke|Alle Nahkampfwaffen|
+|**Fernkampf**|Geschicklichkeit|Alle Fernkampfwaffen|
+|**Waffenloser Kampf**|Stärke/Geschicklichkeit|Fäuste, Griffe, Würfe|
+|**Verteidigung**|Geschicklichkeit/Konstitution|Ausweichen, Parieren, Blocken|
+|**Taktik**|Intelligenz|Kampfplanung, Strategie|
 
-### **Alltägliche Güter**
+#### Soziale Fähigkeiten
 
-|**Item**|**Preis**|
-|---|---|
-|Brot (1 Laib)|2 K|
-|Käse (500g)|5 K|
-|Getrocknetes Fleisch|8 K|
-|Wein (Flasche)|1 S|
-|Bier (Krug)|3 K|
-|Reiseproviant (1 Tag)|1 S|
-|Kerzen (10x)|5 K|
-|Seife|2 K|
-|Decke|3 S|
-|Schreibfeder & Tinte|5 S|
-|Papier (10 Blatt)|1 S|
-|Buch (leer)|2 G|
-
----
-
-## 5. Pferdehändler
-
-**Spezialisierung:** Reittiere, Zugtiere, Sattel & Zaumzeug  
-**Standorte:** Städte, Bauernhöfe
-
-### **Tiere**
-
-|**Tier**|**Preis**|**Besonderheiten**|
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
 |---|---|---|
-|Esel|5 G|Langsam, robust, Lastentier|
-|Pony|10 G|Klein, für Kinder oder Khazad|
-|Reitpferd|20 G|Standard-Reittier, gute Geschwindigkeit|
-|Kriegspferd|100 G|Kampftrainiert, schnell, stark|
-|Zugpferd|30 G|Für Karren und schwere Lasten|
-|Maultier|8 G|Robust, störrisch|
+|**Überzeugung**|Charisma|Überreden, Verhandeln, Diplomatie|
+|**Täuschung**|Charisma|Lügen, Bluffen, Verkleiden|
+|**Einschüchterung**|Stärke/Charisma|Drohen, Angst verbreiten|
+|**Auftreten**|Charisma|Führung, Performance, Etikette|
 
-### **Zubehör**
+#### Wissens-Fähigkeiten
 
-|**Item**|**Preis**|**Besonderheiten**|
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
 |---|---|---|
-|Sattel (einfach)|2 G|Standard|
-|Sattel (Kriegs-)|10 G|Verstärkt, für Kavallerie|
-|Zaumzeug|1 G|Notwendig zum Reiten|
-|Satteltaschen|1 G|Erhöht Tragfähigkeit|
-|Pferdedecke|5 S|Schutz vor Kälte|
-|Hufeisen (Set)|2 S|Hufschutz|
+|**Gelehrsamkeit**|Intelligenz|Geschichte, Arkanes, Religionen|
+|**Naturkunde**|Weisheit|Tiere, Pflanzen, Wetter|
+|**Medizin**|Intelligenz/Weisheit|Heilung, Krankheiten, Anatomie|
 
----
+#### Handwerks-Fähigkeiten
 
-## 6. Gasthof / Taverne
-
-**Spezialisierung:** Unterkunft, Verpflegung  
-**Standorte:** Jede Siedlung
-
-### **Dienstleistungen**
-
-|**Dienstleistung**|**Preis**|**Besonderheiten**|
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
 |---|---|---|
-|Einfache Mahlzeit|5 K|Brot, Suppe, Wasser|
-|Gute Mahlzeit|2 S|Fleisch, Gemüse, Brot, Bier|
-|Festmahl|1 G|Braten, Wein, mehrere Gänge|
-|Ale / Bier (Krug)|3 K|Standard-Getränk|
-|Wein (Becher)|1 S|Besseres Getränk|
-|Schnaps (Glas)|5 S|Hochprozentiges|
-|Übernachtung (Schlafsaal)|5 K|Gemeinschaftsraum, einfach|
-|Übernachtung (Einzelzimmer)|1 S|Privat, einfach|
-|Übernachtung (Gutes Zimmer)|5 S|Komfortabel, sauber|
-|Übernachtung (Luxus)|1 G|Beste Qualität, Adelige|
-|Stallplatz (pro Pferd)|2 K|Futter inklusive|
-|Bad|5 K|Heißes Wasser, Seife|
+|**Handwerk**|Geschicklichkeit|Allgemeines Handwerk, Reparaturen|
+|**Technik**|Intelligenz|Mechanismen, Fallen, Erfindungen|
+|**Magie**|Intelligenz/Weisheit|Zaubern, Rituale|
 
----
+#### Überleben-Fähigkeiten
 
-## 7. Rohstoff-Händler
+|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
+|---|---|---|
+|**Überleben**|Weisheit|Fährtenlesen, Nahrungssuche, Orientierung|
+|**Schleichen**|Geschicklichkeit|Verstecken, Leise bewegen, Schatten nutzen|
+|**Diebeskunst**|Geschicklichkeit|Schlösser knacken, Taschendiebstahl, Fallen|
 
-**Spezialisierung:** Materialien, Holz, Erze, Stoff  
-**Standorte:** Städte mit Handwerks-Vierteln
+### Spezialisierungen (Beispiele)
 
-### **Handwerks-Ressourcen**
+#### Nahkampf-Spezialisierungen
 
-|**Ressource**|**Preis**|**Menge**|**Verwendung**|
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Einhandschwert|Nahkampf|Lange und Kurzschwerter|
+|Einhandaxt|Nahkampf|Streitäxte, Wurfäxte|
+|Zweihandschwert|Nahkampf|Große Schwerter|
+|Zweihandaxt|Nahkampf|Große Äxte|
+|Hammer & Kolben|Nahkampf|Kriegshämmer, Streitkolben|
+|Stangenwaffen|Nahkampf|Speere, Hellebarden, Piken|
+|Dolche|Nahkampf|Kurze Klingen, Versteckte Waffen|
+|Rapier & Degen|Nahkampf|Fechtwaffen|
+|Schildkampf|Verteidigung|Einsatz von Schilden im Kampf|
+
+#### Fernkampf-Spezialisierungen
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Langbogen|Fernkampf|Große Bögen|
+|Kurzbogen|Fernkampf|Kleine, mobile Bögen|
+|Armbrust|Fernkampf|Alle Arten von Armbrüsten|
+|Wurfwaffen|Fernkampf|Messer, Äxte, Speere|
+|Schleuder|Fernkampf|Schleudern, Steinschleudern|
+
+#### Waffenloser Kampf-Spezialisierungen
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Faustkampf|Waffenloser Kampf|Schläge, Tritte|
+|Ringen|Waffenloser Kampf|Griffe, Würfe, Hebel|
+|Mönchskampf|Waffenloser Kampf|Disziplinierter Kampfstil|
+
+#### Verteidigungs-Spezialisierungen
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Ausweichen|Verteidigung|Geschickte Bewegungen|
+|Parieren|Verteidigung|Abwehr mit Waffen|
+|Blocken|Verteidigung|Abwehr mit Schild|
+
+#### Magie-Spezialisierungen
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Heilige Magie|Magie|Lumina-Tradition|
+|Naturmagie|Magie|Teronis-Tradition|
+|Shaper-Magie|Magie|Formermagie|
+|Feuermagie|Magie|Element-Magie: Feuer|
+|Wassermagie|Magie|Element-Magie: Wasser|
+|Erdmagie|Magie|Element-Magie: Erde|
+|Luftmagie|Magie|Element-Magie: Luft|
+|Evokation|Magie|Schadenszauber|
+|Illusion|Magie|Täuschungen, Unsichtbarkeit|
+|Veränderung|Magie|Verwandlung, Modifikation|
+|Beschwörung|Magie|Kreaturen rufen|
+|Erkenntnis|Magie|Wissen, Wahrsagen|
+|Schutz|Magie|Barrieren, Abwehr|
+|Runenmagie|Magie|Permanente Verzauberungen|
+
+#### Technik-Spezialisierungen
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Waffenbau|Technik|Bögen, Armbrüste, Klingen|
+|Rüstungsschmied|Technik|Rüstungen, Modifikationen|
+|Fallenbau|Technik|Fallen, Verteidigungen|
+|Belagerungstechnik|Technik|Katapulte, Ballisten|
+|Feinmechanik|Technik|Uhren, Schlösser, Präzision|
+|Sprengstoff|Technik|Bomben, Granaten|
+|Schiffbau|Technik|Boote, Schiffe|
+|Konstruktion|Technik|Gebäude, Brücken, Befestigungen|
+
+#### Überleben-Spezialisierungen
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Fährtenlesen|Überleben|Spuren deuten|
+|Kräuterkunde|Überleben|Pflanzen identifizieren|
+|Nahrungssuche|Überleben|Essbare Ressourcen finden|
+|Orientierung|Überleben|Navigation ohne Karte|
+|Tierkunde|Überleben|Tiere verstehen, zähmen|
+
+#### Schleichen-Spezialisierungen
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Verstecken|Schleichen|In Schatten/Deckung|
+|Leise Bewegung|Schleichen|Geräuschlos bewegen|
+|Schattentanz|Schleichen|Sylvaner-Technik|
+
+#### Diebeskunst-Spezialisierungen
+
+|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
+|---|---|---|
+|Schlösser knacken|Diebeskunst|Mechanische Schlösser|
+|Taschendiebstahl|Diebeskunst|Unbemerkt stehlen|
+|Fallen entschärfen|Diebeskunst|Mechanische Fallen|
+
+### Lernen von Fähigkeiten & Spezialisierungen
+
+#### Kosten & Methoden
+
+##### 1. Fähigkeiten lernen
+
+**Methoden:**
+
+- **Akademie/Schule**: 10-100 G + 1-10 Tage (je nach Fähigkeit)
+- **Privat-Lehrer**: 20-200 G + 1-14 Tage
+- **Durch Übung**: Kostenlos, aber langsam (siehe "Lernen durch Übung")
+
+**Beispiel-Kosten:**
+
+|**Fähigkeit**|**Akademie-Kosten**|**Lernzeit**|**Wo zu lernen**|
 |---|---|---|---|
-|Holz (Bauholz)|5 K|10 Bretter|Bauen, Handwerk|
-|Holz (Hartholz)|1 S|10 Bretter|Waffen, Möbel|
-|Eisenerz|2 S|1 kg|Schmiedekunst|
-|Eisenbarren|5 S|1 kg|Waffenschmied, Rüstungsschmied|
-|Stahl (roh)|1 G|1 kg|Hochwertige Waffen|
-|Kohle|1 K|5 kg|Schmiede, Heizen|
-|Leder (roh)|3 S|1 qm|Rüstungen, Taschen|
-|Leder (gegerbt)|8 S|1 qm|Hochwertige Rüstungen|
-|Leinen (Stoff)|5 S|5 m|Kleidung, Zelte|
-|Wolle (Stoff)|8 S|5 m|Warme Kleidung|
-|Seide (Stoff)|5 G|5 m|Edle Kleidung|
-|Stein (Baustein)|1 K|10 Steine|Bauen|
-|Marmor|1 G|1 Stein|Dekorative Bauten|
-|Ton|2 K|10 kg|Töpferei|
-|Glas (roh)|5 S|1 kg|Fenster, Flaschen|
-|Hanf (Seil)|2 S|10 m|Seile, grobe Stoffe|
+|Nahkampf|20 G|5 Tage|Kriegsakademie, Waffenmeister|
+|Fernkampf|20 G|5 Tage|Bogenschule, Jäger-Gilde|
+|Magie (Grundlagen)|100 G|10 Tage|Magierakademie|
+|Technik (Grundlagen)|50 G|7 Tage|Ingenieur-Gilde, Erfinder-Werkstatt|
+|Überleben|15 G|3 Tage|Waldläufer-Gilde, erfahrene Jäger|
+|Überzeugung|10 G|3 Tage|Händler-Gilde, Rhetoriker|
+|Diebeskunst|30 G|5 Tage|Diebes-Gilde (illegal!)|
 
-### **Seltene Materialien**
+##### 2. Spezialisierungen lernen
 
-|**Ressource**|**Preis**|**Menge**|**Verwendung**|
+**Voraussetzung:** Fähigkeit muss mindestens auf **Level 2** sein
+
+**Methoden:**
+
+- **Meister-Lehrer**: 50-500 G + 3-14 Tage (je nach Spezialisierung)
+- **Bücher/Schriftrollen**: 30-300 G + Selbststudium (3-10 Tage)
+- **Durch Übung**: Kostenlos, aber sehr langsam
+
+**Beispiel-Kosten:**
+
+|**Spezialisierung**|**Meister-Kosten**|**Lernzeit**|**Wo zu lernen**|
 |---|---|---|---|
-|Silbererz|1 G|1 kg|Schmuck, magische Gegenstände|
-|Silberbarren|3 G|1 kg|Verarbeitung|
-|Gold (roh)|5 G|100 g|Schmuck, Münzen|
-|Goldbarren|10 G|100 g|Verarbeitung, Währung|
-|Edelsteine (klein)|5 G|1 Stück|Schmuck, Verzierungen|
-|Edelsteine (groß)|50 G|1 Stück|Hochwertige Verzierungen, Magie|
-|Drachenhorn|100 G|1 Stück|Magische Gegenstände, extrem selten|
-|Mondsilber|500 G|100 g|Magische Waffen, sehr selten|
-|Sternenmetall|10 P|100 g|Legendäre Waffen, extrem selten|
+|Einhandschwert|50 G|5 Tage|Schwertmeister, Kriegsakademie|
+|Langbogen|60 G|7 Tage|Meister-Bogner, Jäger-Gilde|
+|Feuermagie|200 G|10 Tage|Feuermagier, Magierakademie|
+|Runenmagie|300 G|14 Tage|Runenmeister, sehr selten!|
+|Fallenbau|100 G|7 Tage|Ingenieur-Gilde, Militär-Architekten|
+|Schattentanz|250 G|10 Tage|Sylvaner-Clans (Mondschatten, Naturtänzer)|
+|Schlösser knacken|80 G|5 Tage|Diebes-Gilde (illegal!)|
+
+#### Wo kann man lernen?
+
+##### Adventuria (Hauptstadt von Sunar)
+
+**Akademie der Tapferkeit** (Abenteurer):
+
+- Nahkampf, Fernkampf, Verteidigung, Taktik
+- Kosten: 20-50 G pro Fähigkeit
+- Spezialisierungen: Alle Waffen-Spezialisierungen
+
+**Magierakademie**:
+
+- Magie (alle Schulen außer Shaper)
+- Kosten: 100-500 G pro Spezialisierung
+- Element-Magie, Evokation, Illusion, etc.
+
+**Händler-Akademie**:
+
+- Überzeugung, Täuschung, Handel, Etikette
+- Kosten: 10-30 G pro Fähigkeit
+
+**Ingenieur-Gilde**:
+
+- Technik, Handwerk
+- Kosten: 50-200 G pro Spezialisierung
+- Waffenbau, Fallenbau, Feinmechanik
+
+**Tempel (Lumina, Teronis, etc.)**:
+
+- Heilige Magie, Naturmagie
+- Kosten: Oft kostenlos für Gläubige, sonst 50-200 G
+- Meditation, Heilung, Schutzzauber
+
+**Untergrund (Schwarzmarkt)**:
+
+- Diebeskunst, Giftherstellung, verbotene Magie
+- Kosten: 50-300 G (+ Risiko!)
+- Schlösser knacken, Shaper-Magie (illegal!)
+
+##### Andere Orte
+
+**Sylvaner-Wälder (Valoria, Elandor, Skyclaw)**:
+
+- Naturmagie, Überleben, Schattentanz
+- Kosten: Oft Gefälligkeiten statt Geld
+
+**Khazad-Festungen (Kyrion/Zornheim)**:
+
+- Schmiedekunst, Rüstungsbau, Bergbau
+- Kosten: 30-150 G
+
+**Tiermenschen-Clans (Skyclaw)**:
+
+- Überleben, Tierkunde, Naturmagie
+- Kosten: Oft durch Prüfungen/Quests
 
 ---
 
-## 8. Juwelier / Schmuckhändler
+## Level-System
 
-**Spezialisierung:** Schmuck, Edelsteine, Verzierungen  
-**Standorte:** Wohlhabende Städte
+### Level-Progression
 
-### **Schmuck**
+#### Erfahrungs-System
 
-| **Item**            | **Preis** | **Besonderheiten**         |
-| ------------------- | --------- | -------------------------- |
-| Einfacher Ring      | 1 G       | Kupfer/Bronze              |
-| Silberring          | 5 G       | Silber, hübsch             |
-| Goldring            | 20 G      | Gold, wertvoll             |
-| Ring mit Edelstein  | 50 G      | Gold mit kleinem Edelstein |
-| Halskette (einfach) | 2 G       | Kupfer/Bronze              |
-| Silberhalskette     | 10 G      | Silber, elegant            |
-| Goldhalskette       | 40 G      | Gold, luxuriös             |
-| Diadem              | 100 G     | Für Adelige, prunkvoll     |
-| Siegelring          | 50 G      | Mit Familienwappen         |
-| Magisches Amulett   | 5 P       | noch nicht verzaubert      |
+Charaktere steigen durch **Erfahrungspunkte (EP)** auf, die durch:
+
+- Abgeschlossene Quests
+- Besiegte Gegner
+- Gelöste Rätsel
+- Gutes Rollenspiel
+- Erreichte Meilensteine
+
+vergeben werden.
+
+#### EP-Tabelle
+
+|**Level**|**Benötigte EP (Gesamt)**|**EP für nächstes Level**|
+|---|---|---|
+|1|0|300|
+|2|300|600|
+|3|900|900|
+|4|1.800|1.200|
+|5|3.000|1.500|
+|6|4.500|2.000|
+|7|6.500|2.500|
+|8|9.000|3.000|
+|9|12.000|4.000|
+|10|16.000|5.000|
+
+**Hinweis:** Das Spiel ist für Level 1-10 ausgelegt, kann aber erweitert werden.
+
+### Belohnungen pro Level
+
+#### Bei jedem Level-Aufstieg
+
+1. **+1W6 Lebenspunkte** (+ Stärke/2 + Konstitution/2)
+2. **+1W6 Mana-Punkte** (nur für Magier, + Intelligenz/2 + Weisheit/2)
+3. **Fähigkeiten-Punkte**:
+    - Level 2-4: **3 Punkte**
+    - Level 5-7: **4 Punkte**
+    - Level 8-10: **5 Punkte**
+4. **Neue Spezialisierung lernen** (1 kostenlos pro Level ab Level 3)
+5. **+1 auf ein Attribut** (ab Level 5, dann alle 2 Level)
+
+#### Fähigkeiten-Punkte ausgeben
+
+- **1 Punkt** = +1 auf eine bestehende Fähigkeit (max. = Attributwert)
+- **2 Punkte** = Neue Fähigkeit auf Level 1 lernen
+- **1 Punkt** = +1 auf eine Spezialisierung (max. 6)
+- **3 Punkte** = Neue Spezialisierung auf Level 1 lernen
+
+**Beispiel Level-Aufstieg (Level 2 → 3):**
+
+- Würfle 1W6 für LP (Ergebnis: 4) + Stärke 10/2 + Konsti 8/2 = +9 LP
+- Erhalte 3 Fähigkeiten-Punkte
+- Spieler entscheidet: +1 Nahkampf, +1 Fernkampf, +1 Ausweichen
+- Erhalte 1 kostenlose Spezialisierung: Lernt "Einhandschwert"
 
 ---
 
-## 9. Immobilien & Grundbesitz
+## Kampf-System
 
-**Spezialisierung:** Häuser, Werkstätten, Land  
-**Standorte:** Städte, über Makler oder Adel
+### Kampfrunden-Struktur
 
-### **Immobilien**
+#### Initiative
 
+Zu Beginn des Kampfes würfeln alle Beteiligten Initiative:
 
-## ==Wichtig Preise können je nach Land und Stadt (und ruf) Variieren==
+**Initiative**: 2W6 + (Geschicklichkeit / 2)
 
+Die Reihenfolge wird von höchster zu niedrigster Initiative abgehandelt.
 
-| **Immobilie**            | **Preis** | **Besonderheiten**                          |
-| ------------------------ | --------- | ------------------------------------------- |
-| Kleines Haus (Stadt)     | 50 G      | 2 Räume, einfach                            |
-| Stadthaus                | 200 G     | 4-5 Räume, gute Lage                        |
-| Herrenhaus               | 2 P       | Groß, repräsentativ, Stadtzentrum           |
-| Werkstatt                | 100 G     | Mit Arbeitsraum und Lager                   |
-| Taverne (klein)          | 300 G     | Schankraum, Küche, 4-5 Zimmer               |
-| Gasthaus (groß)          | 1 P       | Großer Schankraum, 10+ Zimmer               |
-| Ackerlandland (1 Hektar) | 10 G      | Einfaches Ackerland                         |
-| Wald (1 Hektar)          | 5 G       | Holzgewinnung                               |
-| Weideland (1 Hektar)     | 8 G       | Für Viehzucht                               |
-| Gutshof                  | 5 P       | Großer Hof mit Land (10+ Hektar)            |
-| Burg (klein)             | 50 P      | Befestigte Anlage, kleiner Landbesitz       |
-| Festung                  | 500 P     | Große Verteidigungsanlage, große Ländereien |
-| Adelstitel (Ritter)      | 100 P     | Mit kleinem Landbesitz                      |
-| Adelstitel (Baron)       | 1.000 P   | Mit mittlerem Landbesitz                    |
-# Magie- und Technik-System für Terranea
+**Gleichstand**: Bei gleichem Wert entscheidet höhere Geschicklichkeit, dann Würfelwurf.
+
+### Aktionen pro Runde
+
+Jeder Charakter hat **1 Runde** mit folgenden Aktionen:
+
+#### Standard-Aktion (1 pro Runde)
+
+- **Angriff** (Nahkampf oder Fernkampf)
+- **Zauber wirken** (die meisten Zauber)
+- **Gegenstand benutzen** (Trank trinken, Schriftrolle lesen)
+- **Sprinten** (doppelte Bewegung statt normale)
+- **Volle Verteidigung** (+4 auf Verteidigungswert bis nächste Runde)
+
+#### Bewegungs-Aktion (1 pro Runde)
+
+- **Bewegen** (bis zu 10m / 30 Fuß)
+- **Aufstehen** (wenn am Boden liegend)
+- **Waffe wechseln**
+- **Tür öffnen/schließen**
+- **Gegenstand aufheben**
+
+#### Freie Aktion (beliebig viele, innerhalb des gesunden Menschenverstands)
+
+- **Sprechen** (kurze Sätze)
+- **Gegenstand fallen lassen**
+- **Waffe ziehen** (wenn bereits in Scheide/am Gürtel)
+
+#### Reaktion (1 pro Runde, außerhalb der eigenen Runde)
+
+- **Gelegenheitsangriff** (Opportunity Attack)
+- **Parieren/Blocken** (mit Waffe/Schild)
+
+### Detaillierte Kampf-Aktionen
+
+#### 1. Angriff (Nahkampf)
+
+**Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf + Spezialisierung
+
+**Gegen**: Verteidigungswert des Ziels
+
+**Verteidigungswert** = 10 + (Geschicklichkeit / 2) + Ausweichen + Rüstung
+
+**Bei Treffer**: Würfle Schaden mit Waffe
+
+**Schaden**: Waffenschaden + (Stärke / 2 bei Nahkampf)
+
+**Beispiel:**
+
+- Angreifer: 2W6 (Ergebnis: 8) + Stärke 10/2 (5) + Nahkampf 4 + Einhandschwert 2 = **19**
+- Verteidiger: Verteidigungswert 10 + Geschick 8/2 (4) + Ausweichen 2 + Lederrüstung 2 = **18**
+- **Treffer!** Würfle Schaden: Langschwert 1W6+3 (Ergebnis: 5) + Stärke 10/2 (5) = **13 Schaden**
+
+#### 2. Angriff (Fernkampf)
+
+**Probe**: 2W6 + (Geschicklichkeit / 2) + Fernkampf + Spezialisierung
+
+**Gegen**: Verteidigungswert des Ziels
+
+**Modifikatoren:**
+
+- **Kurze Reichweite** (0-10m): Normal
+- **Mittlere Reichweite** (10-30m): Normal
+- **Weite Reichweite** (30-60m): -2 auf Angriff
+- **Extreme Reichweite** (60m+): -4 auf Angriff
+- **Deckung**: -2 (halbe Deckung) bis -4 (volle Deckung)
+- **Bewegtes Ziel**: -2
+
+**Schaden**: Waffenschaden + (Geschicklichkeit / 2)
+
+**Munition**: Wird bei jedem Schuss verbraucht (außer Wurfwaffen, die wiederverwendbar sind)
+
+#### 3. Zauber wirken
+
+**Probe**: 2W6 + (Intelligenz oder Weisheit / 2) + Magie + Spezialisierung
+
+**Gegen**: Schwierigkeit des Zaubers (siehe Magie-System)
+
+**Mana-Kosten**: Werden verbraucht, auch bei Misserfolg (außer bei kritischem Patzer: halbe Kosten)
+
+**Gegner mit Rettungswurf:** Manche Zauber erlauben dem Ziel einen **Rettungswurf** (siehe unten).
+
+#### 4. Verteidigung
+
+##### Passive Verteidigung
+
+Wird automatisch gegen alle Angriffe verwendet:
+
+**Verteidigungswert** = 10 + (Geschicklichkeit / 2) + Ausweichen + Rüstung
+
+##### Aktive Verteidigung (Reaktion)
+
+**Parieren** (mit Waffe):
+
+- **Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf + Parieren-Spezialisierung
+- **Gegen**: Angriffswurf des Gegners
+- **Erfolg**: Angriff abgewehrt, kein Schaden
+- **Kostet**: Reaktion (1 pro Runde)
+
+**Blocken** (mit Schild):
+
+- **Probe**: 2W6 + (Stärke / 2) + Verteidigung + Schildkampf-Spezialisierung
+- **Gegen**: Angriffswurf des Gegners
+- **Erfolg**: Angriff abgewehrt, kein Schaden
+- **Kostet**: Reaktion (1 pro Runde)
+
+**Ausweichen** (ohne Waffe/Schild):
+
+- **Probe**: 2W6 + (Geschicklichkeit / 2) + Verteidigung + Ausweichen-Spezialisierung
+- **Gegen**: Angriffswurf des Gegners
+- **Erfolg**: Angriff komplett ausgewichen, kein Schaden
+- **Kostet**: Reaktion (1 pro Runde)
+
+#### 5. Trank trinken
+
+**Kosten**: Standard-Aktion
+
+**Effekt**: Sofort (z.B. Heiltrank heilt sofort LP)
+
+**Hinweis**: Ein Trank kann **nicht** gleichzeitig mit einem Angriff in derselben Runde getrunken werden, außer mit speziellen Fähigkeiten.
+
+**Trank einem anderen geben**: Standard-Aktion + Bewegung (zum Verbündeten bewegen, dann Trank geben)
+
+#### 6. Bewegung
+
+**Standard-Bewegung**: 10m (30 Fuß) pro Runde
+
+**Schwieriges Gelände**: Halbierte Bewegung (5m)
+
+**Sprinten** (Standard-Aktion): 20m (60 Fuß), aber **kein Angriff** in dieser Runde
+
+**Klettern/Schwimmen**: 5m pro Runde, erfordert Geschicklichkeits-Probe (Schwierigkeit 12-18)
+
+#### 7. Waffen wechseln
+
+**Waffe ziehen** (vom Gürtel/Scheide): Freie Aktion
+
+**Waffe wegstecken**: Bewegungs-Aktion
+
+**Waffe fallen lassen**: Freie Aktion
+
+**Andere Waffe aufheben**: Bewegungs-Aktion
+
+**Waffe tauschen** (wegstecken + neue ziehen): Bewegungs-Aktion
+
+### Waffen-Eigenschaften & Vor-/Nachteile
+
+#### Einhandwaffen
+
+**Vorteile:**
+
+- Kann mit **Schild** kombiniert werden (+2 bis +3 Rüstung)
+- Kann **Zweiwaffenkampf** nutzen (siehe unten)
+- Schneller zu ziehen
+- Freie Hand für andere Aktionen (Trank, Zauber, Klettern)
+
+**Nachteile:**
+
+- Geringerer Schaden als Zweihandwaffen
+
+**Beispiele:** Langschwert (1W6+3), Streitaxt (1W6+4), Rapier (1W6+2)
+
+#### Zweihandwaffen
+
+**Vorteile:**
+
+- **+2 Schaden** zusätzlich
+- Höherer Basis-Schaden (2W6+4 statt 1W6+3)
+- **Reichweite** (manche Zweihandwaffen wie Speere/Hellebarden)
+
+**Nachteile:**
+
+- **Kein Schild** möglich
+- **Langsamer** (Initiative -2 in erster Kampfrunde)
+- Braucht **beide Hände** (keine Tränke/Zauber ohne Waffe wegzulegen)
+- **Schwieriger in engen Räumen** (-2 auf Angriff in Korridoren/kleinen Räumen)
+
+**Beispiele:** Zweihandschwert (2W6+4), Großaxt (2W6+5), Kriegshammer 2H (2W6+4)
+
+#### Stangenwaffen
+
+**Vorteile:**
+
+- **Reichweite** (kann Gegner auf 2-3m Distanz angreifen)
+- **Gelegenheitsangriff** wenn Gegner sich nähert (bevor er angreifen kann)
+- **+2 gegen Kavallerie**
+
+**Nachteile:**
+
+- **Unhandlich in Nahkampf** (-4 auf Angriff wenn Gegner direkt vor einem steht)
+- **Langsam** (Initiative -2)
+- Braucht **beide Hände**
+
+**Beispiele:** Speer (1W6+2), Hellebarde (2W6+3), Pike (2W6+2)
+
+#### Fernkampfwaffen - Bögen
+
+**Vorteile:**
+
+- **Schnelles Nachladen** (kein Nachteil, kann jede Runde schießen)
+- **Hohe Reichweite** (30-60m effektiv)
+- **Leise** (perfekt für Hinterhalte)
+
+**Nachteile:**
+
+- **Braucht beide Hände**
+- **Ineffektiv im Nahkampf** (-4 auf Angriff wenn Gegner in 3m Nähe)
+- **Munition** erforderlich (Pfeile)
+- **Wetter**: Bei Regen/Sturm -2 auf Angriff
+
+**Beispiele:** Langbogen (1W6+4), Kurzbogen (1W6+2)
+
+#### Fernkampfwaffen - Armbrüste
+
+**Vorteile:**
+
+- **Hoher Schaden** (durchschlagender als Bögen)
+- **Präzise** (+2 auf Angriff bei gezieltem Schuss)
+- **Durchdringt Rüstung** (ignoriert 2 Punkte Rüstung)
+
+**Nachteile:**
+
+- **Langsames Nachladen**:
+    - **Leichte Armbrust**: 1 Runde nachladen (kann schießen, dann 1 Runde Pause)
+    - **Schwere Armbrust**: 2 Runden nachladen (schießen, dann 2 Runden Pause)
+- **Braucht beide Hände**
+- **Ineffektiv im Nahkampf** (-4 auf Angriff wenn Gegner in 3m Nähe)
+- **Schwer** (Bewegung -2m wenn schwere Armbrust)
+
+**Beispiele:** Leichte Armbrust (1W6+3), Schwere Armbrust (2W6+2)
+
+#### Zweiwaffenkampf
+
+**Voraussetzung**: Zwei Einhandwaffen, Spezialisierung "Zweiwaffenkampf"
+
+**Vorteile:**
+
+- **Zusätzlicher Angriff** mit zweiter Waffe (als Bonus-Aktion)
+- **+1 Verteidigung** (Parieren mit beiden Waffen)
+
+**Nachteile:**
+
+- **-2 auf beide Angriffe** (außer mit Spezialisierung "Zweiwaffenkampf" Level 4+)
+- **Kein Schild**
+- **Braucht hohe Geschicklichkeit** (min. 10)
+
+**Mechanik:**
+
+- **Haupthand-Angriff**: Normal (Standard-Aktion)
+- **Nebenhand-Angriff**: 2W6 + (Geschicklichkeit / 2) + Nahkampf + Spezialisierung - 2
+- **Nebenhand-Schaden**: Waffenschaden **ohne** Stärke-Bonus
+
+### Gelegenheitsangriffe (Opportunity Attacks)
+
+**Auslöser:**
+
+- Gegner **bewegt sich aus Nahkampf-Reichweite** (3m) heraus
+- Gegner **wendet den Rücken zu** (um zu fliehen)
+- Gegner **nutzt Fernkampf** im Nahkampf
+
+**Mechanik:**
+
+- **Freier Angriff** (Reaktion, 1 pro Runde)
+- **Normale Angriffsprobe**
+- **Bei Treffer**: Voller Schaden
+
+**Vermeiden:**
+
+- **"Vorsichtiger Rückzug"**: Bewegungs-Aktion + keine Standard-Aktion (kann nicht angreifen)
+- **Ausweichen-Probe** (Schwierigkeit 14): Bei Erfolg kein Gelegenheitsangriff
+
+### Besondere Kampf-Aktionen
+
+#### Gezielter Angriff
+
+**Kosten**: Standard-Aktion
+
+**Effekt**: -2 auf Angriffswurf, aber **+1W6 Schaden** bei Treffer
+
+#### Entwaffnen
+
+**Kosten**: Standard-Aktion
+
+**Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf
+
+**Gegen**: Gegner würfelt 2W6 + (Stärke / 2) + Nahkampf
+
+**Erfolg**: Gegner lässt Waffe fallen (3m entfernt)
+
+#### Zu Boden werfen
+
+**Kosten**: Standard-Aktion
+
+**Probe**: 2W6 + (Stärke / 2) + Waffenloser Kampf
+
+**Gegen**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Verteidigung
+
+**Erfolg**: Gegner liegt am Boden (Aufstehen kostet Bewegungs-Aktion, -2 auf Angriffe vom Boden)
+
+#### Volle Verteidigung
+
+**Kosten**: Standard-Aktion (kein Angriff möglich)
+
+**Effekt**: +4 auf Verteidigungswert bis zur nächsten Runde
+
+#### Unterstützung
+
+**Kosten**: Standard-Aktion
+
+**Effekt**: Verbündeter erhält +2 auf seinen nächsten Angriff oder Verteidigung
+
+**Probe**: 2W6 + (Intelligenz / 2) + Taktik (Schwierigkeit 12)
+
+### Rettungswürfe
+
+Rettungswürfe werden verwendet, um **schädlichen Effekten** zu widerstehen (Gifte, Zauber, Fallen, etc.).
+
+#### Drei Arten von Rettungswürfen
+
+##### 1. Robustheit (Körperliche Widerstandskraft)
+
+**Gegen**: Gifte, Krankheiten, Erschöpfung, körperliche Zauber
+
+**Probe**: 2W6 + (Konstitution / 2) + Bonus (falls vorhanden)
+
+**Beispiel:** Giftiger Pfeil: Rettungswurf gegen Schwierigkeit 14. Bei Misserfolg 1W6 Giftschaden pro Runde für 3 Runden.
+
+##### 2. Reflexe (Schnelle Reaktion)
+
+**Gegen**: Explosionen, Fallen, Flächenzauber, Stürze
+
+**Probe**: 2W6 + (Geschicklichkeit / 2) + Bonus (falls vorhanden)
+
+**Beispiel:** Feuerball-Zauber: Rettungswurf gegen Schwierigkeit 16. Bei Erfolg halber Schaden, bei Misserfolg voller Schaden.
+
+##### 3. Willenskraft (Geistige Widerstandskraft)
+
+**Gegen**: Gedankenkontrolle, Illusionen, Furcht, mentale Zauber
+
+**Probe**: 2W6 + (Weisheit / 2) + Bonus (falls vorhanden)
+
+**Beispiel:** Furcht-Zauber: Rettungswurf gegen Schwierigkeit 16. Bei Misserfolg: Geflohen für 1W6 Runden.
+
+#### Erfolg bei Rettungswürfen
+
+- **Erfolg**: Effekt vollständig abgewehrt oder halbiert (je nach Effekt)
+- **Misserfolg**: Voller Effekt tritt ein
+- **Kritischer Erfolg** (12 auf Würfel): Kein Effekt + Bonus (z.B. Immun für 1 Runde)
+- **Kritischer Patzer** (2 auf Würfel): Doppelter Effekt
 
 ---
 
-## Grundprinzipien
+## Magie-System
 
-### Philosophie des Systems:
+### Grundprinzipien
+
+#### Philosophie des Systems
 
 - **Freiheit vor Einschränkung**: Spieler sollen kreativ sein können
 - **Kosten statt Verbote**: Je mächtiger die Aktion, desto höher die Kosten
 - **Balance durch Ressourcen**: Magie kostet Ausdauer/Mana, Technik kostet Zeit/Material
 - **Spezialisierung lohnt sich**: Verschiedene Magie-Schulen haben unterschiedliche Stärken
 
----
+### Magische Ressourcen
 
-# Magie-System
-
-## Magische Ressourcen
-
-### **Mana-Punkte (MP)**
+#### Mana-Punkte (MP)
 
 Ähnlich wie Lebenspunkte hat jeder magisch begabte Charakter Mana-Punkte:
 
-**Formel**: 2W6 + (Intelligenz / 2) + (Weisheit / 2) + Magie-Attribut 
+**Formel**: 2W6 + (Intelligenz / 2) + (Weisheit / 2) + Magie-Attribut
 
 **Beispiel**: Ein Charakter mit Intelligenz 10, Weisheit 8 und Magie 6 würfelt 2W6 (Ergebnis: 8)
 
 - MP = 8 + 5 + 4 + 6 = **23 Mana-Punkte**
 
-### **Mana-Regeneration**:
+#### Mana-Regeneration
 
 - **Kurze Rast** (10 Minuten): 1W6 MP zurück
 - **Lange Rast** (8 Stunden Schlaf): Vollständige Regeneration
 - **Meditation** (1 Stunde): 2W6 MP zurück
 - **Manatränke**: Stellen sofort MP wieder her (siehe Item-Liste)
 
----
+### Die Drei Magie-Schulen
 
-## Die Drei Magie-Schulen
-
-### 1. **Heilige Magie (Lumina-Tradition)**
+#### 1. Heilige Magie (Lumina-Tradition)
 
 **Fokus**: Heilung, Schutz, Licht, Bannmagie  
 **Attribut**: Weisheit + Magie  
 **Quelle**: Göttliche Energie, Glaube, Gebet  
 **Anwender**: Priester, Paladine, Kleriker
 
-#### **Mechanik - Heilige Magie**:
+##### Mechanik - Heilige Magie
 
 - **Zauberprobe**: 2W6 + (Weisheit / 2) + Magie + Spezialisierung "Heilige Magie"
 - **Schwierigkeit**: Je nach Effekt (10-26)
 - **Mana-Kosten**: Abhängig von der Stärke des Zaubers
 
-#### **Beispiel-Zauber**:
+##### Beispiel-Zauber
 
 |**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
 |---|---|---|---|
@@ -841,22 +1148,20 @@ Terranea verwendet ein gestaffeltes Münzsystem:
 
 **Besonderheit**: Heilige Magie ist am effektivsten gegen Untote und dämonische Kreaturen.
 
----
-
-### 2. **Naturmagie (Teronis-Tradition)**
+#### 2. Naturmagie (Teronis-Tradition)
 
 **Fokus**: Pflanzen, Tiere, Wetter, Verwandlung, Elemente (indirekt)  
 **Attribut**: Weisheit + Magie  
 **Quelle**: Lebensenergie der Natur, Verbindung zur Erde  
 **Anwender**: Druiden, Waldläufer, Sylvaner
 
-#### **Mechanik - Naturmagie**:
+##### Mechanik - Naturmagie
 
 - **Zauberprobe**: 2W6 + (Weisheit / 2) + Magie + Spezialisierung "Naturmagie"
 - **Schwierigkeit**: Je nach Effekt (10-26)
 - **Mana-Kosten**: Abhängig von der Stärke des Zaubers
 
-#### **Beispiel-Zauber**:
+##### Beispiel-Zauber
 
 |**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
 |---|---|---|---|
@@ -873,22 +1178,20 @@ Terranea verwendet ein gestaffeltes Münzsystem:
 
 **Besonderheit**: Naturmagie ist in natürlicher Umgebung stärker (-2 Schwierigkeit in Wäldern, +2 in Städten/Dungeons).
 
----
-
-### 3. **Shaper-Magie (Formermagie)**
+#### 3. Shaper-Magie (Formermagie)
 
 **Fokus**: Kreaturen erschaffen/kontrollieren, Fleisch/Knochen formen, Biomagie  
 **Attribut**: Intelligenz + Magie  
 **Quelle**: Manipulation von Lebensessenz, dunkle/verbotene Magie  
 **Anwender**: Shaper, Nekromanten, Biomanten
 
-#### **Mechanik - Shaper-Magie**:
+##### Mechanik - Shaper-Magie
 
 - **Zauberprobe**: 2W6 + (Intelligenz / 2) + Magie + Spezialisierung "Shaper-Magie"
 - **Schwierigkeit**: Je nach Effekt (12-30)
 - **Mana-Kosten**: Höher als andere Schulen, da sehr mächtig
 
-#### **Beispiel-Zauber**:
+##### Beispiel-Zauber
 
 |**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
 |---|---|---|---|
@@ -905,20 +1208,19 @@ Terranea verwendet ein gestaffeltes Münzsystem:
 
 **Besonderheit**: Shaper-Magie ist gesellschaftlich geächtet und in vielen Ländern verboten. Öffentliche Nutzung kann zu Verfolgung führen.
 
----
+### Element-Magie
 
-## Element-Magie
-
-### Konzept:
+#### Konzept
 
 Element-Magie ist eine **freiere Form** der Magie, die sich auf die **vier klassischen Elemente** konzentriert: **Feuer**, **Wasser**, **Erde**, **Luft**. Anwender brauchen meist keine Unterweisung in dieser Magie form dafür ist die Nutzung sehr anstrengende (hohe MP kosten)
 
-**Wichtig**: Element-Magie ist **NICHT an eine der drei Schulen gebunden**, sondern eine **eigene Disziplin**, die jeder mit Magietalent  erlernen kann.
+**Wichtig**: Element-Magie ist **NICHT an eine der drei Schulen gebunden**, sondern eine **eigene Disziplin**, die jeder mit Magietalent erlernen kann.
 
 Es können auch mehrere Elemente mit einander Kombiniert werden was wiederum aber mehr anstrengend ist.
-### **Mechanik - Element-Magie**:
 
-#### **Element-Fähigkeit**:
+#### Mechanik - Element-Magie
+
+##### Element-Fähigkeit
 
 Jeder Magier kann eine oder mehrere **Element-Spezialisierungen** erlernen (0-6):
 
@@ -927,7 +1229,7 @@ Jeder Magier kann eine oder mehrere **Element-Spezialisierungen** erlernen (0-6)
 - Erdmagie
 - Luftmagie
 
-#### **Freies Wirken**:
+##### Freies Wirken
 
 Statt feste Zauber zu lernen, beschreibt der Spieler, **was er mit dem Element tun möchte**.
 
@@ -938,7 +1240,7 @@ Statt feste Zauber zu lernen, beschreibt der Spieler, **was er mit dem Element t
 1. **Schwierigkeit** (basierend auf Komplexität)
 2. **Mana-Kosten** (basierend auf Macht und Dauer)
 
-#### **Richtlinien für Schwierigkeit & Kosten**:
+##### Richtlinien für Schwierigkeit & Kosten
 
 |**Aktion**|**Schwierigkeit**|**MP-Kosten**|**Beispiel**|
 |---|---|---|---|
@@ -949,7 +1251,7 @@ Statt feste Zauber zu lernen, beschreibt der Spieler, **was er mit dem Element t
 |Großflächiger Effekt|22|10-15 MP|Erd-Mauer, Tornado|
 |Katastrophaler Effekt|26+|15+ MP|Lava beschwören, Tsunami, Erdbeben|
 
-#### **Beispiele für Element-Magie**:
+##### Beispiele für Element-Magie
 
 **Feuer**:
 
@@ -989,40 +1291,37 @@ Statt feste Zauber zu lernen, beschreibt der Spieler, **was er mit dem Element t
 - Blitz (Feuer + Luft): 2W6 Schaden, betäubt
 - Lava (Feuer + Erde): Verheerender Schaden, Gelände verändern
 
----
+### Akademie-Zauber (Scroll-Magie)
 
-## Akademie-Zauber (Scroll-Magie)
-
-### Konzept:
+#### Konzept
 
 Dies sind **feste, erlernbare Zauber**, die in **Akademien gelehrt** oder aus **Schriftrollen** gelernt werden können. Sie sind **vielseitiger** als Element-Magie, aber **weniger flexibel**.
 
-### **Mechanik - Akademie-Zauber**:
+#### Mechanik - Akademie-Zauber
 
-#### **Zauber lernen**:
+##### Zauber lernen
 
 1. **An der Akademie**: Zeit + Geld (1-10 Tage, 10 G - 500 G je nach Level)
 2. **Aus Schriftrollen**: Schriftrolle verbraucht, Lernprobe (Intelligenz, Schwierigkeit 14-22)
 3. **Von einem Meister**: Wie Akademie, aber möglicherweise Gefälligkeiten statt Geld
 
-#### **Zauber wirken**:
+##### Zauber wirken
 
 **Zauberprobe**: 2W6 + (Intelligenz / 2) + Magie + Spezialisierung "Akademie-Magie"
 
-### **Kategorien**:
+#### Kategorien
 
-#### **1. Evokations-Zauber (Schadens-Zauber)**
+##### 1. Evokations-Zauber (Schadens-Zauber)
 
-| **Zauber**         | **MP-Kosten** | **Schwierigkeit** | **Effekt**                                                |
-| ------------------ | ------------- | ----------------- | --------------------------------------------------------- |
-| Magisches Geschoss | 2 MP          | 10                | 1W6 Schaden, trifft automatisch, kann nur geblockt werden |
-| Flammenstoß        | 4 MP          | 14                | 1W6+2 Feuerschaden, Kegel                                 |
-| Blitzschlag        | 6 MP          | 16                | 2W6 Blitzschaden, betäubt für 1 Runde                     |
-| Feuersturm         | 10 MP         | 20                | 2W6+4 Schaden, 10m Radius                                 |
-| Meteor             | 20 MP         | 26                | 4W6 Schaden, großflächig, Krater                          |
-|                    |               |                   |                                                           |
+|**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
+|---|---|---|---|
+|Magisches Geschoss|2 MP|10|1W6 Schaden, trifft automatisch, kann nur geblockt werden|
+|Flammenstoß|4 MP|14|1W6+2 Feuerschaden, Kegel|
+|Blitzschlag|6 MP|16|2W6 Blitzschaden, betäubt für 1 Runde|
+|Feuersturm|10 MP|20|2W6+4 Schaden, 10m Radius|
+|Meteor|20 MP|26|4W6 Schaden, großflächig, Krater|
 
-#### **2. Illusions-Zauber**
+##### 2. Illusions-Zauber
 
 |**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
 |---|---|---|---|
@@ -1032,7 +1331,7 @@ Dies sind **feste, erlernbare Zauber**, die in **Akademien gelehrt** oder aus **
 |Bewegtes Trugbild|5 MP|16|Bewegte Illusion, 10 Minuten|
 |Phantasmaler Schmerz|8 MP|20|Ziel glaubt verletzt zu sein, -4 auf Proben|
 
-#### **3. Veränderungs-Zauber**
+##### 3. Veränderungs-Zauber
 
 |**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
 |---|---|---|---|
@@ -1043,7 +1342,7 @@ Dies sind **feste, erlernbare Zauber**, die in **Akademien gelehrt** oder aus **
 |Stein zu Fleisch|10 MP|20|Versteinerte Kreatur wiederherstellen|
 |Zeitverlangsamung|12 MP|22|Gegner bewegen sich halb so schnell, 3 Runden|
 
-#### **4. Beschwörungs-Zauber**
+##### 4. Beschwörungs-Zauber
 
 |**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
 |---|---|---|---|
@@ -1052,7 +1351,7 @@ Dies sind **feste, erlernbare Zauber**, die in **Akademien gelehrt** oder aus **
 |Monster beschwören|15 MP|24|Mächtiges Monster, 1 Stunde|
 |Tor öffnen|20 MP|26|Portal zu anderem Ort, 1 Minute offen|
 
-#### **5. Erkenntniszauber**
+##### 5. Erkenntniszauber
 
 |**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
 |---|---|---|---|
@@ -1061,7 +1360,7 @@ Dies sind **feste, erlernbare Zauber**, die in **Akademien gelehrt** oder aus **
 |Hellsehen|8 MP|18|Sieht entfernten Ort, 10 Minuten|
 |Zukunftsschau|15 MP|26|Blick in mögliche Zukunft|
 
-#### **6. Schutz-Zauber**
+##### 6. Schutz-Zauber
 
 |**Zauber**|**MP-Kosten**|**Schwierigkeit**|**Effekt**|
 |---|---|---|---|
@@ -1070,24 +1369,22 @@ Dies sind **feste, erlernbare Zauber**, die in **Akademien gelehrt** oder aus **
 |Gedankenschutz|4 MP|14|Schutz vor Gedankenkontrolle, 1 Stunde|
 |Elementarwiderstand|6 MP|16|Halbierter Schaden von 1 Element, 1 Stunde|
 
----
+### Runenmagie (Neu in der Welt)
 
-## Runenmagie (Neu in der Welt)
-
-### Konzept:
+#### Konzept
 
 Runenmagie ist eine **alte, neu entdeckte Form** der Magie, die erst seit kurzem wieder in Terranea erforscht wird. Sie basiert auf **eingravierten Symbolen**, die magische Effekte speichern und **später aktivieren** können.
 
-### **Besonderheiten**:
+#### Besonderheiten
 
 - **Vorbereitung**: Runen müssen im Voraus erstellt werden
 - **Permanenz**: Einige Runen sind dauerhaft; funktionieren solange sie Mana/Energie haben
 - **Kein Mana bei Aktivierung**: Mana wird beim Erstellen verbraucht, nicht bei Nutzung
 - **Vielseitigkeit**: Runen können auf Waffen, Rüstungen, Türen, Böden eingraviert werden
 
-### **Mechanik - Runenmagie**:
+#### Mechanik - Runenmagie
 
-#### **Rune erstellen**:
+##### Rune erstellen
 
 **Probe**: 2W6 + (Intelligenz / 2) + Magie + Spezialisierung "Runenmagie"  
 **Schwierigkeit**: 14-26 (je nach Komplexität)  
@@ -1095,15 +1392,15 @@ Runenmagie ist eine **alte, neu entdeckte Form** der Magie, die erst seit kurzem
 **Mana-Kosten**: Beim Erstellen verbraucht  
 **Material**: Spezielle Tinte, Meißel, Edelsteine (je nach Rune)
 
-#### **Rune aktivieren**:
+##### Rune aktivieren
 
 - **Berührung**: Direkte Aktivierung
 - **Auslöser**: Tritt ein (z.B. jemand betritt Raum)
 - **Kommandowort**: Sprecher aktiviert
 
-### **Beispiel-Runen**:
+#### Beispiel-Runen
 
-#### **Waffen-Runen** (auf Waffen graviert):
+##### Waffen-Runen (auf Waffen graviert)
 
 |**Rune**|**MP-Kosten**|**Schwierigkeit**|**Material-Kosten**|**Effekt**|
 |---|---|---|---|---|
@@ -1111,9 +1408,9 @@ Runenmagie ist eine **alte, neu entdeckte Form** der Magie, die erst seit kurzem
 |Eisrune|5 MP|16|10 G (Saphir)|+1W6 Kälteschaden, verlangsamt, 10 Angriffe|
 |Schärferune|4 MP|14|5 G (Diamant)|+2 Schaden, permanent|
 |Lebensraubrune|8 MP|20|20 G (Onyx)|Heilt 1W6 LP bei Treffer, 5 Angriffe|
-|Banrrune|10 MP|22|50 G (Mondsilber)|Durchdringt magische Rüstung, permanent|
+|Bannrune|10 MP|22|50 G (Mondsilber)|Durchdringt magische Rüstung, permanent|
 
-#### **Rüstungs-Runen** (auf Rüstungen graviert):
+##### Rüstungs-Runen (auf Rüstungen graviert)
 
 |**Rune**|**MP-Kosten**|**Schwierigkeit**|**Material-Kosten**|**Effekt**|
 |---|---|---|---|---|
@@ -1122,7 +1419,7 @@ Runenmagie ist eine **alte, neu entdeckte Form** der Magie, die erst seit kurzem
 |Regenerationsrune|10 MP|20|50 G (Smaragd)|+1 LP pro Stunde, permanent|
 |Reflektionsrune|12 MP|22|100 G (Prisma)|10% Chance, Zauber zu reflektieren, permanent|
 
-#### **Fallen-Runen** (auf Boden/Wänden/Türen):
+##### Fallen-Runen (auf Boden/Wänden/Türen)
 
 |**Rune**|**MP-Kosten**|**Schwierigkeit**|**Material-Kosten**|**Effekt**|
 |---|---|---|---|---|
@@ -1131,7 +1428,7 @@ Runenmagie ist eine **alte, neu entdeckte Form** der Magie, die erst seit kurzem
 |Lähmungsrune|6 MP|16|15 G|Ziel gelähmt für 1W6 Runden|
 |Teleportationsrune|15 MP|24|100 G|Teleportiert Auslöser zu festgelegtem Ort|
 
-#### **Nützlichkeits-Runen**:
+##### Nützlichkeits-Runen
 
 |**Rune**|**MP-Kosten**|**Schwierigkeit**|**Material-Kosten**|**Effekt**|
 |---|---|---|---|---|
@@ -1142,26 +1439,35 @@ Runenmagie ist eine **alte, neu entdeckte Form** der Magie, die erst seit kurzem
 
 **Wichtig**: Runen können durch **Dispel Magic** (Bannmagie) entfernt werden, aber dauerhafte Runen kehren nach 24 Stunden zurück, sofern die physische Gravur intakt ist und sie immer noch Mana/Energie haben.
 
+### Kritische Erfolge & Patzer in der Magie
 
-# Technik-System
+**Kritischer Erfolg (12 auf Würfel)**:
 
-## Grundprinzip:
+- Halbe Mana-Kosten, doppelter Effekt oder zusätzlicher Bonus
 
-Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Material und Werkzeuge** verbraucht.
+**Kritischer Patzer (2 auf Würfel)**:
 
-### **Philosophie**:
-
-> "Je krasser die Erfindung, desto höher die Kosten."
+- Zauber misslingt, volle Mana-Kosten, möglicher Rückstoß (1W6 Schaden)
 
 ---
 
-## Mechanik - Technik
+## Technik-System
 
-### **Technik-Probe**:
+### Grundprinzip
+
+Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Material und Werkzeuge** verbraucht.
+
+#### Philosophie
+
+> "Je krasser die Erfindung, desto höher die Kosten."
+
+### Mechanik - Technik
+
+#### Technik-Probe
 
 **Formel**: 2W6 + (Intelligenz / 2) + Technik + Spezialisierung (falls vorhanden)
 
-### **Schwierigkeitsgrade**:
+#### Schwierigkeitsgrade
 
 |**Komplexität**|**Schwierigkeit**|**Beispiel**|
 |---|---|---|
@@ -1172,13 +1478,11 @@ Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Mate
 |Meisterwerk|26|Selbstschießende Armbrust, Automatismen|
 |Legendär|30+|Flugmaschine, dampfbetriebene Rüstung|
 
----
+### Technik-Kategorien
 
-## Technik-Kategorien
+#### 1. Waffenbau
 
-### **1. Waffenbau**
-
-#### **Einfache Waffen**:
+##### Einfache Waffen
 
 |**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
 |---|---|---|---|---|
@@ -1186,7 +1490,7 @@ Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Mate
 |Bogen (einfach)|4 Stunden|1 G|14|Kurzbogen (1W6+2)|
 |Armbrust (einfach)|8 Stunden|3 G|18|Leichte Armbrust (1W6+3)|
 
-#### **Fortgeschrittene Waffen**:
+##### Fortgeschrittene Waffen
 
 |**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
 |---|---|---|---|---|
@@ -1195,22 +1499,16 @@ Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Mate
 |Explosive Bolzen (5x)|1 Tag|10 G|22|+1W6 Explosionsschaden|
 |Flammenwerfer (primitiv)|5 Tage|50 G|26|Kegel 10m, 2W6 Feuerschaden|
 
----
-
-### **2. Rüstungsbau / Modifikationen**
+#### 2. Rüstungsbau / Modifikationen
 
 |**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
 |---|---|---|---|---|
-|Rüstung reparieren|2 Stunden|10% Original|||
-```
-| 12                | Volle Funktion wiederhergestellt    |
-```
+|Rüstung reparieren|2 Stunden|10% Original|12|Volle Funktion wiederhergestellt|
+|Stachelrüstung|3 Tage|+20 G|18|1W6 Schaden bei Umklammerung|
+|Versteckte Klingen|2 Tage|+15 G|20|Versteckte Waffen in Rüstung|
+|Dampfbetriebene Rüstung|30 Tage|500 G|30|+4 Stärke, +3 Rüstung, schwerfällig|
 
-| Stachelrüstung | 3 Tage | +20 G | 18 | 1W6 Schaden bei Umklammerung | | Versteckte Klingen | 2 Tage | +15 G | 20 | Versteckte Waffen in Rüstung | | Dampfbetriebene Rüstung | 30 Tage | 500 G | 30 | +4 Stärke, +3 Rüstung, schwerfällig |
-
----
-
-### **3. Fallen & Verteidigung**
+#### 3. Fallen & Verteidigung
 
 |**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
 |---|---|---|---|---|
@@ -1220,9 +1518,7 @@ Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Mate
 |Explosionsfalle|1 Tag|25 G|22|3W6 Schaden, 5m Radius|
 |Automatische Armbrust-Türme|10 Tage|200 G|26|Schießt automatisch auf Feinde|
 
----
-
-### **4. Belagerungswaffen**
+#### 4. Belagerungswaffen
 
 |**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
 |---|---|---|---|---|
@@ -1231,9 +1527,7 @@ Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Mate
 |Balliste|7 Tage|75 G|20|3W6 Schaden, durchschlagend|
 |Trebuchet (Blide)|20 Tage|250 G|26|6W6 Schaden, 200m Reichweite|
 
----
-
-### **5. Werkzeuge & Geräte**
+#### 5. Werkzeuge & Geräte
 
 |**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
 |---|---|---|---|---|
@@ -1244,9 +1538,7 @@ Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Mate
 |Fernrohr (verbessert)|3 Tage|30 G|20|Doppelte Reichweite|
 |Mechanischer Greifarm|10 Tage|100 G|24|Greift/manipuliert aus Distanz|
 
----
-
-### **6. Fortbewegung & Transport**
+#### 6. Fortbewegung & Transport
 
 |**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
 |---|---|---|---|---|
@@ -1257,9 +1549,7 @@ Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Mate
 |Gleitschirm|10 Tage|100 G|26|Gleitflug, max 10 Minuten|
 |Dampfwagen (Prototyp)|60 Tage|2.000 G|30|Bewegt sich ohne Pferde, experimentell|
 
----
-
-### **7. Alchemie-ähnliche Technik (Bomben, Gifte - OHNE Alchemie-System)**
+#### 7. Alchemie-ähnliche Technik (Bomben, Gifte - OHNE Alchemie-System)
 
 |**Projekt**|**Zeit**|**Material-Kosten**|**Schwierigkeit**|**Ergebnis**|
 |---|---|---|---|---|
@@ -1269,9 +1559,7 @@ Technik funktioniert ähnlich wie Magie, aber statt **Mana** werden **Zeit, Mate
 |Giftfläschchen|4 Stunden|15 G|18|1W6 Giftschaden/Runde für 3 Runden|
 |Säureflasche|5 Stunden|25 G|20|2W6 Säureschaden, zerstört Material|
 
----
-
-## Spezialisierungen für Technik:
+### Spezialisierungen für Technik
 
 Charaktere können Spezialisierungen in Technik-Bereichen erlernen (0-6):
 
@@ -1284,37 +1572,351 @@ Charaktere können Spezialisierungen in Technik-Bereichen erlernen (0-6):
 - **Schiffbau** (Boote, Schiffe)
 - **Konstruktion** (Gebäude, Brücken, Befestigungen)
 
----
+### Kritische Erfolge & Patzer in der Technik
 
-## Kritische Erfolge & Patzer
+**Kritischer Erfolg (12 auf Würfel)**:
 
-### **Kritischer Erfolg (12 auf Würfel)**:
+- Halbe Zeit/Material, bessere Qualität (+1 Schaden/Rüstung)
 
-- **Magie**: Halbe Mana-Kosten, doppelter Effekt oder zusätzlicher Bonus
-- **Technik**: Halbe Zeit/Material, bessere Qualität (+1 Schaden/Rüstung)
+**Kritischer Patzer (2 auf Würfel)**:
 
-### **Kritischer Patzer (2 auf Würfel)**:
-
-- **Magie**: Zauber misslingt, volle Mana-Kosten, möglicher Rückstoß (1W6 Schaden)
-- **Technik**: Projekt scheitert, Material verloren, mögliche Verletzung (1W6 Schaden)
+- Projekt scheitert, Material verloren, mögliche Verletzung (1W6 Schaden)
 
 ---
 
-**Zusammenfassung:**  
-Terranea bietet ein **flexibles Magie-System** mit drei Schulen (Heilig, Natur, Shaper), freier Element-Magie im Avatar-Stil, festen Akademie-Zaubern und innovativer Runenmagie. Das **Technik-System** ermöglicht kreative Lösungen durch Waffenbau, Fallen, Belagerungswaffen und komplexe Mechanismen. Beide Systeme balancieren Macht durch Ressourcen-Kosten (Mana vs. Zeit/Material).
+## Währung und Handel
 
----
+### Währungs-System von Terranea
 
-# Item-Listen für Magie und Technik
+#### Die Fünf Münzen
 
----
+Terranea verwendet ein gestaffeltes Münzsystem:
 
-## Magie-Items beim Alchemisten/Magier-Händler
+##### Münzwerte
+
+1. **Kupfermünze (K)** - Basis-Währung für Alltägliches
+2. **Silbermünze (S)** - 10 Kupfer = 1 Silber
+3. **Goldmünze (G)** - 10 Silber = 1 Gold (= 100 Kupfer)
+4. **Platinmünze (P)** - 10 Gold = 1 Platin (= 1.000 Kupfer)
+5. **Sternmünze (St)** - 10 Platin = 1 Stern (= 10.000 Kupfer)
+
+##### Verwendung
+
+- **Kupfer**: Alltägliche Einkäufe (Essen, Trinken, einfache Güter)
+- **Silber**: Ausrüstung, Übernachtungen, Handwerksarbeiten
+- **Gold**: Waffen, Rüstungen, Pferde, größere Investitionen
+- **Platin**: Magische Gegenstände, seltene Waren, Immobilien
+- **Sternmünzen**: Land, Adelstitel, Handelsschiffe, magische Artefakte
+
+**Hinweis:** Sternmünzen sind extrem selten und werden meist nur bei Großgeschäften zwischen Adeligen, Gilden oder Königshäusern verwendet.
+
+### Händler-Typen und Item-Listen
+
+#### 1. Waffenschmied
+
+**Spezialisierung:** Nahkampfwaffen, Schilde  
+**Standorte:** Größere Städte, Festungen
+
+##### Einhandwaffen
+
+|**Waffe**|**Preis**|**Schaden**|**Attribut**|**Besonderheiten**|
+|---|---|---|---|---|
+|Dolch|2 S|1W6|Geschicklichkeit|Leicht, versteckbar|
+|Kurzschwert|1 G|1W6+2|Stärke|Ausgewogen, vielseitig|
+|Langschwert|2 G|1W6+3|Stärke|Standard-Kriegswaffe|
+|Streitaxt|2 G|1W6+4|Stärke|Hoher Schaden, etwas langsam|
+|Kriegshammer|2 G 5 S|1W6+3|Stärke|Effektiver gegen Rüstung|
+|Rapier|3 G|1W6+2|Geschicklichkeit|Schnell, präzise, elegant|
+|Säbel|2 G 5 S|1W6+3|Geschicklichkeit|Für Reiterkampf gemacht|
+|Streitkolben|1 G 5 S|1W6+3|Stärke|Einfach, zuverlässig|
+
+##### Zweihandwaffen
+
+|**Waffe**|**Preis**|**Schaden**|**Attribut**|**Besonderheiten**|
+|---|---|---|---|---|
+|Zweihandschwert|5 G|2W6+4|Stärke|Hoher Schaden, langsam, Reichweite|
+|Großaxt|4 G|2W6+5|Stärke|Verheerender Schaden, sehr langsam|
+|Kriegshammer (2H)|4 G 5 S|2W6+4|Stärke|Durchdringt Rüstung|
+|Hellebarde|3 G|2W6+3|Stärke|Reichweite, vielseitig (Hieb/Stich)|
+|Glefe|2 G 5 S|2W6+2|Stärke|Lange Reichweite, Defensiv-Bonus|
+|Kampfstab|1 G|2W6|Stärke/Geschick|Kann Nicht-tödlich sein, schnell|
+
+##### Stangenwaffen
+
+|**Waffe**|**Preis**|**Schaden**|**Attribut**|**Besonderheiten**|
+|---|---|---|---|---|
+|Speer|5 S|1W6+2|Stärke|Wurfwaffe, Reichweite, günstig|
+|Lanze|3 G|2W6+3|Stärke|Nur zu Pferd sinnvoll, Angriffs-Bonus beim Ansturm|
+|Pike|2 G|2W6+2|Stärke|Sehr lange Reichweite, Anti-Kavallerie|
+
+##### Schilde
+
+|**Schild**|**Preis**|**Rüstung**|**Besonderheiten**|
+|---|---|---|---|
+|Buckler|5 S|+1|Klein, leicht, behindert nicht|
+|Rundschild|1 G|+2|Standard-Schild, ausgewogen|
+|Turmschild|3 G|+3|Schwer, volle Deckung, langsam|
+|Reiterschild|2 G|+2|Für Kavallerie optimiert|
+|Dreieckschild|2 G 5 S|+3|Mittelschwer; Oberkörper Deckung|
+
+#### 2. Bogner / Fernkampf-Händler
+
+**Spezialisierung:** Bögen, Armbrüste, Munition  
+**Standorte:** Städte, Jäger-Siedlungen
+
+##### Fernkampfwaffen
+
+|**Waffe**|**Preis**|**Schaden**|**Attribut**|**Reichweite**|**Besonderheiten**|
+|---|---|---|---|---|---|
+|Kurzbogen|3 G|1W6+2|Geschicklichkeit|Mittel|Schnell, mobil|
+|Langbogen|5 G|1W6+4|Geschicklichkeit|Weit|Hohe Reichweite, präzise|
+|Kompositbogen|8 G|1W6+5|Geschicklichkeit|Weit|Sehr stark, teuer, exotisch|
+|Leichte Armbrust|4 G|1W6+3|Geschicklichkeit|Mittel|Einfach zu nutzen, langsames Nachladen|
+|Schwere Armbrust|7 G|2W6+2|Geschicklichkeit|Weit|Durchschlagskraft, sehr langsam|
+|Wurfmesser (3x)|1 G|1W6|Geschicklichkeit|Kurz|Schnell, versteckbar|
+|Wurfaxt|1 G 5 S|1W6+2|Stärke|Kurz|Kann auch im Nahkampf genutzt werden|
+|Wurfspeer|8 S|1W6+3|Stärke|Mittel|Vielseitig|
+
+##### Munition
+
+|**Munition**|**Preis**|**Menge**|
+|---|---|---|
+|Pfeile (Langbogen)|1 S|24 Stück|
+|Pfeile (Kurzbogen)|8 K|24 Stück|
+|Armbrustbolzen (leicht)|1 S|24 Stück|
+|Armbrustbolzen (schwer)|2 S|24 Stück|
+|Köcher|5 S|Platz für 24 Pfeile/Bolzen|
+
+#### 3. Rüstungsschmied
+
+**Spezialisierung:** Rüstungen, Helme, Schutzausrüstung  
+**Standorte:** Größere Städte, Festungen
+
+##### Leichte Rüstungen
+
+|**Rüstung**|**Preis**|**Rüstwert**|**Besonderheiten**|
+|---|---|---|---|
+|Gepolsterte Kleidung|1 G|+1|Leicht, unauffällig, kaum Bewegungseinschränkung|
+|Lederrüstung|5 G|+2|Leicht, flexibel, für Schurken und Jäger|
+|Verstärkte Lederrüstung|10 G|+3|Metallverstärkungen, guter Schutz|
+|Fellrüstung|3 G|+2|Wärmend, für Tiermenschen beliebt|
+
+##### Mittlere Rüstungen
+
+|**Rüstung**|**Preis**|**Rüstwert**|**Besonderheiten**|
+|---|---|---|---|
+|Schuppenpanzer|25 G|+4|Flexibel, mittlerer Schutz|
+|Kettenhemd|50 G|+5|Standard-Militärrüstung, bewährt|
+|Brigantine|40 G|+4|Metallplatten in Stoff, flexibel|
+
+##### Schwere Rüstungen
+
+|**Rüstung**|**Preis**|**Rüstwert**|**Besonderheiten**|
+|---|---|---|---|
+|Plattenpanzer|150 G|+7|Beste Rüstung, schwer, langsam, für Ritter|
+|Halbplatte|100 G|+6|Platte an kritischen Stellen, beweglicher|
+|Schienenpanzer|75 G|+5|Metallstreifen, guter Kompromiss|
+
+##### Helme
+
+|**Helm**|**Preis**|**Rüstwert**|**Besonderheiten**|
+|---|---|---|---|
+|Lederkappe|5 S|+0,5|Minimal, kaum Schutz|
+|Kettenhaube|2 G|+1|Flexibel, schützt Kopf und Nacken|
+|Topfhelm|5 G|+2|Voller Schutz, eingeschränkte Sicht|
+|Visierhelm|8 G|+2|Visor kann geöffnet werden|
+
+#### 4. Allgemeiner Händler
+
+**Spezialisierung:** Ausrüstung, Werkzeuge, Alltagsgegenstände  
+**Standorte:** Jede Siedlung
+
+##### Ausrüstung & Werkzeuge
+
+|**Item**|**Preis**|**Besonderheiten**|
+|---|---|---|
+|Rucksack|2 S|Standard-Tragfähigkeit|
+|Großer Rucksack|5 S|Erhöhte Tragfähigkeit|
+|Seil (15m)|1 S|Robust, vielseitig|
+|Fackel (5x)|5 K|Brennt ca. 1 Stunde|
+|Laterne|1 S|Wiederverwendbar, braucht Öl|
+|Lampenöl (Flasche)|5 K|Reicht für 6 Stunden|
+|Zunderbüchse|5 K|Zum Feuermachen|
+|Wetzstein|2 K|Schärft Waffen|
+|Wasserschlauch|5 K|Hält 2 Liter|
+|Schlafsack|5 S|Warmhaltend|
+|Zelt (2 Personen)|1 G|Wetterfest|
+|Zelt (4 Personen)|2 G|Größeres Zelt|
+|Kletterausrüstung|2 G|Haken, Seil, Karabiner|
+|Dietrich-Set|1 G|Für Schlösser|
+|Schaufel|5 S|Zum Graben|
+|Axt (Werkzeug)|8 S|Holzfällen|
+|Hammer & Nägel|3 S|Handwerk|
+|Angelrute|2 S|Nahrungssuche|
+|Jagdfalle|1 S|Tierfang|
+|Fernrohr|10 G|Weitsicht|
+|Kompass|5 G|Navigation|
+|Karte (Region)|1 G|Orientierung|
+|Sanduhr|2 G|Zeitmessung|
+
+##### Alltägliche Güter
+
+|**Item**|**Preis**|
+|---|---|
+|Brot (1 Laib)|2 K|
+|Käse (500g)|5 K|
+|Getrocknetes Fleisch|8 K|
+|Wein (Flasche)|1 S|
+|Bier (Krug)|3 K|
+|Reiseproviant (1 Tag)|1 S|
+|Kerzen (10x)|5 K|
+|Seife|2 K|
+|Decke|3 S|
+|Schreibfeder & Tinte|5 S|
+|Papier (10 Blatt)|1 S|
+|Buch (leer)|2 G|
+
+#### 5. Pferdehändler
+
+**Spezialisierung:** Reittiere, Zugtiere, Sattel & Zaumzeug  
+**Standorte:** Städte, Bauernhöfe
+
+##### Tiere
+
+|**Tier**|**Preis**|**Besonderheiten**|
+|---|---|---|
+|Esel|5 G|Langsam, robust, Lastentier|
+|Pony|10 G|Klein, für Kinder oder Khazad|
+|Reitpferd|20 G|Standard-Reittier, gute Geschwindigkeit|
+|Kriegspferd|100 G|Kampftrainiert, schnell, stark|
+|Zugpferd|30 G|Für Karren und schwere Lasten|
+|Maultier|8 G|Robust, störrisch|
+
+##### Zubehör
+
+|**Item**|**Preis**|**Besonderheiten**|
+|---|---|---|
+|Sattel (einfach)|2 G|Standard|
+|Sattel (Kriegs-)|10 G|Verstärkt, für Kavallerie|
+|Zaumzeug|1 G|Notwendig zum Reiten|
+|Satteltaschen|1 G|Erhöht Tragfähigkeit|
+|Pferdedecke|5 S|Schutz vor Kälte|
+|Hufeisen (Set)|2 S|Hufschutz|
+
+#### 6. Gasthof / Taverne
+
+**Spezialisierung:** Unterkunft, Verpflegung  
+**Standorte:** Jede Siedlung
+
+##### Dienstleistungen
+
+|**Dienstleistung**|**Preis**|**Besonderheiten**|
+|---|---|---|
+|Einfache Mahlzeit|5 K|Brot, Suppe, Wasser|
+|Gute Mahlzeit|2 S|Fleisch, Gemüse, Brot, Bier|
+|Festmahl|1 G|Braten, Wein, mehrere Gänge|
+|Ale / Bier (Krug)|3 K|Standard-Getränk|
+|Wein (Becher)|1 S|Besseres Getränk|
+|Schnaps (Glas)|5 S|Hochprozentiges|
+|Übernachtung (Schlafsaal)|5 K|Gemeinschaftsraum, einfach|
+|Übernachtung (Einzelzimmer)|1 S|Privat, einfach|
+|Übernachtung (Gutes Zimmer)|5 S|Komfortabel, sauber|
+|Übernachtung (Luxus)|1 G|Beste Qualität, Adelige|
+|Stallplatz (pro Pferd)|2 K|Futter inklusive|
+|Bad|5 K|Heißes Wasser, Seife|
+
+#### 7. Rohstoff-Händler
+
+**Spezialisierung:** Materialien, Holz, Erze, Stoff  
+**Standorte:** Städte mit Handwerks-Vierteln
+
+##### Handwerks-Ressourcen
+
+|**Ressource**|**Preis**|**Menge**|**Verwendung**|
+|---|---|---|---|
+|Holz (Bauholz)|5 K|10 Bretter|Bauen, Handwerk|
+|Holz (Hartholz)|1 S|10 Bretter|Waffen, Möbel|
+|Eisenerz|2 S|1 kg|Schmiedekunst|
+|Eisenbarren|5 S|1 kg|Waffenschmied, Rüstungsschmied|
+|Stahl (roh)|1 G|1 kg|Hochwertige Waffen|
+|Kohle|1 K|5 kg|Schmiede, Heizen|
+|Leder (roh)|3 S|1 qm|Rüstungen, Taschen|
+|Leder (gegerbt)|8 S|1 qm|Hochwertige Rüstungen|
+|Leinen (Stoff)|5 S|5 m|Kleidung, Zelte|
+|Wolle (Stoff)|8 S|5 m|Warme Kleidung|
+|Seide (Stoff)|5 G|5 m|Edle Kleidung|
+|Stein (Baustein)|1 K|10 Steine|Bauen|
+|Marmor|1 G|1 Stein|Dekorative Bauten|
+|Ton|2 K|10 kg|Töpferei|
+|Glas (roh)|5 S|1 kg|Fenster, Flaschen|
+|Hanf (Seil)|2 S|10 m|Seile, grobe Stoffe|
+
+##### Seltene Materialien
+
+|**Ressource**|**Preis**|**Menge**|**Verwendung**|
+|---|---|---|---|
+|Silbererz|1 G|1 kg|Schmuck, magische Gegenstände|
+|Silberbarren|3 G|1 kg|Verarbeitung|
+|Gold (roh)|5 G|100 g|Schmuck, Münzen|
+|Goldbarren|10 G|100 g|Verarbeitung, Währung|
+|Edelsteine (klein)|5 G|1 Stück|Schmuck, Verzierungen|
+|Edelsteine (groß)|50 G|1 Stück|Hochwertige Verzierungen, Magie|
+|Drachenhorn|100 G|1 Stück|Magische Gegenstände, extrem selten|
+|Mondsilber|500 G|100 g|Magische Waffen, sehr selten|
+|Sternenmetall|10 P|100 g|Legendäre Waffen, extrem selten|
+
+#### 8. Juwelier / Schmuckhändler
+
+**Spezialisierung:** Schmuck, Edelsteine, Verzierungen  
+**Standorte:** Wohlhabende Städte
+
+##### Schmuck
+
+|**Item**|**Preis**|**Besonderheiten**|
+|---|---|---|
+|Einfacher Ring|1 G|Kupfer/Bronze|
+|Silberring|5 G|Silber, hübsch|
+|Goldring|20 G|Gold, wertvoll|
+|Ring mit Edelstein|50 G|Gold mit kleinem Edelstein|
+|Halskette (einfach)|2 G|Kupfer/Bronze|
+|Silberhalskette|10 G|Silber, elegant|
+|Goldhalskette|40 G|Gold, luxuriös|
+|Diadem|100 G|Für Adelige, prunkvoll|
+|Siegelring|50 G|Mit Familienwappen|
+|Magisches Amulett|5 P|Noch nicht verzaubert|
+
+#### 9. Immobilien & Grundbesitz
+
+**Spezialisierung:** Häuser, Werkstätten, Land  
+**Standorte:** Städte, über Makler oder Adel
+
+##### Immobilien
+
+**WICHTIG: Preise können je nach Land und Stadt (und Ruf) variieren**
+
+|**Immobilie**|**Preis**|**Besonderheiten**|
+|---|---|---|
+|Kleines Haus (Stadt)|50 G|2 Räume, einfach|
+|Stadthaus|200 G|4-5 Räume, gute Lage|
+|Herrenhaus|2 P|Groß, repräsentativ, Stadtzentrum|
+|Werkstatt|100 G|Mit Arbeitsraum und Lager|
+|Taverne (klein)|300 G|Schankraum, Küche, 4-5 Zimmer|
+|Gasthaus (groß)|1 P|Großer Schankraum, 10+ Zimmer|
+|Ackerland (1 Hektar)|10 G|Einfaches Ackerland|
+|Wald (1 Hektar)|5 G|Holzgewinnung|
+|Weideland (1 Hektar)|8 G|Für Viehzucht|
+|Gutshof|5 P|Großer Hof mit Land (10+ Hektar)|
+|Burg (klein)|50 P|Befestigte Anlage, kleiner Landbesitz|
+|Festung|500 P|Große Verteidigungsanlage, große Ländereien|
+|Adelstitel (Ritter)|100 P|Mit kleinem Landbesitz|
+|Adelstitel (Baron)|1.000 P|Mit mittlerem Landbesitz|
+
+#### 10. Alchemist / Magier-Händler
 
 **Spezialisierung:** Tränke, Schriftrollen, magische Komponenten  
 **Standorte:** Größere Städte, Magiertürme, Akademien
 
-### **Manatränke & Heiltränke**
+##### Manatränke & Heiltränke
 
 |**Trank**|**Preis**|**Effekt**|
 |---|---|---|
@@ -1334,9 +1936,7 @@ Terranea bietet ein **flexibles Magie-System** mit drei Schulen (Heilig, Natur, 
 |Gegengift|30 G|Neutralisiert die meisten Gifte|
 |Antidot (universal)|100 G|Neutralisiert alle Gifte|
 
----
-
-### **Schriftrollen (Einmalgebrauch)**
+##### Schriftrollen (Einmalgebrauch)
 
 Schriftrollen enthalten einen vorbereiteten Zauber, der **ohne Mana-Kosten** gewirkt werden kann. Die Schriftrolle wird beim Wirken **verbraucht**.
 
@@ -1358,36 +1958,33 @@ Schriftrollen enthalten einen vorbereiteten Zauber, der **ohne Mana-Kosten** gew
 |Schriftrolle: Identifizieren|30 G|Identifiziert magische Gegenstände|
 |Schriftrolle: Bannzauber|100 G|Entfernt Fluch oder Verzauberung|
 
----
-
-### **Zauberbücher (zum Lernen)**
+##### Zauberbücher (zum Lernen)
 
 Zauberbücher enthalten Zauber, die **dauerhaft gelernt** werden können. Beim Lernen wird das Buch **NICHT** verbraucht.
 
 **Lernen:** 2W6 + (Intelligenz / 2) + Magie, Schwierigkeit je nach Zauber-Level, benötigt **1-7 Tage Studium**
 
-|**Zauberbuch**|**Preis**|**Enthaltene Zauber**|**Lernzeit**|
-|---|---|---|---|
-|Grundlagen der Evokation|100 G|Magisches Geschoss, Flammenstoß|3 Tage|
-|Fortgeschrittene Evokation|300 G|Blitzschlag, Feuersturm|5 Tage|
-|Meister der Zerstörung|1.000 G|Meteor, Kettenblitz|7 Tage|
-|Grundlagen der Illusion|80 G|Geräusch erzeugen, Kleines Trugbild|2 Tage|
-|Fortgeschrittene Illusion|250 G|Unsichtbarkeit, Bewegtes Trugbild|4 Tage|
-|Grundlagen der Beschwörung|150 G|Diener beschwören, Elementar (klein)|3 Tage|
-|Fortgeschrittene Beschwörung|500 G|Elementar beschwören, Monster beschwören|6 Tage|
-|Grundlagen der Veränderung|120 G|Levitation, Vergrößern/Verkleinern|3 Tage|
-|Fortgeschrittene Veränderung|400 G|Verwandlung (Tier), Zeitverlangsamung|5 Tage|
-|Grundlagen der Heiligen Magie|100 G|Kleine Heilung, Licht erschaffen|2 Tage|
-|Fortgeschrittene Heilige Magie|350 G|Große Heilung, Heiliger Schutzkreis|5 Tage|
-|Grundlagen der Naturmagie|100 G|Mit Tieren sprechen, Pflanzen wachsen lassen|2 Tage|
-|Fortgeschrittene Naturmagie|350 G|Tiergestalt (groß), Wetter beeinflussen|5 Tage|
-|Grundlagen der Shaper-Magie|200 G|Kreatur schwächen, Fleischwunde schließen|4 Tage|
-|Fortgeschrittene Shaper-Magie|600 G|Diener erschaffen (groß), Mutation hervorrufen|7 Tage|
-|Verbotene Nekromantie|1.500 G|Untote erwecken, Fleischgolem|7 Tage|
+| **Zauberbuch**                 | **Preis** | **Enthaltene Zauber**                          | **Lernzeit** |
+| ------------------------------ | --------- | ---------------------------------------------- | ------------ |
+| Grundlagen der Evokation       | 100 G     | Magisches Geschoss, Flammenstoß                | 3 Tage       |
+| Fortgeschrittene Evokation     | 300 G     | Blitzschlag, Feuersturm                        | 5 Tage       |
+| Meister der Zerstörung         | 1.000 G   | Meteor, Kettenblitz                            | 7 Tage       |
+| Grundlagen der Illusion        | 80 G      | Geräusch erzeugen, Kleines Trugbild            | 2 Tage       |
+| Fortgeschrittene Illusion      | 250 G     | Unsichtbarkeit, Bewegtes Trugbild              | 4 Tage       |
+| Grundlagen der Beschwörung     | 150 G     | Diener beschwören, Elementar (klein)           | 3 Tage       |
+| Fortgeschrittene Beschwörung   | 500 G     | Elementar beschwören, Monster beschwören       | 6 Tage       |
+| Grundlagen der Veränderung     | 120 G     | Levitation, Vergrößern/Verkleinern             | 3 Tage       |
+| Fortgeschrittene Veränderung   | 400 G     | Verwandlung (Tier), Zeitverlangsamung          | 5 Tage       |
+| Grundlagen der Heiligen Magie  | 100 G     | Kleine Heilung, Licht erschaffen               | 2 Tage       |
+| Fortgeschrittene Heilige Magie | 350 G     | Große Heilung, Heiliger Schutzkreis            | 5 Tage       |
+| Grundlagen der Naturmagie      | 100 G     | Mit Tieren sprechen, Pflanzen wachsen lassen   | 2 Tage       |
+| Fortgeschrittene Naturmagie    | 350 G     | Tiergestalt (groß), Wetter beeinflussen        | 5 Tage       |
+| Grundlagen der Shaper-Magie    | 200 G     | Kreatur schwächen, Fleischwunde schließen      | 4 Tage       |
+| Fortgeschrittene Shaper-Magie  | 600 G     | Diener erschaffen (groß), Mutation hervorrufen | 7 Tage       |
+| Verbotene Nekromantie          | 1.500 G   | Untote erwecken, Fleischgolem                  | 14 Tage      |
+Verbotene Nekromantie|1.500 G|Untote erwecken, Fleischgolem|7 Tage|
 
----
-
-### **Magische Komponenten**
+##### Magische Komponenten
 
 Diese Materialien werden für komplexe Zauber oder Rituale benötigt.
 
@@ -1405,9 +2002,7 @@ Diese Materialien werden für komplexe Zauber oder Rituale benötigt.
 |Manakristall (klein)|50 G|Speichert 10 MP|
 |Manakristall (groß)|200 G|Speichert 50 MP|
 
----
-
-### **Fokus-Gegenstände**
+##### Fokus-Gegenstände
 
 Magische Foki erleichtern das Zaubern und geben Boni auf Zauberproben.
 
@@ -1425,13 +2020,7 @@ Magische Foki erleichtern das Zaubern und geben Boni auf Zauberproben.
 |Elementar-Amulett (Erde)|300 G|+3 auf Erdzauber, -1 MP Kosten bei Erdzaubern|
 |Elementar-Amulett (Luft)|300 G|+3 auf Luftzauber, -1 MP Kosten bei Luftzaubern|
 
----
-
-### **Verzauberte Waffen & Rüstungen**
-
-Diese Items sind bereits dauerhaft verzaubert.
-
-#### **Verzauberte Waffen:**
+##### Verzauberte Waffen
 
 |**Waffe**|**Preis**|**Basis-Waffe**|**Verzauberung**|
 |---|---|---|---|
@@ -1444,7 +2033,7 @@ Diese Items sind bereits dauerhaft verzaubert.
 |Bogen der Präzision +2|800 G|Langbogen|+2 auf Trefferwürfe|
 |Endloser Köcher|600 G|Köcher|Erzeugt 1 Pfeil pro Runde|
 
-#### **Verzauberte Rüstungen:**
+##### Verzauberte Rüstungen
 
 |**Rüstung**|**Preis**|**Basis-Rüstung**|**Verzauberung**|
 |---|---|---|---|
@@ -1457,9 +2046,7 @@ Diese Items sind bereits dauerhaft verzaubert.
 |Regenerations-Amulett|1.500 G|Amulett|+1 LP pro Stunde|
 |Ring des Schutzes +2|800 G|Ring|+2 Rüstung (stapelt mit anderer Rüstung)|
 
----
-
-### **Magische Artefakte (sehr selten)**
+##### Magische Artefakte (sehr selten)
 
 Diese Gegenstände sind extrem selten und meist nur bei Spezial-Händlern, in Ruinen oder als Quest-Belohnungen zu finden.
 
@@ -1476,14 +2063,12 @@ Diese Gegenstände sind extrem selten und meist nur bei Spezial-Händlern, in Ru
 |Spiegel der Wahrheit|8 P|Zeigt Wahrheit, durchschaut Illusionen|
 |Stein der Weisen|100 P|Verwandelt Material in Gold (1x pro Monat)|
 
----
-
-## Technik-Items beim Erfinder/Ingenieur
+#### 11. Erfinder / Ingenieur (Technik-Items)
 
 **Spezialisierung:** Mechanische Geräte, Gadgets, Bomben  
 **Standorte:** Techniker-Viertel, größere Städte, Werkstätten
 
-### **Bomben & Granaten**
+##### Bomben & Granaten
 
 |**Item**|**Preis**|**Effekt**|
 |---|---|---|
@@ -1496,22 +2081,18 @@ Diese Gegenstände sind extrem selten und meist nur bei Spezial-Händlern, in Ru
 |Giftgas-Granate|60 G|1W6 Giftschaden/Runde für 3 Runden, 5m Radius|
 |Schrapnell-Bombe|50 G|3W6 Schaden, trifft alle in 5m Radius|
 
----
-
-### **Mechanische Waffen**
+##### Mechanische Waffen
 
 |**Waffe**|**Preis**|**Effekt**|
 |---|---|---|
 |Versteckte Klinge (Armband)|50 G|+2 auf Überraschungsangriffe, 1W6 Schaden|
-|Giftdolch-Mechanismus|80 G|Injects Gift beim Angriff, 1W6 Giftschaden|
+|Giftdolch-Mechanismus|80 G|Injiziert Gift beim Angriff, 1W6 Giftschaden|
 |Federschnapp-Falle (tragbar)|30 G|1W6 Schaden, hält Gegner fest|
 |Wurfmesser-Automat|150 G|Wirft 3 Messer automatisch, 1W6 je Treffer|
 |Repetierarmbrust|200 G|Schießt 3x pro Runde, 1W6+3 Schaden|
 |Hakenschuss-Mechanismus|100 G|Schießt Haken mit Seil, 20m Reichweite|
 
----
-
-### **Schutzausrüstung & Gadgets**
+##### Schutzausrüstung & Gadgets
 
 |**Item**|**Preis**|**Effekt**|
 |---|---|---|
@@ -1525,9 +2106,7 @@ Diese Gegenstände sind extrem selten und meist nur bei Spezial-Händlern, in Ru
 |Schallverstärker|100 G|+4 auf Lauschen|
 |Lockpick-Automat|120 G|+3 auf Schlösser knacken|
 
----
-
-### **Fahrzeuge & Konstruktionen**
+##### Fahrzeuge & Konstruktionen
 
 |**Fahrzeug**|**Preis**|**Beschreibung**|
 |---|---|---|
@@ -1539,761 +2118,55 @@ Diese Gegenstände sind extrem selten und meist nur bei Spezial-Händlern, in Ru
 
 ---
 
-# Spezialisierungs-System
+## Rassen
+
+### Rassen-spezifische Klassen
+
+- **Terraner**: Menschen, vielseitig und anpassungsfähig
+- **Sylvaner**: Waldelfen, naturverbunden und agil
+- **Tiermensch**: Verschiedene Tiervölker mit natürlichen Fähigkeiten
+- **Shaper**: Meister der Biomagie und Fleischformung
+- **Khazad**: Zwergenvolk, meisterhafte Handwerker und Krieger
+
+_(Detaillierte Rassenbeschreibungen in Arbeit)_
 
 ---
 
-## Konzept
+## Anhang
 
-Das **Spezialisierungs-System** in Terranea folgt einer **dreistufigen Hierarchie**:
+### Charakter-Level und Fertigkeitsstufen
 
-1. **Attribut** (ungelernt)
-2. **Fähigkeit** (erlernt, breit)
-3. **Spezialisierung** (erlernt, spezifisch)
+_(In Arbeit)_
 
-### **Beispiel-Hierarchie:**
+### Schnellreferenz: Proben-Schwierigkeiten
 
-**Fernkampf-Angriff mit Langbogen:**
+|**Schwierigkeit**|**Zielwert**|
+|---|---|
+|Leicht|10|
+|Standard|14|
+|Schwer|18|
+|Sehr Schwer|22|
+|Extrem|26|
+|Nahezu Unmöglich|30+|
 
-- **Attribut**: Geschicklichkeit (z.B. 10)
-- **Fähigkeit**: Fernkampf (z.B. 4)
-- **Spezialisierung**: Langbogen (z.B. 2)
+### Schnellreferenz: Kampfaktionen
 
-**Würfelwurf**: 2W6 (z.B. 7) + (Geschicklichkeit 10 / 2 = 5) + Fernkampf 4 + Langbogen 2 = **18**
+**Pro Runde verfügbar:**
 
----
+- 1x Standard-Aktion (Angriff, Zauber, Gegenstand benutzen)
+- 1x Bewegungs-Aktion (10m Bewegung, Waffe wechseln, aufstehen)
+- Beliebig viele Freie Aktionen (Sprechen, Gegenstand fallen lassen)
+- 1x Reaktion (Gelegenheitsangriff, Parieren, Blocken, Ausweichen)
 
-## Fähigkeiten-Kategorien (Übergeordnet)
+### Schnellreferenz: Währungsumrechnung
 
-### **Kampf-Fähigkeiten**
-
-|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
-|---|---|---|
-|**Nahkampf**|Stärke|Alle Nahkampfwaffen|
-|**Fernkampf**|Geschicklichkeit|Alle Fernkampfwaffen|
-|**Waffenloser Kampf**|Stärke/Geschicklichkeit|Fäuste, Griffe, Würfe|
-|**Verteidigung**|Geschicklichkeit/Konstitution|Ausweichen, Parieren, Blocken|
-|**Taktik**|Intelligenz|Kampfplanung, Strategie|
-
-### **Soziale Fähigkeiten**
-
-|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
-|---|---|---|
-|**Überzeugung**|Charisma|Überreden, Verhandeln, Diplomatie|
-|**Täuschung**|Charisma|Lügen, Bluffen, Verkleiden|
-|**Einschüchterung**|Stärke/Charisma|Drohen, Angst verbreiten|
-|**Auftreten**|Charisma|Führung, Performance, Etikette|
-
-### **Wissens-Fähigkeiten**
-
-|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
-|---|---|---|
-|**Gelehrsamkeit**|Intelligenz|Geschichte, Arkanes, Religionen|
-|**Naturkunde**|Weisheit|Tiere, Pflanzen, Wetter|
-|**Medizin**|Intelligenz/Weisheit|Heilung, Krankheiten, Anatomie|
-
-### **Handwerks-Fähigkeiten**
-
-|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
-|---|---|---|
-|**Handwerk**|Geschicklichkeit|Allgemeines Handwerk, Reparaturen|
-|**Technik**|Intelligenz|Mechanismen, Fallen, Erfindungen|
-|**Magie**|Intelligenz/Weisheit|Zaubern, Rituale|
-
-### **Überleben-Fähigkeiten**
-
-|**Fähigkeit**|**Zugehöriges Attribut**|**Beschreibung**|
-|---|---|---|
-|**Überleben**|Weisheit|Fährtenlesen, Nahrungssuche, Orientierung|
-|**Schleichen**|Geschicklichkeit|Verstecken, Leise bewegen, Schatten nutzen|
-|**Diebeskunst**|Geschicklichkeit|Schlösser knacken, Taschendiebstahl, Fallen|
+- 1 Silber (S) = 10 Kupfer (K)
+- 1 Gold (G) = 10 Silber = 100 Kupfer
+- 1 Platin (P) = 10 Gold = 1.000 Kupfer
+- 1 Stern (St) = 10 Platin = 10.000 Kupfer
 
 ---
 
-## Spezialisierungen (Beispiele)
+**Ende des Regelwerks**
 
-### **Nahkampf-Spezialisierungen**
-
-|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
-|---|---|---|
-|Einhandschwert|Nahkampf|Lange und Kurzschwerter|
-|Einhandaxt|Nahkampf|Streitäxte, Wurfäxte|
-|Zweihandschwert|Nahkampf|Große Schwerter|
-|Zweihandaxt|Nahkampf|Große Äxte|
-|Hammer & Kolben|Nahkampf|Kriegshämmer, Streitkolben|
-|Stangenwaffen|Nahkampf|Speere, Hellebarden, Piken|
-|Dolche|Nahkampf|Kurze Klingen, Versteckte Waffen|
-|Rapier & Degen|Nahkampf|Fechtwaffen|
-|Schildkampf|Verteidigung|Einsatz von Schilden im Kampf|
-
-### **Fernkampf-Spezialisierungen**
-
-|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
-|---|---|---|
-|Langbogen|Fernkampf|Große Bögen|
-|Kurzbogen|Fernkampf|Kleine, mobile Bögen|
-|Armbrust|Fernkampf|Alle Arten von Armbrüsten|
-|Wurfwaffen|Fernkampf|Messer, Äxte, Speere|
-|Schleuder|Fernkampf|Schleudern, Steinschleudern|
-
-### **Waffenloser Kampf-Spezialisierungen**
-
-|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
-|---|---|---|
-|Faustkampf|Waffenloser Kampf|Schläge, Tritte|
-|Ringen|Waffenloser Kampf|Griffe, Würfe, Hebel|
-|Mönchskampf|Waffenloser Kampf|Disziplinierter Kampfstil|
-
-### **Verteidigungs-Spezialisierungen**
-
-|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
-|---|---|---|
-|Ausweichen|Verteidigung|Geschickte Bewegungen|
-|Parieren|Verteidigung|Abwehr mit Waffen|
-|Blocken|Verteidigung|Abwehr mit Schild|
-
-### **Magie-Spezialisierungen**
-
-|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
-|---|---|---|
-|Heilige Magie|Magie|Lumina-Tradition|
-|Naturmagie|Magie|Teronis-Tradition|
-|Shaper-Magie|Magie|Formermagie|
-|Feuermagie|Magie|Element-Magie: Feuer|
-|Wassermagie|Magie|Element-Magie: Wasser|
-|Erdmagie|Magie|Element-Magie: Erde|
-|Luftmagie|Magie|Element-Magie: Luft|
-|Evokation|Magie|Schadenszauber|
-|Illusion|Magie|Täuschungen, Unsichtbarkeit|
-|Veränderung|Magie|Verwandlung, Modifikation|
-|Beschwörung|Magie|Kreaturen rufen|
-|Erkenntnis|Magie|Wissen, Wahrsagen|
-|Schutz|Magie|Barrieren, Abwehr|
-|Runenmagie|Magie|Permanente Verzauberungen|
-
-### **Technik-Spezialisierungen**
-
-| **Spezialisierung** | **Übergeordnete Fähigkeit** | **Beschreibung**                |
-| ------------------- | --------------------------- | ------------------------------- |
-| Waffenbau           | Technik                     | Bögen, Armbrüste, Klingen       |
-| Rüstungsschmied     | Technik                     | Rüstungen, Modifikationen       |
-| Fallenbau           | Technik                     | Fallen, Verteidigungen          |
-| Belagerungstechnik  | Technik                     | Katapulte, Ballisten            |
-| Feinmechanik        | Technik                     | Uhren, Schlösser, Präzision     |
-| Sprengstoff         | Technik                     | Bomben, Granaten                |
-| Schiffbau           | Technik                     | Boote, Schiffe                  |
-| Konstruktion        | Technik                     | Gebäude, Brücken, Befestigungen |
-### **Überleben-Spezialisierungen**
-
-|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
-|---|---|---|
-|Fährtenlesen|Überleben|Spuren deuten|
-|Kräuterkunde|Überleben|Pflanzen identifizieren|
-|Nahrungssuche|Überleben|Essbare Ressourcen finden|
-|Orientierung|Überleben|Navigation ohne Karte|
-|Tierkunde|Überleben|Tiere verstehen, zähmen|
-
-### **Schleichen-Spezialisierungen**
-
-|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
-|---|---|---|
-|Verstecken|Schleichen|In Schatten/Deckung|
-|Leise Bewegung|Schleichen|Geräuschlos bewegen|
-|Schattentanz|Schleichen|Sylvaner-Technik|
-
-### **Diebeskunst-Spezialisierungen**
-
-|**Spezialisierung**|**Übergeordnete Fähigkeit**|**Beschreibung**|
-|---|---|---|
-|Schlösser knacken|Diebeskunst|Mechanische Schlösser|
-|Taschendiebstahl|Diebeskunst|Unbemerkt stehlen|
-|Fallen entschärfen|Diebeskunst|Mechanische Fallen|
-
----
-
-## Lernen von Fähigkeiten & Spezialisierungen
-
-### **Kosten & Methoden**
-
-#### **1. Fähigkeiten lernen**
-
-**Methoden:**
-
-- **Akademie/Schule**: 10-100 G + 1-10 Tage (je nach Fähigkeit)
-- **Privat-Lehrer**: 20-200 G + 1-14 Tage
-- **Durch Übung**: Kostenlos, aber langsam (siehe "Lernen durch Übung")
-
-**Beispiel-Kosten:**
-
-|**Fähigkeit**|**Akademie-Kosten**|**Lernzeit**|**Wo zu lernen**|
-|---|---|---|---|
-|Nahkampf|20 G|5 Tage|Kriegsakademie, Waffenmeister|
-|Fernkampf|20 G|5 Tage|Bogenschule, Jäger-Gilde|
-|Magie (Grundlagen)|100 G|10 Tage|Magierakademie|
-|Technik (Grundlagen)|50 G|7 Tage|Ingenieur-Gilde, Erfinder-Werkstatt|
-|Überleben|15 G|3 Tage|Waldläufer-Gilde, erfahrene Jäger|
-|Überzeugung|10 G|3 Tage|Händler-Gilde, Rhetoriker|
-|Diebeskunst|30 G|5 Tage|Diebes-Gilde (illegal!)|
-
-#### **2. Spezialisierungen lernen**
-
-**Voraussetzung:** Fähigkeit muss mindestens auf **Level 2** sein
-
-**Methoden:**
-
-- **Meister-Lehrer**: 50-500 G + 3-14 Tage (je nach Spezialisierung)
-- **Bücher/Schriftrollen**: 30-300 G + Selbststudium (3-10 Tage)
-- **Durch Übung**: Kostenlos, aber sehr langsam
-
-**Beispiel-Kosten:**
-
-|**Spezialisierung**|**Meister-Kosten**|**Lernzeit**|**Wo zu lernen**|
-|---|---|---|---|
-|Einhandschwert|50 G|5 Tage|Schwertmeister, Kriegsakademie|
-|Langbogen|60 G|7 Tage|Meister-Bogner, Jäger-Gilde|
-|Feuermagie|200 G|10 Tage|Feuermagier, Magierakademie|
-|Runenmagie|300 G|14 Tage|Runenmeister, sehr selten!|
-|Fallenbau|100 G|7 Tage|Ingenieur-Gilde, Militär-Architekten|
-|Schattentanz|250 G|10 Tage|Sylvaner-Clans (Mondschatten, Naturtänzer)|
-|Schlösser knacken|80 G|5 Tage|Diebes-Gilde (illegal!)|
-
----
-
-### **Wo kann man lernen?**
-
-#### **Adventuria (Hauptstadt von Sunar):**
-
-**Akademie der Tapferkeit** (Abenteurer):
-
-- Nahkampf, Fernkampf, Verteidigung, Taktik
-- Kosten: 20-50 G pro Fähigkeit
-- Spezialisierungen: Alle Waffen-Spezialisierungen
-
-**Magierakademie**:
-
-- Magie (alle Schulen außer Shaper)
-- Kosten: 100-500 G pro Spezialisierung
-- Element-Magie, Evokation, Illusion, etc.
-
-**Händler-Akademie**:
-
-- Überzeugung, Täuschung, Handel, Etikette
-- Kosten: 10-30 G pro Fähigkeit
-
-**Ingenieur-Gilde**:
-
-- Technik, Handwerk
-- Kosten: 50-200 G pro Spezialisierung
-- Waffenbau, Fallenbau, Feinmechanik
-
-**Tempel (Lumina, Teronis, etc.)**:
-
-- Heilige Magie, Naturmagie
-- Kosten: Oft kostenlos für Gläubige, sonst 50-200 G
-- Meditation, Heilung, Schutzzauber
-
-**Untergrund (Schwarzmarkt)**:
-
-- Diebeskunst, Giftherstellung, verbotene Magie
-- Kosten: 50-300 G (+ Risiko!)
-- Schlösser knacken, Shaper-Magie (illegal!)
-
-#### **Andere Orte:**
-
-**Sylvaner-Wälder (Valoria, Elandor, Skyclaw)**:
-
-- Naturmagie, Überleben, Schattentanz
-- Kosten: Oft Gefälligkeiten statt Geld
-
-**Khazad-Festungen (Kyrion/Zornheim)**:
-
-- Schmiedekunst, Rüstungsbau, Bergbau
-- Kosten: 30-150 G
-
-**Tiermenschen-Clans (Skyclaw)**:
-
-- Überleben, Tierkunde, Naturmagie
-- Kosten: Oft durch Prüfungen/Quests
-
----
-
-**Zusammenfassung:**  
-Das System bietet vollständige Item-Listen für Magie (Tränke, Schriftrollen, Bücher, Foki, verzauberte Gegenstände) und Technik (Bomben, Gadgets, Fahrzeuge). Das Spezialisierungs-System folgt der Hierarchie Attribut → Fähigkeit → Spezialisierung mit klaren Lernkosten und Orten zum Erlernen.
-
-# Level-System für Terranea
-
----
-
-## Level-Progression
-
-### **Erfahrungs-System**
-
-Charaktere steigen durch **Erfahrungspunkte (EP)** auf, die durch:
-
-- Abgeschlossene Quests
-- Besiegte Gegner
-- Gelöste Rätsel
-- Gutes Rollenspiel
-- Erreichte Meilensteine
-
-vergeben werden.
-
-### **EP-Tabelle**
-
-|**Level**|**Benötigte EP (Gesamt)**|**EP für nächstes Level**|
-|---|---|---|
-|1|0|300|
-|2|300|600|
-|3|900|900|
-|4|1.800|1.200|
-|5|3.000|1.500|
-|6|4.500|2.000|
-|7|6.500|2.500|
-|8|9.000|3.000|
-|9|12.000|4.000|
-|10|16.000|5.000|
-
-**Hinweis:** Das Spiel ist für Level 1-10 ausgelegt, kann aber erweitert werden.
-
----
-
-## Belohnungen pro Level
-
-### **Bei jedem Level-Aufstieg:**
-
-1. **+1W6 Lebenspunkte** (+ Stärke/2 + Konstitution/2)
-2. **+1W6 Mana-Punkte** (nur für Magier, + Intelligenz/2 + Weisheit/2)
-3. **Fähigkeiten-Punkte**:
-    - Level 2-4: **3 Punkte**
-    - Level 5-7: **4 Punkte**
-    - Level 8-10: **5 Punkte**
-4. **Neue Spezialisierung lernen** (1 kostenlos pro Level ab Level 3)
-5. **+1 auf ein Attribut** (ab Level 5, dann alle 2 Level)
-
-### **Fähigkeiten-Punkte ausgeben:**
-
-- **1 Punkt** = +1 auf eine bestehende Fähigkeit (max. = Attributwert)
-- **2 Punkte** = Neue Fähigkeit auf Level 1 lernen
-- **1 Punkt** = +1 auf eine Spezialisierung (max. 6)
-- **3 Punkte** = Neue Spezialisierung auf Level 1 lernen
-
-**Beispiel Level-Aufstieg (Level 2 → 3):**
-
-- Würfle 1W6 für LP (Ergebnis: 4) + Stärke 10/2 + Konsti 8/2 = +9 LP
-- Erhalte 3 Fähigkeiten-Punkte
-- Spieler entscheidet: +1 Nahkampf, +1 Fernkampf, +1 Ausweichen
-- Erhalte 1 kostenlose Spezialisierung: Lernt "Einhandschwert"
-
----
-
-# Kampf-System & Aktionen
-
----
-
-## Kampfrunden-Struktur
-
-### **Initiative**
-
-Zu Beginn des Kampfes würfeln alle Beteiligten Initiative:
-
-**Initiative**: 2W6 + (Geschicklichkeit / 2)
-
-Die Reihenfolge wird von höchster zu niedrigster Initiative abgehandelt.
-
-**Gleichstand**: Bei gleichem Wert entscheidet höhere Geschicklichkeit, dann Würfelwurf.
-
----
-
-## Aktionen pro Runde
-
-Jeder Charakter hat **1 Runde** mit folgenden Aktionen:
-
-### **Standard-Aktion** (1 pro Runde):
-
-- **Angriff** (Nahkampf oder Fernkampf)
-- **Zauber wirken** (die meisten Zauber)
-- **Gegenstand benutzen** (Trank trinken, Schriftrolle lesen)
-- **Sprinten** (doppelte Bewegung statt normale)
-- **Volle Verteidigung** (+4 auf Verteidigungswert bis nächste Runde)
-
-### **Bewegungs-Aktion** (1 pro Runde):
-
-- **Bewegen** (bis zu 10m / 30 Fuß)
-- **Aufstehen** (wenn am Boden liegend)
-- **Waffe wechseln**
-- **Tür öffnen/schließen**
-- **Gegenstand aufheben**
-
-### **Freie Aktion** (beliebig viele, innerhalb des gesunden Menschenverstands):
-
-- **Sprechen** (kurze Sätze)
-- **Gegenstand fallen lassen**
-- **Waffe ziehen** (wenn bereits in Scheide/am Gürtel)
-
-### **Reaktion** (1 pro Runde, außerhalb der eigenen Runde):
-
-- **Gelegenheitsangriff** (Opportunity Attack)
-- **Parieren/Blocken** (mit Waffe/Schild)
-
----
-
-## Detaillierte Kampf-Aktionen
-
-### **1. Angriff (Nahkampf)**
-
-**Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf + Spezialisierung
-
-**Gegen**: Verteidigungswert des Ziels
-
-**Verteidigungswert** = 10 + (Geschicklichkeit / 2) + Ausweichen + Rüstung
-
-**Bei Treffer**: Würfle Schaden mit Waffe
-
-**Schaden**: Waffenschaden + (Stärke / 2 bei Nahkampf)
-
-**Beispiel:**
-
-- Angreifer: 2W6 (Ergebnis: 8) + Stärke 10/2 (5) + Nahkampf 4 + Einhandschwert 2 = **19**
-- Verteidiger: Verteidigungswert 10 + Geschick 8/2 (4) + Ausweichen 2 + Lederrüstung 2 = **18**
-- **Treffer!** Würfle Schaden: Langschwert 1W6+3 (Ergebnis: 5) + Stärke 10/2 (5) = **13 Schaden**
-
----
-
-### **2. Angriff (Fernkampf)**
-
-**Probe**: 2W6 + (Geschicklichkeit / 2) + Fernkampf + Spezialisierung
-
-**Gegen**: Verteidigungswert des Ziels
-
-**Modifikatoren:**
-
-- **Kurze Reichweite** (0-10m): Normal
-- **Mittlere Reichweite** (10-30m): Normal
-- **Weite Reichweite** (30-60m): -2 auf Angriff
-- **Extreme Reichweite** (60m+): -4 auf Angriff
-- **Deckung**: -2 (halbe Deckung) bis -4 (volle Deckung)
-- **Bewegtes Ziel**: -2
-
-**Schaden**: Waffenschaden + (Geschicklichkeit / 2)
-
-**Munition**: Wird bei jedem Schuss verbraucht (außer Wurfwaffen, die wiederverwendbar sind)
-
----
-
-### **3. Zauber wirken**
-
-**Probe**: 2W6 + (Intelligenz oder Weisheit / 2) + Magie + Spezialisierung
-
-**Gegen**: Schwierigkeit des Zaubers (siehe Magie-System)
-
-**Mana-Kosten**: Werden verbraucht, auch bei Misserfolg (außer bei kritischem Patzer: halbe Kosten)
-
-**Gegner mit Rettungswurf:** Manche Zauber erlauben dem Ziel einen **Rettungswurf** (siehe unten).
-
----
-
-### **4. Verteidigung**
-
-#### **Passive Verteidigung:**
-
-Wird automatisch gegen alle Angriffe verwendet:
-
-**Verteidigungswert** = 10 + (Geschicklichkeit / 2) + Ausweichen + Rüstung
-
-#### **Aktive Verteidigung (Reaktion):**
-
-**Parieren** (mit Waffe):
-
-- **Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf + Parieren-Spezialisierung
-- **Gegen**: Angriffswurf des Gegners
-- **Erfolg**: Angriff abgewehrt, kein Schaden
-- **Kostet**: Reaktion (1 pro Runde)
-
-**Blocken** (mit Schild):
-
-- **Probe**: 2W6 + (Stärke / 2) + Verteidigung + Schildkampf-Spezialisierung
-- **Gegen**: Angriffswurf des Gegners
-- **Erfolg**: Angriff abgewehrt, kein Schaden
-- **Kostet**: Reaktion (1 pro Runde)
-
-**Ausweichen** (ohne Waffe/Schild):
-
-- **Probe**: 2W6 + (Geschicklichkeit / 2) + Verteidigung + Ausweichen-Spezialisierung
-- **Gegen**: Angriffswurf des Gegners
-- **Erfolg**: Angriff komplett ausgewichen, kein Schaden
-- **Kostet**: Reaktion (1 pro Runde)
-
----
-
-### **5. Trank trinken**
-
-**Kosten**: Standard-Aktion
-
-**Effekt**: Sofort (z.B. Heiltrank heilt sofort LP)
-
-**Hinweis**: Ein Trank kann **nicht** gleichzeitig mit einem Angriff in derselben Runde getrunken werden, außer mit speziellen Fähigkeiten.
-
-**Trank einem anderen geben**: Standard-Aktion + Bewegung (zum Verbündeten bewegen, dann Trank geben)
-
----
-
-### **6. Bewegung**
-
-**Standard-Bewegung**: 10m (30 Fuß) pro Runde
-
-**Schwieriges Gelände**: Halbierte Bewegung (5m)
-
-**Sprinten** (Standard-Aktion): 20m (60 Fuß), aber **kein Angriff** in dieser Runde
-
-**Klettern/Schwimmen**: 5m pro Runde, erfordert Geschicklichkeits-Probe (Schwierigkeit 12-18)
-
----
-
-### **7. Waffen wechseln**
-
-**Waffe ziehen** (vom Gürtel/Scheide): Freie Aktion
-
-**Waffe wegstecken**: Bewegungs-Aktion
-
-**Waffe fallen lassen**: Freie Aktion
-
-**Andere Waffe aufheben**: Bewegungs-Aktion
-
-**Waffe tauschen** (wegstecken + neue ziehen): Bewegungs-Aktion
-
----
-
-## Waffen-Eigenschaften & Vor-/Nachteile
-
-### **Einhandwaffen**
-
-**Vorteile:**
-
-- Kann mit **Schild** kombiniert werden (+2 bis +3 Rüstung)
-- Kann **Zweiwaffenkampf** nutzen (siehe unten)
-- Schneller zu ziehen
-- Freie Hand für andere Aktionen (Trank, Zauber, Klettern)
-
-**Nachteile:**
-
-- Geringerer Schaden als Zweihandwaffen
-
-**Beispiele:** Langschwert (1W6+3), Streitaxt (1W6+4), Rapier (1W6+2)
-
----
-
-### **Zweihandwaffen**
-
-**Vorteile:**
-
-- **+2 Schaden** zusätzlich
-- Höherer Basis-Schaden (2W6+4 statt 1W6+3)
-- **Reichweite** (manche Zweihandwaffen wie Speere/Hellebarden)
-
-**Nachteile:**
-
-- **Kein Schild** möglich
-- **Langsamer** (Initiative -2 in erster Kampfrunde)
-- Braucht **beide Hände** (keine Tränke/Zauber ohne Waffe wegzulegen)
-- **Schwieriger in engen Räumen** (-2 auf Angriff in Korridoren/kleinen Räumen)
-
-**Beispiele:** Zweihandschwert (2W6+4), Großaxt (2W6+5), Kriegshammer 2H (2W6+4)
-
----
-
-### **Stangenwaffen**
-
-**Vorteile:**
-
-- **Reichweite** (kann Gegner auf 2-3m Distanz angreifen)
-- **Gelegenheitsangriff** wenn Gegner sich nähert (bevor er angreifen kann)
-- **+2 gegen Kavallerie**
-
-**Nachteile:**
-
-- **Unhandlich in Nahkampf** (-4 auf Angriff wenn Gegner direkt vor einem steht)
-- **Langsam** (Initiative -2)
-- Braucht **beide Hände**
-
-**Beispiele:** Speer (1W6+2), Hellebarde (2W6+3), Pike (2W6+2)
-
----
-
-### **Fernkampfwaffen - Bögen**
-
-**Vorteile:**
-
-- **Schnelles Nachladen** (kein Nachteil, kann jede Runde schießen)
-- **Hohe Reichweite** (30-60m effektiv)
-- **Leise** (perfekt für Hinterhalte)
-
-**Nachteile:**
-
-- **Braucht beide Hände**
-- **Ineffektiv im Nahkampf** (-4 auf Angriff wenn Gegner in 3m Nähe)
-- **Munition** erforderlich (Pfeile)
-- **Wetter**: Bei Regen/Sturm -2 auf Angriff
-
-**Beispiele:** Langbogen (1W6+4), Kurzbogen (1W6+2)
-
----
-
-### **Fernkampfwaffen - Armbrüste**
-
-**Vorteile:**
-
-- **Hoher Schaden** (durchschlagender als Bögen)
-- **Präzise** (+2 auf Angriff bei gezieltem Schuss)
-- **Durchdringt Rüstung** (ignoriert 2 Punkte Rüstung)
-
-**Nachteile:**
-
-- **Langsames Nachladen**:
-    - **Leichte Armbrust**: 1 Runde nachladen (kann schießen, dann 1 Runde Pause)
-    - **Schwere Armbrust**: 2 Runden nachladen (schießen, dann 2 Runden Pause)
-- **Braucht beide Hände**
-- **Ineffektiv im Nahkampf** (-4 auf Angriff wenn Gegner in 3m Nähe)
-- **Schwer** (Bewegung -2m wenn schwere Armbrust)
-
-**Beispiele:** Leichte Armbrust (1W6+3), Schwere Armbrust (2W6+2)
-
----
-
-### **Zweiwaffenkampf**
-
-**Voraussetzung**: Zwei Einhandwaffen, Spezialisierung "Zweiwaffenkampf"
-
-**Vorteile:**
-
-- **Zusätzlicher Angriff** mit zweiter Waffe (als Bonus-Aktion)
-- **+1 Verteidigung** (Parieren mit beiden Waffen)
-
-**Nachteile:**
-
-- **-2 auf beide Angriffe** (außer mit Spezialisierung "Zweiwaffenkampf" Level 4+)
-- **Kein Schild**
-- **Braucht hohe Geschicklichkeit** (min. 10)
-
-**Mechanik:**
-
-- **Haupthand-Angriff**: Normal (Standard-Aktion)
-- **Nebenhand-Angriff**: 2W6 + (Geschicklichkeit / 2) + Nahkampf + Spezialisierung - 2
-- **Nebenhand-Schaden**: Waffenschaden **ohne** Stärke-Bonus
-
----
-
-## Gelegenheitsangriffe (Opportunity Attacks)
-
-**Auslöser:**
-
-- Gegner **bewegt sich aus Nahkampf-Reichweite** (3m) heraus
-- Gegner **wendet den Rücken zu** (um zu fliehen)
-- Gegner **nutzt Fernkampf** im Nahkampf
-
-**Mechanik:**
-
-- **Freier Angriff** (Reaktion, 1 pro Runde)
-- **Normale Angriffsprobe**
-- **Bei Treffer**: Voller Schaden
-
-**Vermeiden:**
-
-- **"Vorsichtiger Rückzug"**: Bewegungs-Aktion + keine Standard-Aktion (kann nicht angreifen)
-- **Ausweichen-Probe** (Schwierigkeit 14): Bei Erfolg kein Gelegenheitsangriff
-
----
-
-## Besondere Kampf-Aktionen
-
-### **Gezielter Angriff**
-
-**Kosten**: Standard-Aktion
-
-**Effekt**: -2 auf Angriffswurf, aber **+1W6 Schaden** bei Treffer
-
----
-
-### **Entwaffnen**
-
-**Kosten**: Standard-Aktion
-
-**Probe**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Nahkampf
-
-**Gegen**: Gegner würfelt 2W6 + (Stärke / 2) + Nahkampf
-
-**Erfolg**: Gegner lässt Waffe fallen (3m entfernt)
-
----
-
-### **Zu Boden werfen**
-
-**Kosten**: Standard-Aktion
-
-**Probe**: 2W6 + (Stärke / 2) + Waffenloser Kampf
-
-**Gegen**: 2W6 + (Stärke oder Geschicklichkeit / 2) + Verteidigung
-
-**Erfolg**: Gegner liegt am Boden (Aufstehen kostet Bewegungs-Aktion, -2 auf Angriffe vom Boden)
-
----
-
-### **Volle Verteidigung**
-
-**Kosten**: Standard-Aktion (kein Angriff möglich)
-
-**Effekt**: +4 auf Verteidigungswert bis zur nächsten Runde
-
----
-
-### **Unterstützung**
-
-**Kosten**: Standard-Aktion
-
-**Effekt**: Verbündeter erhält +2 auf seinen nächsten Angriff oder Verteidigung
-
-**Probe**: 2W6 + (Intelligenz / 2) + Taktik (Schwierigkeit 12)
-
----
-
-## Rettungswürfe
-
-Rettungswürfe werden verwendet, um **schädlichen Effekten** zu widerstehen (Gifte, Zauber, Fallen, etc.).
-
-### **Drei Arten von Rettungswürfen:**
-
-#### **1. Robustheit** (Körperliche Widerstandskraft)
-
-**Gegen**: Gifte, Krankheiten, Erschöpfung, körperliche Zauber
-
-**Probe**: 2W6 + (Konstitution / 2) + Bonus (falls vorhanden)
-
-**Beispiel:** Giftiger Pfeil: Rettungswurf gegen Schwierigkeit 14. Bei Misserfolg 1W6 Giftschaden pro Runde für 3 Runden.
-
----
-
-#### **2. Reflexe** (Schnelle Reaktion)
-
-**Gegen**: Explosionen, Fallen, Flächenzauber, Stürze
-
-**Probe**: 2W6 + (Geschicklichkeit / 2) + Bonus (falls vorhanden)
-
-**Beispiel:** Feuerball-Zauber: Rettungswurf gegen Schwierigkeit 16. Bei Erfolg halber Schaden, bei Misserfolg voller Schaden.
-
----
-
-#### **3. Willenskraft** (Geistige Widerstandskraft)
-
-**Gegen**: Gedankenkontrolle, Illusionen, Furcht, mentale Zauber
-
-**Probe**: 2W6 + (Weisheit / 2) + Bonus (falls vorhanden)
-
-**Beispiel:** Furcht-Zauber: Rettungswurf gegen Schwierigkeit 16. Bei Misserfolg: Geflohen für 1W6 Runden.
-
----
-
-### **Erfolg bei Rettungswürfen:**
-
-- **Erfolg**: Effekt vollständig abgewehrt oder halbiert (je nach Effekt)
-- **Misserfolg**: Voller Effekt tritt ein
-- **Kritischer Erfolg** (12 auf Würfel): Kein Effekt + Bonus (z.B. Immun für 1 Runde)
-- **Kritischer Patzer** (2 auf Würfel): Doppelter Effekt
+_Terranea - Ein Pen & Paper Rollenspiel_# Terranea - Regelwerk
