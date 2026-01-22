@@ -563,13 +563,13 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
 
 ### Verzauberungen (Level 1 - Einfach)
 
-|Verzauberung|Kosten|Effekt|Beispiel|
-|---|---|---|---|
-|Schärfe +1|+20 G|+1 Schaden|Scharfes Langschwert|
-|Schutz +1|+20 G|+1 Rüstung|Verstärkte Lederrüstung|
-|Elementar (schwach)|+30 G|+1W6 Elementarschaden (1x/Tag)|Flammenschwert|
-|Leichte Heilung|+40 G|Heilt 1W6 LP (1x/Tag, Berührung)|Heilender Stab|
-|Leuchtend|+10 G|Leuchtet wie Fackel (beliebig an/aus)|Lichtklinge|
+| Verzauberung        | Kosten | Effekt                                | Beispiel                |
+| ------------------- | ------ | ------------------------------------- | ----------------------- |
+| Schärfe +1          | +20 G  | +1 Schaden                            | Scharfes Langschwert    |
+| Schutz +1           | +20 G  | +1 Rüstung                            | Verstärkte Lederrüstung |
+| Elementar (schwach) | +30 G  | +1W6 Elementarschaden (1x/Tag)        | Flammenschwert          |
+| Leichte Heilung     | +40 G  | Heilt 1W6 LP (1x/Tag, Berührung)      | Heilender Stab          |
+| Leuchtend           | +10 G  | Leuchtet wie Fackel (beliebig an/aus) | Lichtklinge             |
 
 ### Beispiel-Spezialanfertigung (Magisch)
 
@@ -681,7 +681,7 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
 
 ### Voraussetzungen
 
-- Nur für **Adel** verfügbar
+- Nur für **Adel** verfügbar (wenn überhaupt)
 - Charakter muss einen Runenmagier finden (sehr selten!)
 - Basis-Item muss zuerst gekauft werden
 
@@ -803,9 +803,9 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
 
 ### Attribute würfeln (2W6-System)
 
-1. **Würfle 12 Mal mit 2W6**
-2. **Wähle die besten 10 Ergebnisse** (die beiden schlechtesten verfallen)
-3. **Verteile diese 10 Werte** auf die 6 Basisattribute:
+1. **Würfle 8 Mal mit 2W6**
+2. **Wähle die besten 6 Ergebnisse** (die schlechtesten verfallen)
+3. **Verteile diese Werte** auf die 6 Basisattribute:
     - Stärke
     - Geschicklichkeit
     - Konstitution

@@ -16,18 +16,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "05-Charackter-erstellung",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/05-Charackter-erstellung.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"05-Charackter-erstellung\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":807,\"ch\":19},\"to\":{\"line\":807,\"ch\":19}},\"scroll\":803.3163712205849}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "file": "00-regelwerk/00-regelwerk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Charackter-erstellung"
+              "title": "00-regelwerk"
             }
           }
         ]
@@ -68,6 +74,15 @@
           {
             "id": "0fc6580fd578557f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "search",
               "state": {
@@ -85,6 +100,15 @@
           {
             "id": "8571bf37e1c19904",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "bookmarks",
               "state": {},
@@ -109,10 +133,19 @@
           {
             "id": "25c0081089f3760c",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "file": "00-regelwerk/00-regelwerk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,26 +155,44 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf 05-Charackter-erstellung"
+              "title": "Rückverweise auf 00-regelwerk"
             }
           },
           {
             "id": "0a06c889152880c3",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "file": "00-regelwerk/00-regelwerk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von 05-Charackter-erstellung öffnen"
+              "title": "Ausgehende Links von 00-regelwerk öffnen"
             }
           },
           {
             "id": "e44fd57075c12093",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -157,6 +208,15 @@
           {
             "id": "97f538f62ff78b9e",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "all-properties",
               "state": {
@@ -171,21 +231,39 @@
           {
             "id": "45a1a89bea635904",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "file": "00-regelwerk/00-regelwerk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von 05-Charackter-erstellung"
+              "title": "Gliederung von 00-regelwerk"
             }
           },
           {
             "id": "f2d64f23dc9cbfaf",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
@@ -196,6 +274,15 @@
           {
             "id": "b5c2535ce7783fec",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "initiative-tracker-view",
               "state": {},
@@ -233,5 +320,8 @@
     }
   },
   "active": "86c73226dfea1da4",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "00-regelwerk/05-Charackter-erstellung.md",
+    "00-regelwerk/06-allgemeine Informationen.md"
+  ]
 }
