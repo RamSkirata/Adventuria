@@ -18,6 +18,48 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Der Krieg im Norden von Sunar",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Der Krieg im Norden von Sunar\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":632},\"to\":{\"line\":7,\"ch\":632}},\"scroll\":0.6707078757956856}"
+                },
+                {
+                  "title": "Die 6ste Welt des Weltenbaums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Die 6ste Welt des Weltenbaums\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":77.64867049489845}"
+                },
+                {
+                  "title": "04-Bestarium & NPC-System",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/04-Bestarium & NPC-System.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"04-Bestarium & NPC-System\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":186,\"ch\":0},\"to\":{\"line\":186,\"ch\":0}},\"scroll\":171.8718786239624}"
+                },
+                {
+                  "title": "05-Charackter-erstellung",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/05-Charackter-erstellung.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"05-Charackter-erstellung\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7715452973954219}"
+                },
+                {
+                  "title": "06-allgemeine Informationen",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/06-allgemeine Informationen.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"06-allgemeine Informationen\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "00-regelwerk",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/00-regelwerk.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"00-regelwerk\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2170,\"ch\":0},\"to\":{\"line\":2170,\"ch\":0}},\"scroll\":2162.223369898056}"
+                },
+                {
+                  "title": "01-Einführung in die Welt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/01-Einführung in die Welt.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"01-Einführung in die Welt\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":143},\"to\":{\"line\":102,\"ch\":143}},\"scroll\":5.272395769755046}"
+                },
+                {
                   "title": "00-regelwerk",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/00-regelwerk.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"00-regelwerk\"}",
@@ -34,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-regelwerk/01-Einführung in die Welt.md",
+                "file": "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Einführung in die Welt"
+              "title": "Alexandria von Adventuria"
             }
           }
         ]
@@ -151,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-regelwerk/01-Einführung in die Welt.md",
+                "file": "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +203,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf 01-Einführung in die Welt"
+              "title": "Rückverweise auf Alexandria von Adventuria"
             }
           },
           {
@@ -179,12 +221,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-regelwerk/01-Einführung in die Welt.md",
+                "file": "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von 01-Einführung in die Welt öffnen"
+              "title": "Ausgehende Links von Alexandria von Adventuria öffnen"
             }
           },
           {
@@ -249,13 +291,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-regelwerk/01-Einführung in die Welt.md",
+                "file": "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von 01-Einführung in die Welt"
+              "title": "Gliederung von Alexandria von Adventuria"
             }
           },
           {
@@ -327,8 +369,12 @@
   },
   "active": "86c73226dfea1da4",
   "lastOpenFiles": [
-    "00-regelwerk/00-regelwerk.md",
+    "02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md",
+    "02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md",
+    "00-regelwerk/04-Bestarium & NPC-System.md",
     "00-regelwerk/05-Charackter-erstellung.md",
-    "00-regelwerk/06-allgemeine Informationen.md"
+    "00-regelwerk/06-allgemeine Informationen.md",
+    "00-regelwerk/00-regelwerk.md",
+    "00-regelwerk/01-Einführung in die Welt.md"
   ]
 }
