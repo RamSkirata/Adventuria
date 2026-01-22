@@ -803,7 +803,7 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
 
 ### Attribute würfeln (2W6-System)
 
-1. **Würfle 8 Mal mit 2W6**
+1. **Würfle 10 Mal mit 2W6**
 2. **Wähle die besten 6 Ergebnisse** (die schlechtesten verfallen)
 3. **Verteile diese Werte** auf die 6 Basisattribute:
     - Stärke
@@ -813,25 +813,26 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
     - Weisheit
     - Charisma
 
-### Magie/Technik-Attribute (optional)
-
-**Wenn dein Charakter Magie ODER Technik nutzt:**
-
-- Du hast nur **11 Würfe** (statt 12)
-- Würfle 11 Mal, wähle die besten 10
-
-**Wenn dein Charakter Magie UND Technik nutzt:**
-
-- Du hast nur **10 Würfe**
-- Würfle 10 Mal, behalte alle
-
 **Zusätzliche Attribute:**
 
 - **Magie** (nur für Zauberer)
 - **Technik** (nur für Ingenieure/Erfinder)
 
-### Validierung
+### Magie/Technik-Attribute (optional)
 
+**Wenn dein Charakter Magie ODER Technik nutzt:**
+
+- Du hast nur **9 Würfe** (statt 10)
+- Würfle 9 Mal, wähle die besten 7
+
+**Wenn dein Charakter Magie UND Technik nutzt:**
+
+- Du hast nur **8 Würfe**
+- Würfle 8 Mal, behalte alle so wie sie sind
+
+
+### Validierung
+(muss noch mal überarbeitet werden)_
 **Summe aller Attribute prüfen:**
 
 - **Zu niedrig (unter 35):** Darfst komplett neu würfeln

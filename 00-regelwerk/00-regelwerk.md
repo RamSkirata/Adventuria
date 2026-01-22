@@ -30,14 +30,16 @@
 10. [[#Rassen]]
 
 ---
-
+## Achtung work in progress
+beachtet [[05-Charackter-erstellung]]
 ## Grundlagen
 
 ### Das Spiel-System
 
 In unserem 2W6-System werden die Attribute Stärke, Geschicklichkeit, Konstitution, Intelligenz, Weisheit und Charisma durch Würfeln ermittelt. Du hast insgesamt **8 Würfe** mit 2W6 zur Verfügung und darfst die besten 6 Ergebnisse auf die Attribute verteilen.
 
-**Beispiel:** Du würfelst 8 Mal mit 2W6 und erhältst folgende Ergebnisse: 8, 10, 7, 12, 5, 9, 6, 11, 4, 8, 7, 6. Die besten 1Ergebnisse sind: 12, 11, 10, 9, 8, 8, 7 Diese Werte kannst du nun den Attributen zuordnen.
+**Beispiel:** Du würfelst 8 Mal mit 2W6 und erhältst folgende Ergebnisse: 8, 10, 7, 12, 9, 6, 11, 4, 8
+Die besten 6 Ergebnisse sind: 12, 11, 10, 9, 8, 8  Diese Werte kannst du nun den Attributen zuordnen.
 
 Wenn das Ergebnis aller Attribute zusammen niedriger als 35 ist, darfst du alle Attribute neu würfeln. Wenn das Ergebnis aller Attribute zusammen höher als 70 ist, musst du alle Attribute neu würfeln.
 
