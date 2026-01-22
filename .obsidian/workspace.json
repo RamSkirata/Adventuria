@@ -255,6 +255,48 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Champions der Götter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Champions der Götter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Götter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Götter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Götter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Glaube",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Glaube.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Glaube\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":208,\"ch\":148}},\"scroll\":184.4650017587056}"
+                },
+                {
+                  "title": "Die 6ste Welt des Weltenbaums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Die 6ste Welt des Weltenbaums\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":158,\"ch\":1}}}"
+                },
+                {
+                  "title": "01-Einführung in die Welt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/01-Einführung in die Welt.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"01-Einführung in die Welt\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":114,\"ch\":210}},\"scroll\":0}"
+                },
+                {
+                  "title": "00-regelwerk",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/00-regelwerk.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"00-regelwerk\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":2171,\"ch\":62}},\"scroll\":2107.2877604166665}"
+                },
+                {
+                  "title": "Die 6ste Welt des Weltenbaums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Die 6ste Welt des Weltenbaums\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Der Krieg im Norden von Sunar",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Der Krieg im Norden von Sunar\"}",
@@ -307,12 +349,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md",
+                "file": "02-Worldbuilding/06-welt/Pantheon/Glaube.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Die 6ste Welt des Weltenbaums"
+              "title": "Glaube"
             }
           }
         ],
@@ -667,10 +709,14 @@
   },
   "active": "50e1f816abf6fe74",
   "lastOpenFiles": [
-    "02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md",
-    "02-Worldbuilding/06-welt/geschichte/Adventuria.md",
+    "02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md",
+    "02-Worldbuilding/06-welt/Pantheon/Götter.md",
+    "02-Worldbuilding/06-welt/Pantheon/Glaube.md",
+    "02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md",
     "00-regelwerk/01-Einführung in die Welt.md",
     "00-regelwerk/00-regelwerk.md",
+    "02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md",
+    "02-Worldbuilding/06-welt/geschichte/Adventuria.md",
     "testing git hub yay.md",
     "00-regelwerk/04-Bestarium & NPC-System.md",
     "00-regelwerk/03-Charackterbogen.md",
@@ -689,9 +735,6 @@
     "z_PDF/HoardDragonQueen_Supplement_PF_v0.3.pdf",
     "z_PDF/EE_PlayersCompanion.pdf",
     "0-EXTERNELINK/LINKSAMMLUNG.md",
-    "02-Worldbuilding/06-welt/Pantheon/Glaube.md",
-    "02-Worldbuilding/06-welt/Pantheon/Götter.md",
-    "02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md",
     "02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md",
     "04-Kampagnen/One-Shot-2025-sylvester/05-Gegnerliste.md",
     "000-DM-Home/testing zone.md",
@@ -701,7 +744,6 @@
     "04-Kampagnen/tutorial/Sir Gabrial.md",
     "04-Kampagnen/tutorial/Schmiede.md",
     "04-Kampagnen/tutorial/Rolf.md",
-    "04-Kampagnen/tutorial/Olga.md",
-    "04-Kampagnen/tutorial/Kosina.md"
+    "04-Kampagnen/tutorial/Olga.md"
   ]
 }
