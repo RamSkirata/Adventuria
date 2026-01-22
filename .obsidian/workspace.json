@@ -255,6 +255,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Glaube",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Glaube.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Glaube\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Champions der Götter",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Champions der Götter\"}",
@@ -349,16 +355,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Worldbuilding/06-welt/Pantheon/Glaube.md",
+                "file": "00-regelwerk/00-regelwerk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glaube"
+              "title": "00-regelwerk"
+            }
+          },
+          {
+            "id": "a8f3846bd5fa2b80",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05-Charackter-erstellung"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -707,14 +736,15 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "50e1f816abf6fe74",
+  "active": "f2e97b9c1f81f68d",
   "lastOpenFiles": [
+    "00-regelwerk/00-regelwerk.md",
+    "00-regelwerk/05-Charackter-erstellung.md",
+    "02-Worldbuilding/06-welt/Pantheon/Glaube.md",
     "02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md",
     "02-Worldbuilding/06-welt/Pantheon/Götter.md",
-    "02-Worldbuilding/06-welt/Pantheon/Glaube.md",
     "02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md",
     "00-regelwerk/01-Einführung in die Welt.md",
-    "00-regelwerk/00-regelwerk.md",
     "02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md",
     "02-Worldbuilding/06-welt/geschichte/Adventuria.md",
     "testing git hub yay.md",
@@ -743,7 +773,6 @@
     "04-Kampagnen/tutorial/Tasar Pakas.md",
     "04-Kampagnen/tutorial/Sir Gabrial.md",
     "04-Kampagnen/tutorial/Schmiede.md",
-    "04-Kampagnen/tutorial/Rolf.md",
-    "04-Kampagnen/tutorial/Olga.md"
+    "04-Kampagnen/tutorial/Rolf.md"
   ]
 }
