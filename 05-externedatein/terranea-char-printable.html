@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terranea Charakterbogen</title>
+    <style>
+        @media print {
+            @page {
+                size: A4;
+                margin: 1cm;
+            }
+            .no-print {
+                display: none;
+            }
+            body {
+                font-size: 10pt;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-size: 24pt;
+            color: #2c3e50;
+        }
+
+        h2 {
+            background: #34495e;
+            color: white;
+            padding: 5px 10px;
+            margin: 15px 0 10px 0;
+            font-size: 14pt;
+            border-left: 5px solid #e74c3c;
+        }
+
+        h3 {
+            color: #34495e;
+            margin: 10px 0 5px 0;
+            font-size: 11pt;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 3px;
+        }
+
+        .section {
+            margin-bottom: 15px;
+            page-break-inside: avoid;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .field {
+            margin-bottom: 8px;
+        }
+
+        .field label {
+            font-weight: bold;
+            display: block;
+            font-size: 9pt;
+            color: #2c3e50;
+        }
+
+        .field input[type="text"],
+        .field input[type="number"] {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #34495e;
+            padding: 3px 5px;
+            font-size: 10pt;
+        }
+
+        .field-inline {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+        .field-inline label {
+            flex: 1;
+            font-size: 9pt;
+        }
+
+        .field-inline input[type="text"],
+        .field-inline input[type="number"] {
+            width: 60px;
+            text-align: center;
+            border: 1px solid #34495e;
+            padding: 2px;
+        }
+
+        .field-inline .small-input {
+            width: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 9pt;
+        }
+
+        table th {
+            background: #34495e;
+            color: white;
+            padding: 5px;
+            text-align: left;
+            font-size: 9pt;
+        }
+
+        table td {
+            border: 1px solid #bdc3c7;
+            padding: 5px;
+        }
+
+        .stat-box {
+            border: 2px solid #34495e;
+            padding: 10px;
+            background: #ecf0f1;
+            border-radius: 5px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 0;
+            border-bottom: 1px dashed #95a5a6;
+        }
+
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+
+        .stat-name {
+            font-weight: bold;
+            font-size: 10pt;
+        }
+
+        .stat-value {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .stat-value input {
+            width: 50px;
+            text-align: center;
+            border: 1px solid #34495e;
+            padding: 3px;
+        }
+
+        .checkbox-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+            font-size: 9pt;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            margin: 0;
+        }
+
+        .ability-section {
+            background: #f8f9fa;
+            padding: 8px;
+            margin: 5px 0;
+            border-left: 3px solid #3498db;
+        }
+
+        .specialization {
+            margin-left: 20px;
+            font-size: 8pt;
+            color: #555;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 10pt;
+        }
+
+        button:hover {
+            background: #2980b9;
+        }
+
+        .currency-box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .currency-item {
+            flex: 1;
+            min-width: 80px;
+            text-align: center;
+            border: 2px solid #34495e;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .currency-item label {
+            display: block;
+            font-weight: bold;
+            font-size: 8pt;
+            margin-bottom: 3px;
+        }
+
+        .currency-item input {
+            width: 100%;
+            text-align: center;
+            border: 1px solid #34495e;
+            padding: 5px;
+        }
+
+        textarea {
+            width: 100%;
+            border: 1px solid #34495e;
+            padding: 5px;
+            font-family: inherit;
+            min-height: 80px;
+            font-size: 9pt;
+        }
+
+        .page-break {
+            page-break-after: always;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons no-print">
+        <button onclick="window.print()">🖨️ Drucken / PDF speichern</button>
+        <button onclick="saveToLocalStorage()">💾 Speichern</button>
+        <button onclick="loadFromLocalStorage()">📂 Laden</button>
+        <button onclick="clearForm()">🗑️ Zurücksetzen</button>
+    </div>
+
+    <div class="container">
+        <!-- Seite 1 -->
+        <h1>TERRANEA - CHARAKTERBOGEN</h1>
+
+        <div class="section">
+            <div class="grid-3">
+                <div class="field">
+                    <label>Charaktername:</label>
+                    <input type="text" id="name" placeholder="">
+                </div>
+                <div class="field">
+                    <label>Rasse:</label>
+                    <input type="text" id="rasse" placeholder="">
+                </div>
+                <div class="field">
+                    <label>Klasse/Beruf:</label>
+                    <input type="text" id="klasse" placeholder="">
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="field">
+                    <label>Level:</label>
+                    <input type="number" id="level" min="1">
+                </div>
+                <div class="field">
+                    <label>Erfahrung:</label>
+                    <input type="text" id="erfahrung" placeholder="">
+                </div>
+                <div class="field">
+                    <label>Spielername:</label>
+                    <input type="text" id="spieler" placeholder="">
+                </div>
+            </div>
+        </div>
+    
+
+        <!-- Attribute -->
+        <h2> ATTRIBUTE</h2>
+        <div class="section stat-box">
+                            <div class="stat-row">
+                <span class="stat-name">Stärke (STR)</span>
+                <div class="stat-value">
+                    <input type="number" id="str" min="0" max="12" onchange="calculateBonus('str')">
+                    <span>Bonus: <input type="text" id="str-bonus" readonly style="width: 40px; background: #ddd;"></span>
+                </div>
+            </div>
+            <div class="stat-row">
+                <span class="stat-name">Geschicklichkeit (GES)</span>
+                <div class="stat-value">
+                    <input type="number" id="ges" min="0" max="12" onchange="calculateBonus('ges')">
+                    <span>Bonus: <input type="text" id="ges-bonus" readonly style="width: 40px; background: #ddd;"></span>
+                </div>
+            </div>
+            <div class="stat-row">
+                <span class="stat-name">Konstitution (KON)</span>
+                <div class="stat-value">
+                    <input type="number" id="kon" min="0" max="12" onchange="calculateBonus('kon')">
+                    <span>Bonus: <input type="text" id="kon-bonus" readonly style="width: 40px; background: #ddd;"></span>
+                </div>
+            </div>
+            <div class="stat-row">
+                <span class="stat-name">Intelligenz (INT)</span>
+                <div class="stat-value">
+                    <input type="number" id="int" min="0" max="12" onchange="calculateBonus('int')">
+                    <span>Bonus: <input type="text" id="int-bonus" readonly style="width: 40px; background: #ddd;"></span>
+                </div>
+            </div>
+            <div class="stat-row">
+                <span class="stat-name">Weisheit (WEI)</span>
+                <div class="stat-value">
+                    <input type="number" id="wei" min="0" max="12" onchange="calculateBonus('wei')">
+                    <span>Bonus: <input type="text" id="wei-bonus" readonly style="width: 40px; background: #ddd;"></span>
+                </div>
+            </div>
+            <div class="stat-row">
+                <span class="stat-name">Charisma (CHA)</span>
+                <div class="stat-value">
+                    <input type="number" id="cha" min="0" max="12" onchange="calculateBonus('cha')">
+                    <span>Bonus: <input type="text" id="cha-bonus" readonly style="width: 40px; background: #ddd;"></span>
+                </div>
+            </div>
+            <div class="stat-row">
+                <span class="stat-name">Magie (MAG)</span>
+                <div class="stat-value">
+                    <input type="number" id="mag" min="0" max="12" onchange="calculateBonus('mag')">
+                    <span>Bonus: <input type="text" id="mag-bonus" readonly style="width: 40px; background: #ddd;"></span>
+                </div>
+            </div>
+            <div class="stat-row">
+                <span class="stat-name">Technik (TEC)</span>
+                <div class="stat-value">
+                    <input type="number" id="tec" min="0" max="12" onchange="calculateBonus('tec')">
+                    <span>Bonus: <input type="text" id="tec-bonus" readonly style="width: 40px; background: #ddd;"></span>
+                </div>
+            </div>
+            <div class="stat-row" ; padding: 8px; margin-top: 5px;"></div>
+        </div>
+
+        <!-- Kampfwerte -->
+        <h2> KAMPFWERTE</h2>
+        <div class="section">
+            <div class="grid-2">
+                <div class="stat-box">
+                    <div class="field-inline">
+                        <label>Lebenspunkte (LP):</label>
+                        <input type="number" id="lp-current" style="width: 50px;">
+                        <span>/</span>
+                        <input type="number" id="lp-max" style="width: 50px;">
+                    </div>
+                    <small style="font-size: 7pt; color: #666;">Berechnung: 2W6 + (STR/2) + (KON/2)</small>
+                </div>
+                <div class="stat-box">
+                    <div class="field-inline">
+                        <label>Manapunkte (MP):</label>
+                        <input type="number" id="mp-current" style="width: 50px;">
+                        <span>/</span>
+                        <input type="number" id="mp-max" style="width: 50px;">
+                    </div>
+                    <small style="font-size: 7pt; color: #666;">Berechnung: 2W6 + (INT/2) + (WEI/2) + MAG</small>
+                </div>
+            </div>
+            <div class="grid-2" style="margin-top: 10px;">
+                <div class="stat-box">
+                    <div class="field-inline">
+                        <label>Rüstungswert:</label>
+                        <input type="number" id="armor">
+                    </div>
+                </div>
+                <div class="stat-box">
+                    <div class="field-inline">
+                        <label>Initiative:</label>
+                        <input type="number" id="initiative">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Währung -->
+        <h2> WÄHRUNG</h2>
+        <div class="section">
+            <div class="currency-box">
+                <div class="currency-item" style="border-color: #cd7f32;">
+                    <label>Kupfer</label>
+                    <input type="number" id="kupfer" min="0">
+                </div>
+                <div class="currency-item" style="border-color: #c0c0c0;">
+                    <label>Silber</label>
+                    <input type="number" id="silber" min="0">
+                </div>
+                <div class="currency-item" style="border-color: #ffd700;">
+                    <label>Gold</label>
+                    <input type="number" id="gold" min="0">
+                </div>
+                <div class="currency-item" style="border-color: #e5e4e2;">
+                    <label>Platin</label>
+                    <input type="number" id="platin" min="0">
+                </div>
+                <div class="currency-item" style="border-color: #4169e1;">
+                    <label>Stern</label>
+                    <input type="number" id="stern" min="0">
+                </div>
+            </div>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Seite 2: Fähigkeiten -->
+        <h1>FÄHIGKEITEN & SPEZIALISIERUNGEN</h1>
+
+        <h2> KAMPF-FÄHIGKEITEN</h2>
+        <div class="section">
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Nahkampf (STR)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Einhandschwert (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Zweihandschwert (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Einhandaxt (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Zweihandaxt (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Hammer & Kolben (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Stangenwaffen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Dolche (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Rapier & Degen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Fernkampf (GES)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Langbogen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Kurzbogen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Armbrust (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Wurfwaffen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Waffenloser Kampf (STR/GES)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Faustkampf (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Ringen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Mönchskampf (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Verteidigung (GES/KON)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Ausweichen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Parieren (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Blocken (Schild) (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Taktik (INT)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+            </div>
+        </div>
+
+        <h2> SOZIALE FÄHIGKEITEN</h2>
+        <div class="section">
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Überzeugung (CHA)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Überreden (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Verhandeln (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Diplomatie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Täuschung (CHA)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Lügen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Bluffen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Verkleiden (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Einschüchterung (STR/CHA)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Auftreten (CHA)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Führung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Performance (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Etikette (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Seite 3: Weitere Fähigkeiten -->
+        <h1>FÄHIGKEITEN (FORTSETZUNG)</h1>
+
+        <h2> WISSENS-FÄHIGKEITEN</h2>
+        <div class="section">
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Gelehrsamkeit (INT)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Geschichte (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Arkanes Wissen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Religionen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Naturkunde (WEI)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Tierkunde (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Pflanzenkunde (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Wetterkunde (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Medizin (INT/WEI)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Erste Hilfe (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Chirurgie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Kräuterheilkunde (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <h2> HANDWERKS-FÄHIGKEITEN</h2>
+        <div class="section">
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Handwerk (GES)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Technik (INT)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Waffenbau (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Rüstungsschmied (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Fallenbau (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Belagerungstechnik (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Feinmechanik (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Sprengstoff (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Schiffbau (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Konstruktion (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Magie (INT/WEI)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Heilige Magie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Naturmagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Shaper-Magie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Feuermagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Wassermagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Erdmagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Luftmagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Evokation (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Illusion (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Veränderung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Beschwörung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Erkenntnis (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Schutz (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Runenmagie (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <h2> ÜBERLEBEN-FÄHIGKEITEN</h2>
+        <div class="section">
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Überleben (WEI)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Fährtenlesen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Kräuterkunde (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Nahrungssuche (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Orientierung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Schleichen (GES)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Verstecken (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Leise Bewegung (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Schattentanz (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+
+            <div class="ability-section">
+                <div class="field-inline">
+                    <label>☐ Diebeskunst (GES)</label>
+                    <input type="number" min="0" max="12" placeholder="" class="small-input">
+                </div>
+                <div class="specialization checkbox-list">
+                    <div class="checkbox-item">☐ Schlösser knacken (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Taschendiebstahl (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                    <div class="checkbox-item">☐ Fallen entschärfen (0-6): <input type="number" min="0" max="6" class="small-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Seite 4: Magie, Inventar & Charakterbeschreibung -->
+        <h1>MAGIE & INVENTAR</h1>
+
+        <h2> GELERNTE ZAUBER</h2>
+        <div class="section">
+            <h3>Heilige Magie</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Naturmagie</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Shaper-Magie</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Element-Magie</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Akademie-Zauber</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Runenmagie</h3>
+            <textarea placeholder=""></textarea>
+        </div>
+
+        <h2> AUSRÜSTUNG & INVENTAR</h2>
+        <div class="section">
+            <h3>Waffen</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 30%;">Waffe</th>
+                        <th style="width: 15%;">Schaden</th>
+                        <th style="width: 15%;">Attribut</th>
+                        <th style="width: 40%;">Besonderheiten</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Rüstung & Schutz</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 40%;">Rüstungsteil</th>
+                        <th style="width: 20%;">Rüstwert</th>
+                        <th style="width: 40%;">Besonderheiten</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                        <td><input type="text" style="width: 100%; border: none;"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Magische Gegenstände</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Allgemeine Ausrüstung</h3>
+            <textarea placeholder=""></textarea>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Seite 5: Charakterbeschreibung & Notizen -->
+        <h1>CHARAKTER & NOTIZEN</h1>
+
+        <h2> CHARAKTERBESCHREIBUNG</h2>
+        <div class="section">
+            <h3>Aussehen</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Persönlichkeit</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Hintergrundgeschichte</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Ziele & Motivation</h3>
+            <textarea placeholder=""></textarea>
+        </div>
+
+        <h2> VERBÜNDETE & FEINDE</h2>
+        <div class="section">
+            <h3>Verbündete & Kontakte</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Feinde & Rivalen</h3>
+            <textarea placeholder=""></textarea>
+        </div>
+
+        <h2> KAMPAGNEN-NOTIZEN</h2>
+        <div class="section">
+            <h3>Aktuelle Quest(s)</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Wichtige NPCs</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Orte & Entdeckungen</h3>
+            <textarea placeholder=""></textarea>
+
+            <h3>Freie Notizen</h3>
+            <textarea placeholder=""></textarea>
+        </div>
+
+    </div>
+
+    <script>
+        // Bonus-Berechnung
+        function calculateBonus(attr) {
+            const value = parseInt(document.getElementById(attr).value) || 0;
+            const bonus = Math.ceil(value / 2);
+            document.getElementById(attr + '-bonus').value = bonus;
+            calculateAttributeSum();
+        }
+
+        // Attribut-Summe berechnen
+        function calculateAttributeSum() {
+            const attrs = ['str', 'ges', 'kon', 'int', 'wei', 'cha', 'mag', 'tec'];
+            let sum = 0;
+            attrs.forEach(attr => {
+                sum += parseInt(document.getElementById(attr).value) || 0;
+            });
+            const sumField = document.getElementById('attr-sum');
+            sumField.value = sum;
+            
+            // Warnung bei falscher Summe
+            if (sum < 35 || sum > 70) {
+                sumField.style.borderColor = '#dc3545';
+                sumField.style.color = '#dc3545';
+            } else {
+                sumField.style.borderColor = '#28a745';
+                sumField.style.color = '#28a745';
+            }
+        }
+
+        // Alle Boni initial berechnen
+        ['str', 'ges', 'kon', 'int', 'wei', 'cha'].forEach(attr => calculateBonus(attr));
+
+        // Speichern in LocalStorage
+        function saveToLocalStorage() {
+            const formData = {};
+            document.querySelectorAll('input, textarea').forEach(input => {
+                if (input.id) {
+                    formData[input.id] = input.value;
+                }
+            });
+            localStorage.setItem('terranea_character', JSON.stringify(formData));
+            alert('Charakter gespeichert!');
+        }
+
+        // Laden aus LocalStorage
+        function loadFromLocalStorage() {
+            const saved = localStorage.getItem('terranea_character');
+            if (saved) {
+                const formData = JSON.parse(saved);
+                Object.keys(formData).forEach(id => {
+                    const element = document.getElementById(id);
+                    if (element) {
+                        element.value = formData[id];
+                    }
+                });
+                ['str', 'ges', 'kon', 'int', 'wei', 'cha'].forEach(attr => calculateBonus(attr));
+                alert('Charakter geladen!');
+            } else {
+                alert('Kein gespeicherter Charakter gefunden!');
+            }
+        }
+
+        // Formular zurücksetzen
+        function clearForm() {
+            if (confirm('Wirklich alle Daten löschen?')) {
+                document.querySelectorAll('input, textarea').forEach(input => {
+                    if (input.type === 'number') {
+                        input.value = '';
+                    } else if (input.type === 'text' || input.tagName === 'TEXTAREA') {
+                        input.value = '';
+                    }
+                });
+                calculateAttributeSum();
+            }
+        }
+    </script>
+</body>
+</html>
