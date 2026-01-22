@@ -896,7 +896,7 @@ Jeder Charakter startet mit **10 Fähigkeiten-Punkten**.
 - **Fähigkeit von Level 2 auf 3:** 1 Punkt
 - **etc.**
 
-**Maximum:** Eine Fähigkeit kann maximal so hoch sein wie das zugehörige Attribut.
+**Maximum:** Eine Fähigkeit kann maximal so hoch sein wie das zugehörige Attribut. / 2
 
 ### Beispiel-Verteilung (Kämpfer)
 
@@ -924,8 +924,8 @@ Jeder Charakter startet mit **10 Fähigkeiten-Punkten**.
 
 Charaktere können **1 Spezialisierung** bei Charaktererstellung wählen **wenn:**
 
-- Die zugehörige Fähigkeit mindestens **Level 2** ist
-- Sie kostenlos lernen (bei Charaktererstellung)
+- Die zugehörige Fähigkeit mindestens **Level 3** ist
+- Sie kostenlos lernen (bei Charaktererstellung) (braucht aber Background Story dafür)
 
 ### Beispiele
 
@@ -933,7 +933,7 @@ Charaktere können **1 Spezialisierung** bei Charaktererstellung wählen **wenn:
 - Fernkampf Level 2 → Kann "Langbogen" Spezialisierung wählen (Level 1)
 - Magie Level 4 → Kann "Feuermagie" Spezialisierung wählen (Level 1)
 
-**Wichtig:** Spezialisierungen können später durch Training weiter gesteigert werden (max. Level 6).
+**Wichtig:** Spezialisierungen können später durch Training weiter gesteigert werden (max. Level 6 und = zu Fähigkeit).
 
 ---
 
@@ -1047,8 +1047,8 @@ Charaktere können **1 Spezialisierung** bei Charaktererstellung wählen **wenn:
 - Terranic (Gemeinsprache)
 - Sylvanisch (Elfen)
 - Khazadisch (Zwerge)
-- Tiersprachen (je nach Tiermensch-Art)
-- Alte Sprachen (Runen, Drachisch - sehr selten)
+- Tiersprachen (je nach Tiermensch-Art, Tiermenschen Common)
+- Alte Sprachen (Runen, Drachisch - sehr selten nicht bei start lernbar)
 
 ### Lesen & Schreiben
 

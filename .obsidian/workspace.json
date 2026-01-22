@@ -11,35 +11,35 @@
             "id": "86c73226dfea1da4",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "05-Charackter-erstellung",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/05-Charackter-erstellung.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"05-Charackter-erstellung\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.006376407310481646}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "00-regelwerk",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/00-regelwerk.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"00-regelwerk\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":0},\"to\":{\"line\":34,\"ch\":0}},\"scroll\":14.785511201591365}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3461,\"ch\":0},\"to\":{\"line\":3461,\"ch\":0}},\"scroll\":14.815814925913593}"
                 },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "05-Charackter-erstellung",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/05-Charackter-erstellung.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"05-Charackter-erstellung\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":1291,\"ch\":0}},\"scroll\":1278.7161143620808}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "file": "00-regelwerk/01-Einführung in die Welt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Charackter-erstellung"
+              "title": "01-Einführung in die Welt"
             }
           }
         ]
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "file": "00-regelwerk/01-Einführung in die Welt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf 05-Charackter-erstellung"
+              "title": "Rückverweise auf 01-Einführung in die Welt"
             }
           },
           {
@@ -179,12 +179,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "file": "00-regelwerk/01-Einführung in die Welt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von 05-Charackter-erstellung öffnen"
+              "title": "Ausgehende Links von 01-Einführung in die Welt öffnen"
             }
           },
           {
@@ -249,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-regelwerk/05-Charackter-erstellung.md",
+                "file": "00-regelwerk/01-Einführung in die Welt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von 05-Charackter-erstellung"
+              "title": "Gliederung von 01-Einführung in die Welt"
             }
           },
           {
