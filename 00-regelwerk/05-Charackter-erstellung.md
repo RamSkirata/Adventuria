@@ -187,7 +187,7 @@
 
 **Vorteile:**
 
-- Kostenloser Zugang zu Akademien (50% Rabatt auf Ausbildung)
+- Kostenloser Zugang zu Akademien (50% Rabatt auf Ausbildung) / Eventuelle Verpflichtungen im Ausgleich
 - +4 auf Diplomatie/Etikette/Einschüchtern vs. Niedrigere
 - Adelstitel und politischer Einfluss
 
@@ -203,7 +203,7 @@
 
 ---
 
-### 2. PATRIZIER
+### 2. PATRIZIER / Wohlhabender Bürger
 
 **Einkaufsbudget:** 100 G  
 **Startgold im Spiel:** 30 G  
@@ -277,7 +277,7 @@
 **Nachteile:**
 
 - Ungebildet (Lesen/Schreiben kostet 5 G + 1 Woche)
-- -2 auf Sozialproben mit Höheren
+- -2 auf Sozialproben mit Personen höheren Standes
 - Misstrauen von Autoritäten
 
 **Einkaufs-Einschränkungen:**
@@ -493,14 +493,14 @@
 
 ## TIERE & REITTIERE
 
-|Tier|Preis|Besonderheiten|
-|---|---|---|
-|Esel|5 G|Lastentier|
-|Pony|10 G|Klein|
-|Reitpferd|20 G|Standard-Reittier|
-|Kriegspferd|100 G|Kampftrainiert|
-|Zugpferd|30 G|Schwere Lasten|
-|Maultier|8 G|Robust|
+| Tier        | Preis | Besonderheiten      |
+| ----------- | ----- | ------------------- |
+| Esel        | 5 G   | Lastentier          |
+| Pony        | 10 G  | Klein               |
+| Reitpferd   | 20 G  | Standard-Reittier   |
+| Kriegspferd | 100 G | Kampftrainiert      |
+| Zugpferd    | 30 G  | Schwere Lasten      |
+| Maultier    | 8 G   | Robust / Lastentier |
 
 ### Zubehör
 
