@@ -27,7 +27,10 @@
 7. [[#Magie-System]]
 8. [[#Technik-System]]
 9. [[#Währung und Handel]]
-10. [[#Rassen]]
+10. [Rassen-System](#rassen-system)
+11. [Stand-System](#stand-system)
+12. [Item-Liste & Einkauf](#item-liste)
+13. [Spezialanfertigungen](#spezialanfertigungen)
 
 ---
 ## Achtung work in progress
@@ -2169,8 +2172,6 @@ _(In Arbeit)_
 
 ---
 
-
----
 
 # RASSEN-SYSTEM
 
