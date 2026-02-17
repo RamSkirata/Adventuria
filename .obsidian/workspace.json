@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "806a0c680de02b31",
+        "id": "e98bf44875143091",
         "type": "tabs",
         "children": [
           {
-            "id": "8667aad36ca7d7c8",
+            "id": "d745334706b587df",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,18 +16,186 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Halbgötter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Halbgötter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":134,\"ch\":148}}}"
+                },
+                {
+                  "title": "Champions der Götter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Champions der Götter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                },
+                {
+                  "title": "Götter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Götter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Götter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}}}"
+                },
+                {
+                  "title": "Glaube",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Glaube.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Glaube\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":208,\"ch\":148}}}"
+                },
+                {
+                  "title": "Champions der Götter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Champions der Götter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adventuria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Adventuria.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Adventuria\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "06-allgemeine Informationen",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/06-allgemeine Informationen.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"06-allgemeine Informationen\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "05-Charackter-erstellung",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/05-Charackter-erstellung.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"05-Charackter-erstellung\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "04-Bestarium & NPC-System",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/04-Bestarium & NPC-System.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"04-Bestarium & NPC-System\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "03-Charackterbogen",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/03-Charackterbogen.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"03-Charackterbogen\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "02-Schnellreferenzen für Spielleiter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/02-Schnellreferenzen für Spielleiter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"02-Schnellreferenzen für Spielleiter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "01-Einführung in die Welt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/01-Einführung in die Welt.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"01-Einführung in die Welt\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":114,\"ch\":210}}}"
+                },
+                {
+                  "title": "Halbgötter",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Halbgötter\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Skyclaw",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Länder/Skyclaw.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Skyclaw\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Republik Kyrion",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Länder/Republik Kyrion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Republik Kyrion\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Reich von Arvendor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Länder/Reich von Arvendor.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Reich von Arvendor\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Königreich Valoria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Länder/Königreich Valoria.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Königreich Valoria\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Königreich Elandor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Länder/Königreich Elandor.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Königreich Elandor\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Heiligen Reich von Sunar",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Länder/Heiligen Reich von Sunar.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Heiligen Reich von Sunar\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Die Länder der Mitte",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Länder/Die Länder der Mitte.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Die Länder der Mitte\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Wurfsterne",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Items/Wurfsterne.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Wurfsterne\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Waffenliste",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Items/Waffenliste.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Waffenliste\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Rüstung",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Items/Rüstung.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Rüstung\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Berserker-Pilze",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Items/Berserker-Pilze.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Berserker-Pilze\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Diebesgilde",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Guilds and Groups/Diebesgilde.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Diebesgilde\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Die 6ste Welt des Weltenbaums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Die 6ste Welt des Weltenbaums\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":158,\"ch\":1}},\"scroll\":42.030598958333336}"
+                },
+                {
+                  "title": "Der Krieg im Norden von Sunar",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Der Krieg im Norden von Sunar\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Adventuria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/geschichte/Adventuria.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Adventuria\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unbenannt.md",
+                "file": "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unbenannt"
+              "title": "Alexandria von Adventuria"
             }
           }
         ]
@@ -46,6 +214,15 @@
           {
             "id": "773bd3aeaae539d7",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -223,9 +400,33 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8667aad36ca7d7c8",
+  "active": "d745334706b587df",
   "lastOpenFiles": [
-    "Unbenannt.md",
-    "00-regelwerk/06-allgemeine Informationen.md"
+    "02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md",
+    "02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md",
+    "02-Worldbuilding/06-welt/Pantheon/Götter.md",
+    "02-Worldbuilding/06-welt/Pantheon/Glaube.md",
+    "02-Worldbuilding/06-welt/geschichte/Adventuria.md",
+    "00-regelwerk/06-allgemeine Informationen.md",
+    "00-regelwerk/05-Charackter-erstellung.md",
+    "00-regelwerk/04-Bestarium & NPC-System.md",
+    "00-regelwerk/03-Charackterbogen.md",
+    "00-regelwerk/02-Schnellreferenzen für Spielleiter.md",
+    "00-regelwerk/01-Einführung in die Welt.md",
+    "02-Worldbuilding/06-welt/Länder/Skyclaw.md",
+    "02-Worldbuilding/06-welt/Länder/Republik Kyrion.md",
+    "02-Worldbuilding/06-welt/Länder/Reich von Arvendor.md",
+    "02-Worldbuilding/06-welt/Länder/Königreich Valoria.md",
+    "02-Worldbuilding/06-welt/Länder/Königreich Elandor.md",
+    "02-Worldbuilding/06-welt/Länder/Heiligen Reich von Sunar.md",
+    "02-Worldbuilding/06-welt/Länder/Die Länder der Mitte.md",
+    "02-Worldbuilding/06-welt/Items/Wurfsterne.md",
+    "02-Worldbuilding/06-welt/Items/Waffenliste.md",
+    "02-Worldbuilding/06-welt/Items/Rüstung.md",
+    "02-Worldbuilding/06-welt/Items/Berserker-Pilze.md",
+    "02-Worldbuilding/06-welt/Guilds and Groups/Diebesgilde.md",
+    "02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md",
+    "02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md",
+    "Unbenannt.md"
   ]
 }
