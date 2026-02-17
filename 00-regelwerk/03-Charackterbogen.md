@@ -11,7 +11,7 @@
 
 
 
-## 📊 Attribute
+##  Attribute
 
 | Attribut             | Wert                      | Bonus (Wert/2)                      |
 | -------------------- | ------------------------- | ----------------------------------- |
@@ -28,7 +28,7 @@
 
 ---
 
-## ⚔️ Kampfwerte
+##  Kampfwerte
 
 > [!danger] Lebenspunkte **Aktuell**: `=this.lebenspunkte` / **Maximum**: `=this.maxLebenspunkte`
 > 
@@ -42,7 +42,7 @@
 
 ---
 
-## 🎯 Fähigkeiten
+##  Fähigkeiten
 
 ### Kampf-Fähigkeiten
 
@@ -205,7 +205,7 @@
 
 ---
 
-## 🎒 Inventar
+##  Inventar
 
 ### Waffen
 
@@ -238,7 +238,7 @@
 
 ---
 
-## 💰 Währung
+##  Währung
 
 |Münze|Anzahl|
 |---|---|
@@ -252,7 +252,7 @@
 
 ---
 
-## 📜 Gelernte Zauber
+## Gelernte Zauber
 
 ### Heilige Magie
 
@@ -281,7 +281,7 @@
 
 ---
 
-## 🔧 Technische Erfindungen
+## Technische Erfindungen
 
 - [ ]
 - [ ]
@@ -289,7 +289,7 @@
 
 ---
 
-## 📝 Notizen
+##  Notizen
 
 ### Hintergrundgeschichte
 
@@ -301,7 +301,7 @@
 
 ---
 
-## 📊 Dataview-Übersicht
+##  Dataview-Übersicht
 
 ```dataview
 TABLE

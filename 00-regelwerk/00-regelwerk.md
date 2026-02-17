@@ -1,4 +1,3 @@
-|
 
 ## TO DO
 
@@ -27,17 +26,22 @@
 7. [[#Magie-System]]
 8. [[#Technik-System]]
 9. [[#Währung und Handel]]
-10. [[#Rassen]]
+10. [Rassen-System](#rassen-system)
+11. [Stand-System](#stand-system)
+12. [Item-Liste & Einkauf](#item-liste)
+13. [Spezialanfertigungen](#spezialanfertigungen)
 
 ---
-
+## Achtung work in progress
+beachtet [[05-Charackter-erstellung]]
 ## Grundlagen
 
 ### Das Spiel-System
 
-In unserem 2W6-System werden die Attribute Stärke, Geschicklichkeit, Konstitution, Intelligenz, Weisheit und Charisma durch Würfeln ermittelt. Du hast insgesamt **12 Würfe** mit 2W6 zur Verfügung und darfst die besten 10 Ergebnisse auf die Attribute verteilen.
+In unserem 2W6-System werden die Attribute Stärke, Geschicklichkeit, Konstitution, Intelligenz, Weisheit und Charisma durch Würfeln ermittelt. Du hast insgesamt **8 Würfe** mit 2W6 zur Verfügung und darfst die besten 6 Ergebnisse auf die Attribute verteilen.
 
-**Beispiel:** Du würfelst 12 Mal mit 2W6 und erhältst folgende Ergebnisse: 8, 10, 7, 12, 5, 9, 6, 11, 4, 8, 7, 6. Die besten 10 Ergebnisse sind: 12, 11, 10, 9, 8, 8, 7, 7, 6, 6. Diese Werte kannst du nun den Attributen zuordnen.
+**Beispiel:** Du würfelst 8 Mal mit 2W6 und erhältst folgende Ergebnisse: 8, 10, 7, 12, 9, 6, 11, 4, 8
+Die besten 6 Ergebnisse sind: 12, 11, 10, 9, 8, 8  Diese Werte kannst du nun den Attributen zuordnen.
 
 Wenn das Ergebnis aller Attribute zusammen niedriger als 35 ist, darfst du alle Attribute neu würfeln. Wenn das Ergebnis aller Attribute zusammen höher als 70 ist, musst du alle Attribute neu würfeln.
 
@@ -2164,6 +2168,635 @@ _(In Arbeit)_
 - 1 Gold (G) = 10 Silber = 100 Kupfer
 - 1 Platin (P) = 10 Gold = 1.000 Kupfer
 - 1 Stern (St) = 10 Platin = 10.000 Kupfer
+
+---
+
+
+# RASSEN-SYSTEM
+
+## Übersicht der spielbaren Rassen
+
+1. **Terraner** - Menschen, vielseitig und anpassungsfähig
+2. **Sylvaner** - Waldelfen, naturverbunden und agil
+3. **Khazad** - Zwergenvolk, robuste Handwerker und Krieger
+4. **Tiermenschen** - Verschiedene Tiervölker mit natürlichen Fähigkeiten
+5. **Shaper** - Meister der Biomagie und Fleischformung
+
+---
+
+## 1. TERRANER (Menschen)
+
+### Rassenboni
+
+- **Vielseitigkeit:** +1 auf ein beliebiges Attribut nach Wahl
+- **Schnelle Lerner:** +1 zusätzlicher Fähigkeiten-Punkt pro Level-Aufstieg
+- **Anpassungsfähig:** Eine zusätzliche Sprache bei Charaktererstellung
+
+### Rassen-Fähigkeit: "Menschlicher Ehrgeiz"
+
+1x pro Spielsitzung eine gescheiterte Probe wiederholen (zweites Ergebnis zählt)
+
+### Nachteile
+
+- Keine besonderen körperlichen Vorteile
+- Durchschnittliche Lebensspanne (60-80 Jahre)
+
+---
+
+## 2. SYLVANER (Waldelfen)
+
+### Rassenboni
+
+- **Naturverbundenheit:** +2 auf Naturkunde/Überleben in Natur
+- **Elfische Anmut:** +1 Geschicklichkeit (max. 13)
+- **Nachtsicht:** Keine Mali in Dämmerlicht/Mondlicht
+- **Langlebig:** 300-500 Jahre
+
+### Rassen-Fähigkeit: "Schattentanz"
+
+- Kosten: 3 MP
+- Effekt: 1 Minute unsichtbar in Schatten, +4 auf Schleichen
+- Voraussetzung: Schleichen min. Level 2
+
+### Nachteile
+
+- **Lichtempfindlich:** -2 bei grellem Licht
+- **Zierlich:** -1 Konstitution (min. 1)
+- **Stadtfremd:** -2 auf Sozialproben in Städten
+
+---
+
+## 3. KHAZAD (Zwerge)
+
+### Rassenboni
+
+- **Robustheit:** +2 auf Konstitutions-Proben
+- **Zwergenwiderstand:** +1 Konstitution (max. 13)
+- **Natürliche Rüstung:** +1 Rüstungswert
+- **Dunkelsicht:** Sehen in totaler Dunkelheit (20m)
+- **Meisterhandwerker:** +2 auf Handwerk/Technik
+
+### Rassen-Fähigkeit: "Steinhaut"
+
+- 1x täglich, 3 Runden
+- Effekt: +3 Rüstung, Immunität gegen Umwerfen
+- Aktivierung: Freie Aktion
+
+### Nachteile
+
+- **Langsam:** 8m Bewegung (statt 10m), -2 auf Springen/Klettern
+- **Starrsinnig:** -2 auf Diplomatie/Täuschung
+- **Unbeholfen im Wasser:** -4 auf Schwimmen
+
+---
+
+## 4. TIERMENSCHEN
+
+### Allgemeine Rassenboni
+
+- **Natürliche Waffen:** Klauen/Reißzähne (1W6 Schaden)
+- **Natürliche Rüstung:** +1 Rüstungswert
+- **Tierkommunikation:** Sprechen mit Tieren der eigenen Art
+
+### Unterarten (wähle 1)
+
+#### Wolf (Rudeljäger)
+
+- +1 Geschicklichkeit
+- Geruchssinn: +4 Fährtenlesen
+- Rudeltaktik: +2 Angriff wenn Verbündeter im Nahkampf
+- Nachteil: Aggressiv (Willenskraft-Probe 14 bei Provokation)
+
+#### Bär (Kraftprotz)
+
+- +2 Stärke
+- Bärenstärke: Doppelte Traglast, +4 Ringen
+- Nachteil: 8m Bewegung, -2 Initiative
+
+#### Eule (Nachtjäger)
+
+- +1 Weisheit
+- Perfekte Nachtsicht, +4 Wahrnehmung nachts
+- Lautlos: +4 Schleichen
+- Nachteil: Tagblind (-2 bei hellem Licht)
+
+#### Fuchs (Trickser)
+
+- +1 Intelligenz
+- Scharfes Gehör: +4 Lauschen
+- Schlau: +2 Täuschung/List
+- Nachteil: -1 Konstitution (min. 1)
+
+#### Adler (Himmelsjäger)
+
+- +1 Geschicklichkeit
+- Adlerauge: +4 Fernkampf
+- Gleitflug: Kann kurze Strecken gleiten
+- Nachteil: 50% Traglast
+
+#### Bison (Verteidiger)
+
+- +1 Stärke, +1 Konstitution
+- Ansturm: Sprint + Angriff = +2W6 Schaden
+- Nachteil: -2 Ausweichen, -2 Geschicklichkeit
+
+### Allgemeine Nachteile
+
+- **Fremdartig:** -2 auf Sozialproben in Städten
+- **Tierisches Temperament:** Verhaltens-Eigenheiten
+
+---
+
+## 5. SHAPER
+
+### Rassenboni
+
+- **Biomagisches Talent:** Können Shaper-Magie ohne Magie-Attribut nutzen
+- **Fleischformung:** +2 auf Anatomie/Medizin/Kreaturenkunde
+- **Regeneration:** +1 LP pro Stunde
+- **Mutationsresistenz:** +4 auf Rettungswürfe gegen Gift/Krankheit/Verwandlung
+
+### Rassen-Fähigkeit: "Lebensessenz manipulieren"
+
+- Kosten: 5 MP
+- Effekt (wählbar):
+    - Heilung: 1W6 LP (Berührung)
+    - Schwächung: -2 auf alle Proben, 10 Min. (Konsti-RW 14)
+    - Verstärkung: +2 Stärke/Konsti, 10 Min.
+
+### Nachteile
+
+- **Geächtet:** -4 auf Sozialproben in zivilisierten Gebieten
+- **Magisch instabil:** Bei kritischem Patzer 1W6 Selbstschaden
+- **Verboten:** Öffentliche Nutzung kann zu Verfolgung führen
+- **Keine Heimat:** Keine etablierten Gesellschaftsstrukturen
+
+---
+
+# STAND-SYSTEM
+
+## Die fünf Stände
+
+### 1. ADEL
+
+**Einkaufsbudget:** 200 G  
+**Startgold im Spiel:** 50 G  
+**Automatisch erhalten:**
+
+- Edle Reisekleidung (10 G Wert)
+- Hofreiche Kleidung (20 G Wert)
+- Siegelring mit Familienwappen (50 G Wert)
+
+**Vorteile:**
+
+- Kostenloser Zugang zu Akademien (50% Rabatt auf Ausbildung, eventuell Verpflichtungen im Ausgleich)
+- +4 auf Diplomatie/Etikette/Einschüchtern vs. Niedrigere
+- Adelstitel und politischer Einfluss
+
+**Nachteile:**
+
+- Familienpflichten und Erwartungen
+- Bei Rufschaden ernste Konsequenzen
+- -2 auf Sozialproben mit einfachem Volk (außer Einschüchtern)
+
+**Einkaufs-Einschränkungen:** Keine
+
+---
+
+### 2. PATRIZIER (Wohlhabender Bürger)
+
+**Einkaufsbudget:** 100 G  
+**Startgold im Spiel:** 30 G  
+**Automatisch erhalten:**
+
+- Gute Reisekleidung (5 G Wert)
+- Geschäftskleidung (10 G Wert)
+
+**Vorteile:**
+
+- +2 auf Handel/Überreden bei Geschäften
+- Gildenzugang mit 50% Rabatt
+- 25% Rabatt auf Ausbildung
+- Respektiert in Städten
+
+**Nachteile:**
+
+- Keine politische Macht
+- Aufstiegsdruck der Familie
+- -2 auf Sozialproben mit Adel
+
+**Einkaufs-Einschränkungen:**
+
+- Keine Reitpferde über 30 G
+- Keine magischen Gegenstände über 50 G
+
+---
+
+### 3. BÜRGER
+
+**Einkaufsbudget:** 50 G  
+**Startgold im Spiel:** 10 G  
+**Automatisch erhalten:**
+
+- Einfache Reisekleidung (1 G Wert)
+
+**Vorteile:**
+
+- +2 auf eine Handwerks-Fähigkeit (bei Charaktererstellung)
+- Freie Bürger - können reisen und Beruf wählen
+- Überall akzeptiert
+
+**Nachteile:**
+
+- Begrenzte Ressourcen
+- Kein politischer Einfluss
+- Müssen Respekt verdienen
+
+**Einkaufs-Einschränkungen:**
+
+- Keine Reitpferde über 20 G
+- Keine magischen Gegenstände
+- Keine Rüstungen über 25 G
+
+---
+
+### 4. VOLK
+
+**Einkaufsbudget:** 20 G  
+**Startgold im Spiel:** 3 G  
+**Automatisch erhalten:**
+
+- Lumpen/Abgenutzte Kleidung (wertlos)
+
+**Vorteile:**
+
+- +2 auf Konstitutions-Proben (hartes Leben)
+- +2 auf Schleichen/Verstecken in armen Vierteln
+- +2 auf Nahrungssuche/Überleben
+
+**Nachteile:**
+
+- Ungebildet (Lesen/Schreiben kostet 5 G + 1 Woche)
+- -2 auf Sozialproben mit höheren Ständen
+- Misstrauen von Autoritäten
+
+**Einkaufs-Einschränkungen:**
+
+- Keine Pferde
+- Keine magischen Gegenstände
+- Keine Rüstungen über 10 G
+- Keine Waffen über 2 G
+
+**Optionale Regel:** Starten mit 1W6 × 5 G Schulden
+
+---
+
+### 5. AUSGESTOSSENE
+
+**Einkaufsbudget:** 10 G  
+**Startgold im Spiel:** 0 G  
+**Automatisch erhalten:**
+
+- Zerlumpte Kleidung (wertlos)
+- 1 Tag gestohlenes Essen
+
+**Vorteile:**
+
+- +4 auf Schleichen/Taschendiebstahl/Verstecken in Städten
+- +2 auf Initiative (immer auf der Hut)
+- Immun gegen Einschüchtern durch Autoritäten
+- Untergrund-Kontakte (Schwarzmarkt, Schmuggler)
+
+**Nachteile:**
+
+- Vogelfrei - keine Rechte, keine Papiere
+- Kann verfolgt/verhaftet werden
+- -4 auf Sozialproben mit Respektspersonen
+- Bettelarm
+
+**Einkaufs-Einschränkungen:**
+
+- Keine Pferde
+- Keine magischen Gegenstände
+- Keine Rüstungen über 5 G
+- Keine Waffen über 1 G
+- Items gelten als "gestohlen" oder "gefunden"
+
+**Besonderheit:** Würfle 1W6 für zusätzlichen gestohlenen Gegenstand:
+
+1. Dolch
+2. 5 G in Münzen
+3. Kleiner Heiltrank
+4. Seil 15m
+5. Laterne (ohne Öl)
+6. Nichts
+
+---
+
+# ITEM-LISTE
+
+## WAFFEN
+
+### Nahkampfwaffen - Einhand
+
+|Waffe|Preis|Schaden|Attribut|Besonderheiten|
+|---|---|---|---|---|
+|Dolch|2 S|1W6|Geschicklichkeit|Leicht, versteckbar|
+|Kurzschwert|1 G|1W6+2|Stärke|Ausgewogen|
+|Langschwert|2 G|1W6+3|Stärke|Standard-Kriegswaffe|
+|Streitaxt|2 G|1W6+4|Stärke|Hoher Schaden, langsam|
+|Kriegshammer|2 G 5 S|1W6+3|Stärke|Gegen Rüstung|
+|Rapier|3 G|1W6+2|Geschicklichkeit|Schnell, elegant|
+|Säbel|2 G 5 S|1W6+3|Geschicklichkeit|Reiterkampf|
+|Streitkolben|1 G 5 S|1W6+3|Stärke|Einfach, zuverlässig|
+
+### Nahkampfwaffen - Zweihand
+
+|Waffe|Preis|Schaden|Attribut|Besonderheiten|
+|---|---|---|---|---|
+|Zweihandschwert|5 G|2W6+4|Stärke|Hoher Schaden, Reichweite|
+|Großaxt|4 G|2W6+5|Stärke|Verheerend, sehr langsam|
+|Kriegshammer (2H)|4 G 5 S|2W6+4|Stärke|Durchdringt Rüstung|
+|Hellebarde|3 G|2W6+3|Stärke|Reichweite, vielseitig|
+|Glefe|2 G 5 S|2W6+2|Stärke|Lange Reichweite|
+|Kampfstab|1 G|2W6|Stärke/Geschick|Nicht-tödlich möglich|
+
+### Stangenwaffen
+
+|Waffe|Preis|Schaden|Attribut|Besonderheiten|
+|---|---|---|---|---|
+|Speer|5 S|1W6+2|Stärke|Wurfwaffe, Reichweite|
+|Lanze|3 G|2W6+3|Stärke|Nur zu Pferd, Ansturm-Bonus|
+|Pike|2 G|2W6+2|Stärke|Sehr lange Reichweite|
+
+### Fernkampfwaffen
+
+|Waffe|Preis|Schaden|Attribut|Reichweite|Besonderheiten|
+|---|---|---|---|---|---|
+|Kurzbogen|3 G|1W6+2|Geschicklichkeit|Mittel|Schnell, mobil|
+|Langbogen|5 G|1W6+4|Geschicklichkeit|Weit|Hohe Reichweite|
+|Kompositbogen|8 G|1W6+5|Geschicklichkeit|Weit|Sehr stark|
+|Leichte Armbrust|4 G|1W6+3|Geschicklichkeit|Mittel|1 Runde nachladen|
+|Schwere Armbrust|7 G|2W6+2|Geschicklichkeit|Weit|2 Runden nachladen|
+|Wurfmesser (3x)|1 G|1W6|Geschicklichkeit|Kurz|Versteckbar|
+|Wurfaxt|1 G 5 S|1W6+2|Stärke|Kurz|Nahkampf möglich|
+|Wurfspeer|8 S|1W6+3|Stärke|Mittel|Vielseitig|
+
+### Munition
+
+|Munition|Preis|Menge|
+|---|---|---|
+|Pfeile (Langbogen)|1 S|24 Stück|
+|Pfeile (Kurzbogen)|8 K|24 Stück|
+|Armbrustbolzen (leicht)|1 S|24 Stück|
+|Armbrustbolzen (schwer)|2 S|24 Stück|
+|Köcher|5 S|Platz für 24|
+
+### Schilde
+
+|Schild|Preis|Rüstung|Besonderheiten|
+|---|---|---|---|
+|Buckler|5 S|+1|Klein, behindert nicht|
+|Rundschild|1 G|+2|Standard-Schild|
+|Turmschild|3 G|+3|Schwer, volle Deckung|
+|Reiterschild|2 G|+2|Für Kavallerie|
+|Dreieckschild|2 G 5 S|+3|Oberkörper-Deckung|
+
+---
+
+## RÜSTUNGEN
+
+### Leichte Rüstungen
+
+|Rüstung|Preis|Rüstwert|Besonderheiten|
+|---|---|---|---|
+|Gepolsterte Kleidung|1 G|+1|Unauffällig, keine Einschränkung|
+|Lederrüstung|5 G|+2|Flexibel, für Schurken|
+|Verstärkte Lederrüstung|10 G|+3|Metallverstärkungen|
+|Fellrüstung|3 G|+2|Wärmend|
+
+### Mittlere Rüstungen
+
+|Rüstung|Preis|Rüstwert|Besonderheiten|
+|---|---|---|---|
+|Schuppenpanzer|25 G|+4|Flexibel|
+|Kettenhemd|50 G|+5|Standard-Militär|
+|Brigantine|40 G|+4|Metallplatten in Stoff|
+
+### Schwere Rüstungen
+
+|Rüstung|Preis|Rüstwert|Besonderheiten|
+|---|---|---|---|
+|Plattenpanzer|150 G|+7|Beste Rüstung, schwer|
+|Halbplatte|100 G|+6|Beweglicher|
+|Schienenpanzer|75 G|+5|Guter Kompromiss|
+
+### Helme
+
+|Helm|Preis|Rüstwert|Besonderheiten|
+|---|---|---|---|
+|Lederkappe|5 S|+0,5|Minimal|
+|Kettenhaube|2 G|+1|Flexibel|
+|Topfhelm|5 G|+2|Eingeschränkte Sicht|
+|Visierhelm|8 G|+2|Visor öffenbar|
+
+---
+
+## AUSRÜSTUNG & WERKZEUGE
+
+|Item|Preis|Besonderheiten|
+|---|---|---|
+|Rucksack|2 S|Standard-Tragfähigkeit|
+|Großer Rucksack|5 S|Erhöhte Tragfähigkeit|
+|Seil (15m)|1 S|Robust|
+|Fackel (5x)|5 K|Brennt 1h pro Fackel|
+|Laterne|1 S|Wiederverwendbar|
+|Lampenöl (Flasche)|5 K|6 Stunden|
+|Zunderbüchse|5 K|Feuer machen|
+|Wetzstein|2 K|Waffen schärfen|
+|Wasserschlauch|5 K|2 Liter|
+|Schlafsack|5 S|Warmhaltend|
+|Zelt (2 Personen)|1 G|Wetterfest|
+|Zelt (4 Personen)|2 G|Größer|
+|Kletterausrüstung|2 G|Haken, Seil, Karabiner|
+|Dietrich-Set|1 G|Für Schlösser|
+|Schaufel|5 S|Graben|
+|Axt (Werkzeug)|8 S|Holzfällen|
+|Hammer & Nägel|3 S|Handwerk|
+|Angelrute|2 S|Nahrungssuche|
+|Jagdfalle|1 S|Tierfang|
+|Fernrohr|10 G|Weitsicht|
+|Kompass|5 G|Navigation|
+|Karte (Region)|1 G|Orientierung|
+|Sanduhr|2 G|Zeitmessung|
+
+---
+
+## ALLTÄGLICHE GÜTER
+
+|Item|Preis|
+|---|---|
+|Brot (1 Laib)|2 K|
+|Käse (500g)|5 K|
+|Getrocknetes Fleisch|8 K|
+|Wein (Flasche)|1 S|
+|Bier (Krug)|3 K|
+|Reiseproviant (1 Tag)|1 S|
+|Kerzen (10x)|5 K|
+|Seife|2 K|
+|Decke|3 S|
+|Schreibfeder & Tinte|5 S|
+|Papier (10 Blatt)|1 S|
+|Buch (leer)|2 G|
+
+---
+
+## TIERE & REITTIERE
+
+|Tier|Preis|Besonderheiten|
+|---|---|---|
+|Esel|5 G|Lastentier|
+|Pony|10 G|Klein|
+|Reitpferd|20 G|Standard-Reittier|
+|Kriegspferd|100 G|Kampftrainiert|
+|Zugpferd|30 G|Schwere Lasten|
+|Maultier|8 G|Robust / Lastentier|
+
+### Zubehör
+
+|Item|Preis|
+|---|---|
+|Sattel (einfach)|2 G|
+|Sattel (Kriegs-)|10 G|
+|Zaumzeug|1 G|
+|Satteltaschen|1 G|
+|Pferdedecke|5 S|
+|Hufeisen (Set)|2 S|
+
+---
+
+## TRÄNKE & ALCHEMIE
+
+|Trank|Preis|Effekt|
+|---|---|---|
+|Kleiner Heiltrank|10 G|Heilt 1W6 LP|
+|Heiltrank|30 G|Heilt 2W6 LP|
+|Großer Heiltrank|80 G|Heilt 3W6 LP|
+|Kleiner Manatrank|5 G|1W6 MP|
+|Manatrank|15 G|2W6 MP|
+|Großer Manatrank|40 G|3W6 MP|
+|Gegengift|30 G|Neutralisiert Gifte|
+|Trank der Bärenstärke|50 G|+4 Stärke, 1h|
+
+---
+
+## MAGISCHE GEGENSTÄNDE
+
+|Item|Preis|Effekt|Verfügbarkeit|
+|---|---|---|---|
+|Schriftrolle: Kleine Heilung|20 G|Heilt 1W6 LP|Adel, Patrizier|
+|Schriftrolle: Feuerball|60 G|1W6+2 Schaden|Nur Adel|
+|Zauberstab (einfach)|50 G|+1 auf Zauberproben|Nur Adel|
+|Manakristall (klein)|50 G|Speichert 10 MP|Adel, Patrizier|
+
+---
+
+# SPEZIALANFERTIGUNGEN
+
+Spieler können bei Charaktererstellung **eine Spezialanfertigung** bestellen. Dies kostet zusätzliches Geld aus dem Einkaufsbudget und muss mit dem Spielleiter abgesprochen werden.
+
+## OPTION 1: MAGISCHE VERZAUBERUNG
+
+**Voraussetzungen:** Zugang zu Magier/Verzauberer, nur Adel & Patrizier, Basis-Item muss gekauft werden
+
+**Kosten:** Basis-Item + Verzauberungskosten
+
+### Verzauberungen (Level 1)
+
+|Verzauberung|Kosten|Effekt|
+|---|---|---|
+|Schärfe +1|+20 G|+1 Schaden|
+|Schutz +1|+20 G|+1 Rüstung|
+|Elementar (schwach)|+30 G|+1W6 Elementarschaden (1x/Tag)|
+|Leichte Heilung|+40 G|Heilt 1W6 LP (1x/Tag, Berührung)|
+|Leuchtend|+10 G|Leuchtet wie Fackel (an/aus)|
+
+**Max. 2 Verzauberungen pro Item**
+
+---
+
+## OPTION 2: TECHNISCHE MODIFIKATION
+
+**Voraussetzungen:** Technik-Attribut min. 4 ODER Ingenieur, alle Stände außer Ausgestoßene, Basis-Item muss gekauft werden
+
+**Kosten:** Basis-Item + Modifikationskosten + Materialkosten
+
+### Technische Modifikationen
+
+|Modifikation|Kosten|Material|Effekt|
+|---|---|---|---|
+|Versteckte Klinge|+15 G|5 G|Waffe im Armband/Schuh/Stock|
+|Verbesserte Mechanik|+10 G|3 G|Armbrust lädt 50% schneller|
+|Verstärkte Konstruktion|+8 G|5 G|Doppelte Haltbarkeit|
+|Zusatzfunktion|+20 G|10 G|Item hat Zweitzweck|
+|Klappbar/Zerlegbar|+5 G|2 G|Kann zerlegt/versteckt werden|
+|Feinmechanik-Schloss|+12 G|3 G|+4 Schwierigkeit zum Öffnen|
+
+---
+
+## OPTION 3: MEISTERWERK
+
+**Voraussetzungen:** Adel, Patrizier oder Bürger, Meister-Schmied
+
+**Kosten:** Doppelter Preis der Basis-Waffe + 20 G Meisterlohn
+
+### Meisterwerk-Boni
+
+|Bonus|Effekt|
+|---|---|
+|Perfekte Balance|+1 auf Angriffswürfe|
+|Überlegene Schärfe|+1 Schaden|
+|Meisterhafte Verarbeitung|Waffe bricht nie|
+|Persönliche Gravur|+2 Einschüchtern wenn gezogen|
+
+---
+
+## OPTION 4: ALCHEMISTISCHE SPEZIALANFERTIGUNG
+
+**Voraussetzungen:** Alchemist ODER Kräuterkunde Level 3+, Adel/Patrizier/Bürger
+
+### Spezial-Tränke
+
+|Trank|Preis|Effekt|
+|---|---|---|
+|Trank der Unsichtbarkeit|100 G|Unsichtbar 10 Min.|
+|Antidot (Universal)|50 G|Neutralisiert alle Gifte|
+|Trank der Regeneration|80 G|+2 LP/Runde für 5 Runden|
+|Elixier der Nachtsicht|40 G|Nachtsicht 8 Stunden|
+|Rauchbombe (3x)|15 G|Rauch, 5m Radius|
+
+### Gifte (illegal!)
+
+|Gift|Preis|Effekt|
+|---|---|---|
+|Schlafgift|20 G|Schlaf bei RW-Fehler|
+|Lähmungsgift|30 G|Lähmung 1W6 Runden|
+|Tödliches Gift|80 G|2W6 + 1W6/Runde für 3 Runden|
+
+---
+
+## OPTION 5: RUNEN-GRAVUR (sehr selten!)
+
+**Voraussetzungen:** Nur Adel, Runenmagier finden (extrem selten!), Basis-Item muss gekauft werden
+
+### Einfache Runen
+
+|Rune|Kosten|Material|Effekt|
+|---|---|---|---|
+|Lichtrune|10 G|1 G|Leuchtet wie Fackel, permanent|
+|Schärferune|25 G|5 G|+2 Schaden, permanent|
+|Schutzrune|30 G|15 G|+1 Rüstung, permanent|
+|Wärmerune|15 G|5 G|Erwärmt Umgebung, permanent|
 
 ---
 

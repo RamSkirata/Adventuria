@@ -1,6 +1,6 @@
 
 ---
-## 📋 Template-System
+## Template-System
 
 ### Grundprinzip
 
@@ -14,7 +14,7 @@ Jedes Monster/NPC wird nach folgendem Schema erstellt:
 
 ---
 
-## 🎲 Schwierigkeitsgrade
+## Schwierigkeitsgrade
 
 Monster und NPCs werden in **Schwierigkeitsgrade** eingeteilt:
 
@@ -29,7 +29,7 @@ Monster und NPCs werden in **Schwierigkeitsgrade** eingeteilt:
 
 ---
 
-## 📝 Monster-Template (Blank)
+## Monster-Template (Blank)
 
 ```markdown
 # [Monster-Name]
@@ -125,7 +125,7 @@ Monster und NPCs werden in **Schwierigkeitsgrade** eingeteilt:
 
 ---
 
-## 🐺 Beispiel-Monster: Waldwolf
+##  Beispiel-Monster: Waldwolf
 # Waldwolf
 
 **Typ**: Bestie
@@ -217,7 +217,7 @@ Waldwölfe sind die häufigsten Raubtiere in den Wäldern von Terranea. Mit grau
 
 ---
 
-## 👹 Beispiel-Monster: Ork-Krieger
+##  Beispiel-Monster: Ork-Krieger
 # Ork-Krieger
 
 **Typ**: Humanoid
@@ -318,7 +318,7 @@ Ork-Krieger sind die Frontkämpfer der Ork-Armeen. Mit grüner, narbiger Haut, m
 **Häufigkeit**: Sehr häufig an der Front
 ---
 
-## 🧙 NPC-Template (Blank)
+##  NPC-Template (Blank)
 
 ```markdown
 # [NPC-Name]
@@ -414,7 +414,7 @@ Ork-Krieger sind die Frontkämpfer der Ork-Armeen. Mit grüner, narbiger Haut, m
 
 ---
 
-## 👨‍💼 Beispiel-NPC: Händler Boran
+##  Beispiel-NPC: Händler Boran
 # Boran der Reisende
 
 **Rasse**: Terraner
@@ -519,7 +519,7 @@ Vor 5 Jahren wurde er von Räubern überfallen und fast getötet. Seitdem ist er
 
 ---
 
-## 🗡️ Elite-Gegner-Template: Ork-Häuptling
+##  Elite-Gegner-Template: Ork-Häuptling
 
 ```markdown
 # Ork-Häuptling Grak der Zerstörer
@@ -630,7 +630,7 @@ Als Häuptling führt er einen Stamm von 40-50 Orks und ist für seine Brutalit�
 
 ---
 
-## 📊 Schnell-Skalierungs-Tabelle
+##  Schnell-Skalierungs-Tabelle
 
 Nutze diese Tabelle, um Monster schnell für verschiedene Level anzupassen:
 

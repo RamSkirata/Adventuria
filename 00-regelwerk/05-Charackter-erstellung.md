@@ -187,7 +187,7 @@
 
 **Vorteile:**
 
-- Kostenloser Zugang zu Akademien (50% Rabatt auf Ausbildung)
+- Kostenloser Zugang zu Akademien (50% Rabatt auf Ausbildung) / Eventuelle Verpflichtungen im Ausgleich
 - +4 auf Diplomatie/Etikette/Einschüchtern vs. Niedrigere
 - Adelstitel und politischer Einfluss
 
@@ -203,7 +203,7 @@
 
 ---
 
-### 2. PATRIZIER
+### 2. PATRIZIER / Wohlhabender Bürger
 
 **Einkaufsbudget:** 100 G  
 **Startgold im Spiel:** 30 G  
@@ -277,7 +277,7 @@
 **Nachteile:**
 
 - Ungebildet (Lesen/Schreiben kostet 5 G + 1 Woche)
-- -2 auf Sozialproben mit Höheren
+- -2 auf Sozialproben mit Personen höheren Standes
 - Misstrauen von Autoritäten
 
 **Einkaufs-Einschränkungen:**
@@ -493,14 +493,14 @@
 
 ## TIERE & REITTIERE
 
-|Tier|Preis|Besonderheiten|
-|---|---|---|
-|Esel|5 G|Lastentier|
-|Pony|10 G|Klein|
-|Reitpferd|20 G|Standard-Reittier|
-|Kriegspferd|100 G|Kampftrainiert|
-|Zugpferd|30 G|Schwere Lasten|
-|Maultier|8 G|Robust|
+| Tier        | Preis | Besonderheiten      |
+| ----------- | ----- | ------------------- |
+| Esel        | 5 G   | Lastentier          |
+| Pony        | 10 G  | Klein               |
+| Reitpferd   | 20 G  | Standard-Reittier   |
+| Kriegspferd | 100 G | Kampftrainiert      |
+| Zugpferd    | 30 G  | Schwere Lasten      |
+| Maultier    | 8 G   | Robust / Lastentier |
 
 ### Zubehör
 
@@ -563,13 +563,13 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
 
 ### Verzauberungen (Level 1 - Einfach)
 
-|Verzauberung|Kosten|Effekt|Beispiel|
-|---|---|---|---|
-|Schärfe +1|+20 G|+1 Schaden|Scharfes Langschwert|
-|Schutz +1|+20 G|+1 Rüstung|Verstärkte Lederrüstung|
-|Elementar (schwach)|+30 G|+1W6 Elementarschaden (1x/Tag)|Flammenschwert|
-|Leichte Heilung|+40 G|Heilt 1W6 LP (1x/Tag, Berührung)|Heilender Stab|
-|Leuchtend|+10 G|Leuchtet wie Fackel (beliebig an/aus)|Lichtklinge|
+| Verzauberung        | Kosten | Effekt                                | Beispiel                |
+| ------------------- | ------ | ------------------------------------- | ----------------------- |
+| Schärfe +1          | +20 G  | +1 Schaden                            | Scharfes Langschwert    |
+| Schutz +1           | +20 G  | +1 Rüstung                            | Verstärkte Lederrüstung |
+| Elementar (schwach) | +30 G  | +1W6 Elementarschaden (1x/Tag)        | Flammenschwert          |
+| Leichte Heilung     | +40 G  | Heilt 1W6 LP (1x/Tag, Berührung)      | Heilender Stab          |
+| Leuchtend           | +10 G  | Leuchtet wie Fackel (beliebig an/aus) | Lichtklinge             |
 
 ### Beispiel-Spezialanfertigung (Magisch)
 
@@ -681,7 +681,7 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
 
 ### Voraussetzungen
 
-- Nur für **Adel** verfügbar
+- Nur für **Adel** verfügbar (wenn überhaupt)
 - Charakter muss einen Runenmagier finden (sehr selten!)
 - Basis-Item muss zuerst gekauft werden
 
@@ -803,9 +803,9 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
 
 ### Attribute würfeln (2W6-System)
 
-1. **Würfle 12 Mal mit 2W6**
-2. **Wähle die besten 10 Ergebnisse** (die beiden schlechtesten verfallen)
-3. **Verteile diese 10 Werte** auf die 6 Basisattribute:
+1. **Würfle 10 Mal mit 2W6**
+2. **Wähle die besten 6 Ergebnisse** (die schlechtesten verfallen)
+3. **Verteile diese Werte** auf die 6 Basisattribute:
     - Stärke
     - Geschicklichkeit
     - Konstitution
@@ -813,25 +813,26 @@ Spieler können bei der Charaktererstellung **eine Spezialanfertigung** bestelle
     - Weisheit
     - Charisma
 
-### Magie/Technik-Attribute (optional)
-
-**Wenn dein Charakter Magie ODER Technik nutzt:**
-
-- Du hast nur **11 Würfe** (statt 12)
-- Würfle 11 Mal, wähle die besten 10
-
-**Wenn dein Charakter Magie UND Technik nutzt:**
-
-- Du hast nur **10 Würfe**
-- Würfle 10 Mal, behalte alle
-
 **Zusätzliche Attribute:**
 
 - **Magie** (nur für Zauberer)
 - **Technik** (nur für Ingenieure/Erfinder)
 
-### Validierung
+### Magie/Technik-Attribute (optional)
 
+**Wenn dein Charakter Magie ODER Technik nutzt:**
+
+- Du hast nur **9 Würfe** (statt 10)
+- Würfle 9 Mal, wähle die besten 7
+
+**Wenn dein Charakter Magie UND Technik nutzt:**
+
+- Du hast nur **8 Würfe**
+- Würfle 8 Mal, behalte alle so wie sie sind
+
+
+### Validierung
+(muss noch mal überarbeitet werden)_
 **Summe aller Attribute prüfen:**
 
 - **Zu niedrig (unter 35):** Darfst komplett neu würfeln
@@ -895,7 +896,7 @@ Jeder Charakter startet mit **10 Fähigkeiten-Punkten**.
 - **Fähigkeit von Level 2 auf 3:** 1 Punkt
 - **etc.**
 
-**Maximum:** Eine Fähigkeit kann maximal so hoch sein wie das zugehörige Attribut.
+**Maximum:** Eine Fähigkeit kann maximal so hoch sein wie das zugehörige Attribut. / 2
 
 ### Beispiel-Verteilung (Kämpfer)
 
@@ -923,8 +924,8 @@ Jeder Charakter startet mit **10 Fähigkeiten-Punkten**.
 
 Charaktere können **1 Spezialisierung** bei Charaktererstellung wählen **wenn:**
 
-- Die zugehörige Fähigkeit mindestens **Level 2** ist
-- Sie kostenlos lernen (bei Charaktererstellung)
+- Die zugehörige Fähigkeit mindestens **Level 3** ist
+- Sie kostenlos lernen (bei Charaktererstellung) (braucht aber Background Story dafür)
 
 ### Beispiele
 
@@ -932,7 +933,7 @@ Charaktere können **1 Spezialisierung** bei Charaktererstellung wählen **wenn:
 - Fernkampf Level 2 → Kann "Langbogen" Spezialisierung wählen (Level 1)
 - Magie Level 4 → Kann "Feuermagie" Spezialisierung wählen (Level 1)
 
-**Wichtig:** Spezialisierungen können später durch Training weiter gesteigert werden (max. Level 6).
+**Wichtig:** Spezialisierungen können später durch Training weiter gesteigert werden (max. Level 6 und = zu Fähigkeit).
 
 ---
 
@@ -1046,8 +1047,8 @@ Charaktere können **1 Spezialisierung** bei Charaktererstellung wählen **wenn:
 - Terranic (Gemeinsprache)
 - Sylvanisch (Elfen)
 - Khazadisch (Zwerge)
-- Tiersprachen (je nach Tiermensch-Art)
-- Alte Sprachen (Runen, Drachisch - sehr selten)
+- Tiersprachen (je nach Tiermensch-Art, Tiermenschen Common)
+- Alte Sprachen (Runen, Drachisch - sehr selten nicht bei start lernbar)
 
 ### Lesen & Schreiben
 
