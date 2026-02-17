@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Alexandria von Adventuria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Alexandria von Adventuria\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":100},\"to\":{\"line\":7,\"ch\":100}}}"
+                },
+                {
                   "title": "Halbgötter",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Halbgötter\"}",
@@ -190,12 +196,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
+                "file": "02-Worldbuilding/06-welt/Länder/Heiligen Reich von Sunar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alexandria von Adventuria"
+              "title": "Heiligen Reich von Sunar"
             }
           }
         ]
@@ -402,6 +408,7 @@
   },
   "active": "d745334706b587df",
   "lastOpenFiles": [
+    "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
     "02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md",
     "02-Worldbuilding/06-welt/Pantheon/Champions der Götter.md",
     "02-Worldbuilding/06-welt/Pantheon/Götter.md",
@@ -426,7 +433,6 @@
     "02-Worldbuilding/06-welt/Items/Berserker-Pilze.md",
     "02-Worldbuilding/06-welt/Guilds and Groups/Diebesgilde.md",
     "02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md",
-    "02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md",
-    "Unbenannt.md"
+    "02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md"
   ]
 }
