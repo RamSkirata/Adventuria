@@ -566,6 +566,7 @@ Das **Spezialisierungs-System** in Terranea folgt einer **dreistufigen Hierarchi
 - **Durch Übung**: Kostenlos, aber langsam (siehe "Lernen durch Übung")
 
 **Beispiel-Kosten:**
+Akademien werden noch überarbeitet!
 
 |**Fähigkeit**|**Akademie-Kosten**|**Lernzeit**|**Wo zu lernen**|
 |---|---|---|---|
