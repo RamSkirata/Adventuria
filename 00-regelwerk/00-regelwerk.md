@@ -147,7 +147,7 @@ Ungelernte Fähigkeiten sind Fertigkeiten, die der Charakter **noch nicht expliz
     - **Langsame Fortschritte:** Auch bei wiederholtem Versuch wird es sehr lange dauern, bis ein ungelernter Charakter die Fähigkeit wirklich meistern kann.
 - **Vorteile von ungelernten Fähigkeiten:**
     - **Flexibilität:** Auch ohne formelles Training können Spieler in einer Vielzahl von Situationen kreativ werden und neue Fähigkeiten ausprobieren.
-    - **Geschichten und Roleplay:** Das Erlernen und Ausprobieren von Fähigkeiten ohne formelle Ausbildung kann zu interessanten Momenten und kreativen Lösungen führen, die das Rollenspiel bereichern.
+    - **Geschichten und Rollenspiel:** Das Erlernen und Ausprobieren von Fähigkeiten ohne formelle Ausbildung kann zu interessanten Momenten und kreativen Lösungen führen, die das Rollenspiel bereichern. Prinzipiell gilt an meinem Tisch immer die Regel das ausgespieltes, gutes Rollenspiel jeden Würfelwurf schlägt.
 
 ### Fähigkeiten
 
