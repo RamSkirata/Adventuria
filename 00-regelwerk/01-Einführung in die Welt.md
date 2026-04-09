@@ -100,16 +100,8 @@ Eure Charaktere entwickeln sich im Laufe des Spiels weiter, indem sie Fähigkeit
 ## Warum lohnt es sich, Fähigkeiten zu verbessern?
 
 Je höher eine Fähigkeit gelevelt ist, desto größer ist der Bonus auf eure Würfe. Dieser Bonus kann bis zu **+6** betragen, was euch deutlich mehr Erfolgschancen gibt.  
-_Beispiel_: Mit einem [[Einschüchtern]]-Wert von 6 habt ihr eine wesentlich höhere Chance, Gegner zu beeindrucken – und das macht einfach Spaß!
-
-## Flexibilität des Systems
-
-Das 2W6-System ist flexibel und lässt sich leicht an euren Spielstil anpassen:
-
-- **Story-lastig**: Erzählt spannende Geschichten, bei denen die Proben eher ein Werkzeug als ein Hindernis sind.
-- **Kampf-intensiv**: Nutzt die Mechaniken für taktische Kämpfe mit vielen Würfen.
-- **Sandbox**: Erkundet die Welt frei und verwendet das System, um kreative Lösungen zu fördern.
+_Beispiel_: Mit einem [[Einschüchtern]]-Wert von 6 habt ihr eine wesentlich höhere Chance, Gegner zu beeindrucken - und das macht einfach Spaß!
 
 ## Ein Hauch Humor
 
-Manchmal schreibt das Würfelsystem die besten Geschichten: Der kritische Erfolg beim Kochen einer Suppe rettet die Gruppe vor dem Drachenkampf, weil die Suppe so gut ist, dass selbst der Drache beeindruckt ist!
+Manchmal schreibt das Würfelsystem die besten Geschichten: Der kritische Erfolg beim Kochen einer Suppe rettet die Gruppe vor dem Drachenkampf, weil die Suppe so gut ist, dass selbst der Drache beeindruckt ist! Lasst eurer Kreativität freien lauf und betet das die Würfel auf eurer Seite sind.

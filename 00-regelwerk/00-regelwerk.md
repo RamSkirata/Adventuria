@@ -8,8 +8,7 @@
 - Klassen / Berufs-System
 - Parrier-System
 - Pet-System / Reittier-System (nein kein Sex mit Tieren, Dani!)
-- Schadensarten
-- DnD Bücher + PDF Copy in Deutsch davon kaufen und Mechaniken übernehmen und anpassen
+- Schadensarten und auswirkungen
 - Reichweiten müssen definiert werden
 - Schadensarten; Zustände
 

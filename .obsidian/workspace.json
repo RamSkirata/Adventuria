@@ -16,45 +16,39 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-regelwerk/04-Bestarium & NPC-System.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04-Bestarium & NPC-System"
-            }
-          },
-          {
-            "id": "37c63ee335cf1906",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "01-Einführung in die Welt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/01-Einführung in die Welt.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"01-Einführung in die Welt\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":106,\"ch\":293},\"to\":{\"line\":106,\"ch\":293}},\"scroll\":97.26497395833333}"
+                },
+                {
+                  "title": "00-regelwerk",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/00-regelwerk.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"00-regelwerk\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "04-Bestarium & NPC-System",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-regelwerk/04-Bestarium & NPC-System.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"04-Bestarium & NPC-System\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-regelwerk/xx bestarium alternative.md",
+                "file": "00-regelwerk/00-regelwerk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "xx bestarium alternative"
+              "title": "00-regelwerk"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -366,18 +360,20 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "be5fca1c2da8fc5a",
+  "active": "86c73226dfea1da4",
   "lastOpenFiles": [
+    "00-regelwerk/01-Einführung in die Welt.md",
+    "00-regelwerk/00-regelwerk.md",
     "00-regelwerk/04-Bestarium & NPC-System.md",
     "00-regelwerk/xx bestarium alternative.md",
-    "00-regelwerk/00-regelwerk.md",
+    "Unbenannt 1.md",
+    "Unbenannt.md",
     "00-regelwerk/05-Charackter-erstellung.md",
     "00-regelwerk/03-Charackterbogen.md",
     "02-Worldbuilding/06-welt/Pantheon/halbgötter/Halbgötter.md",
     "02-Worldbuilding/06-welt/Pantheon/halbgötter/Alexandria von Adventuria.md",
     "02-Worldbuilding/06-welt/geschichte/Der Krieg im Norden von Sunar.md",
     "02-Worldbuilding/06-welt/geschichte/Die 6ste Welt des Weltenbaums.md",
-    "00-regelwerk/06-allgemeine Informationen.md",
-    "00-regelwerk/01-Einführung in die Welt.md"
+    "00-regelwerk/06-allgemeine Informationen.md"
   ]
 }
