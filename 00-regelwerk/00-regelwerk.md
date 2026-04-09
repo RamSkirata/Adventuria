@@ -37,7 +37,7 @@ beachtet [[05-Charackter-erstellung]]
 
 ### Das Spiel-System
 
-In unserem 2W6-System werden die Attribute Stärke, Geschicklichkeit, Konstitution, Intelligenz, Weisheit und Charisma durch Würfeln ermittelt. Du hast insgesamt **8 Würfe** mit 2W6 zur Verfügung und darfst die besten 6 Ergebnisse auf die Attribute verteilen.
+In unserem 2W6-System werden die Attribute Stärke, Geschicklichkeit, Konstitution, Intelligenz, Weisheit und Charisma durch Würfeln ermittelt. Du hast insgesamt **10 Würfe** mit 2W6 zur Verfügung und darfst die besten 6 Ergebnisse auf die Attribute verteilen.
 
 **Beispiel:** Du würfelst 8 Mal mit 2W6 und erhältst folgende Ergebnisse: 8, 10, 7, 12, 9, 6, 11, 4, 8
 Die besten 6 Ergebnisse sind: 12, 11, 10, 9, 8, 8  Diese Werte kannst du nun den Attributen zuordnen.
@@ -47,8 +47,8 @@ Wenn das Ergebnis aller Attribute zusammen niedriger als 35 ist, darfst du alle 
 **Magie und Technik:**  
 Charaktere, die zaubern können und/oder schmieden und konstruieren, haben noch jeweils Magie oder Technik als Attribut:
 
-- **Mit Magie ODER Technik**: 11 Würfe statt 12
-- **Mit Magie UND Technik**: 10 Würfe statt 12
+- **Mit Magie ODER Technik**: 9 Würfe statt 10
+- **Mit Magie UND Technik**: 8 Würfe statt 10
 
 ### Kritische Erfolge und Patzer
 
@@ -97,12 +97,6 @@ LP = 8 + (10 / 2) + (8 / 2) = 8 + 5 + 4 = **17 Lebenspunkte**
 - **[[Rüstungswert]]** = Wert der Rüstung + Rassenboni (falls vorhanden).
 - Einige Rassen der Tiermenschen haben durch ihre robuste Haut eine Form natürlicher Rüstung, die beim Rüstwert draufgerechnet wird.
 
-### Rassen-spezifische Klassen
-
-- Terraner, Sylvaner, Tiermensch, Shaper, Khazad.
-
-_(In Arbeit)_
-
 ---
 
 ## Fähigkeiten-System
@@ -147,7 +141,7 @@ Ungelernte Fähigkeiten sind Fertigkeiten, die der Charakter **noch nicht expliz
 - **Mechanik:**
     - Der Charakter würfelt **2W6** und addiert nur den **Attributwert**.
     - **Kein Bonus** durch Fähigkeiten oder Spezialisierungen.
-    - **Beispiel:** Ein Charakter versucht, mit dem Bogen zu schießen, obwohl er diese Fähigkeit nie erlernt hat. Er würfelt 2W6 (Ergebnis: 8) und addiert seine Geschicklichkeit von 10. Gesamtergebnis: **18**. Bei einer Standard-Schwierigkeit von 12 gelingt der Schuss, aber ohne die Präzision und Effizienz eines geübten Bogenschützen.
+    - **Beispiel:** Ein Charakter versucht, mit dem Bogen zu schießen, obwohl er diese Fähigkeit nie erlernt hat. Er würfelt 2W6 (Ergebnis: 8) und addiert seine Geschicklichkeit von 5. Gesamtergebnis: **13**. Bei einer Standard-Schwierigkeit von 12 gelingt der Schuss, aber ohne die Präzision und Effizienz eines geübten Bogenschützen.
 - **Mögliche Auswirkungen:**
     - **Fehlende Kenntnisse:** Der Charakter könnte **Fehler** machen, die zu **Verletzungen**, **Fehlwürfen** oder anderen negativen Konsequenzen führen.
     - **Langsame Fortschritte:** Auch bei wiederholtem Versuch wird es sehr lange dauern, bis ein ungelernter Charakter die Fähigkeit wirklich meistern kann.
